@@ -1,5 +1,8 @@
 ---
 license: cc0-1.0
+tags:
+  - stable-diffusion
+  - text-to-image
 ---
 # This repo is.
 This repository shares various Merge models that can be used with StableDiffusionWebui:Automatic1111 and others.
