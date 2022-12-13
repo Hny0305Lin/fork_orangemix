@@ -7,6 +7,9 @@ tags:
 # This repo is.
 This repository shares various Merge models that can be used with StableDiffusionWebui:Automatic1111 and others.
 
+Maintain a repository for the following purposes.
+1. to provide easy access to models commonly used in the Japanese community. Model names are named after Cookbook precedents.
+2. Upload models that I have personally merged with my own in my mood!
 
 ## Reference
 +/hdg/ Stable Diffusion Models Cookbook - https://rentry.org/hdgrecipes#g-anons-unnamed-mix-e93c3bf7
