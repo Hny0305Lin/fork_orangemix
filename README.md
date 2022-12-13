@@ -48,6 +48,7 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 
 <img src="https://i.imgur.com/soAnnFk.jpg"  width="600" height="">
 prompt
+
 ```
 SFW, 1girl, solo focus, Science Academia aesthetic, from below, looking at viewer, mature female, adult, small Breasts, Skinny, Excited, Huge smile, hands between legs, sitting, Turtleneck, jammers, silver trim,long hair, doughnut hair bun, gradient hair, light blue hair, grey hair, (BloodOrange:1.3),( orange\(fruits\):1.3),(female:1.5), (white border:1.3), outside border, :d, looking at viewer
 ```
