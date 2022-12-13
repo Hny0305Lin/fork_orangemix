@@ -46,6 +46,13 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 
 ## BloodOrangeMix [ffa7b160]｜Anything+Nai+Gape
 
+<img src="https://i.imgur.com/soAnnFk.jpg"  width="600" height="">
+prompt
+```
+SFW, 1girl, solo focus, Science Academia aesthetic, from below, looking at viewer, mature female, adult, small Breasts, Skinny, Excited, Huge smile, hands between legs, sitting, Turtleneck, jammers, silver trim,long hair, doughnut hair bun, gradient hair, light blue hair, grey hair, (BloodOrange:1.3),( orange\(fruits\):1.3),(female:1.5), (white border:1.3), outside border, :d, looking at viewer
+```
+
+
 ▼?
 
 This is a merge model that improves on the AnythingV3, where NSFW representation is not good.
