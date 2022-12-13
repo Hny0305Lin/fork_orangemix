@@ -7,12 +7,75 @@ tags:
 # This repo is.
 This repository shares various Merge models that can be used with StableDiffusionWebui:Automatic1111 and others.
 
+
 ## Reference
 +/hdg/ Stable Diffusion Models Cookbook - https://rentry.org/hdgrecipes#g-anons-unnamed-mix-e93c3bf7
 
 # Merge Recipes
 
-### ElderOrangeMix [3a46a1e0] ｜anything and everything mix ver.1.5+Gape+Nai(AnEve.G.N0.3)
+## BloodOrangeMix [ffa7b160]｜Anything+Nai+Gape
+
+▼?
+This is a merge model that improves on the AnythingV3, where NSFW representation is not good.
+
+▼Use Models
+1. AnythingV3.0 huggingface pruned [2700c435]
+2. NovelAI animefull-final-pruned [925997e9]
+3. NovelAI sfw [1d4a34af]
+4. Gape60 [25396b85]
+
+### **Instructions:**
+
+| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Add Difference @ 0.3 | AnythingV3.0 | NovelAI animefull | NovelAI sfw  | tempmix-part1 [] |
+| 2 | Add Difference @ 1.0 | tempmix-part1 | Gape60 | NovelAI animefull | BloodOrangeMix [ffa7b160] |
+
+----
+
+## BloodOrangeMix_half [ffa7b160]｜Anything+Nai+Gape0.5
+
+▼?
+
++Gape0.5 version BloodOrangeMix.
+NSFW expression will be softer and have less impact on the Anything style painting style.
+
+▼Use Models
+
+1. AnythingV3.0 huggingface pruned [2700c435]
+2. NovelAI animefull-final-pruned [925997e9]
+3. NovelAI sfw [1d4a34af]
+4. Gape60 [25396b85]
+
+### **Instructions:**
+
+| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Add Difference @ 0.3 | AnythingV3.0 | NovelAI animefull | NovelAI sfw  | tempmix-part1 [] |
+| 2 | Add Difference @ 0.5 | tempmix-part1 | Gape60 | NovelAI animefull | BloodOrangeMix_half [ffa7b160] |
+
+----
+
+## NightOrangeMix [ffa7b160]
+
+▼?
+AnythingV3+(NAI-NAISFW)0.3. That's it.
+
+▼Use Models
+
+1. AnythingV3.0 huggingface pruned [2700c435]
+2. NovelAI animefull-final-pruned [925997e9]
+3. NovelAI sfw [1d4a34af]
+
+### **Instructions:**
+
+| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Add Difference @ 0.3 | AnythingV3.0 | NovelAI animefull | NovelAI sfw  | NightOrangeMix |
+
+----
+
+## ElderOrangeMix [3a46a1e0] ｜anything and everything mix ver.1.5+Gape+Nai(AnEve.G.N0.3)
 
 ▼Use Models
 1. anything and everything mix ver.1.5 [5265dcf6]
@@ -29,17 +92,3 @@ This repository shares various Merge models that can be used with StableDiffusio
 
 ----
 
-### BloodOrangeMix [ffa7b160]｜Anything+Nai+Gape
-
-▼Use Models
-1. AnythingV3.0 huggingface pruned [2700c435]
-2. NovelAI animefull-final-pruned [925997e9]
-3. NovelAI sfw [1d4a34af]
-4. Gape60 [25396b85]
-
-### **Instructions:**
-
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.3 | AnythingV3.0 | NovelAI animefull | NovelAI sfw  | tempmix-part1 [] |
-| 2 | Add Difference @ 1.0 | tempmix-part1 | Gape60 | NovelAI animefull | BloodOrangeMix [ffa7b160] |
