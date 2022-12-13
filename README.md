@@ -87,7 +87,7 @@ AnythingV3+(NAI-NAISFW)0.3. That's it.
 
 ▼?
 
-NSFW improved merge model based on anything and everything mix ver.1.5
+This is a merged model with improved NSFW representation of anything and everything mix ver.1.5.
 
 ▼Use Models
 1. anything and everything mix ver.1.5 [5265dcf6]
