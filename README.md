@@ -19,6 +19,7 @@ Maintain a repository for the following purposes.
 ## BloodOrangeMix [ffa7b160]｜Anything+Nai+Gape
 
 ▼?
+
 This is a merge model that improves on the AnythingV3, where NSFW representation is not good.
 
 ▼Use Models
@@ -62,6 +63,7 @@ NSFW expression will be softer and have less impact on the Anything style painti
 ## NightOrangeMix [ffa7b160]
 
 ▼?
+
 AnythingV3+(NAI-NAISFW)0.3. That's it.
 
 ▼Use Models
@@ -79,6 +81,10 @@ AnythingV3+(NAI-NAISFW)0.3. That's it.
 ----
 
 ## ElderOrangeMix [3a46a1e0] ｜anything and everything mix ver.1.5+Gape+Nai(AnEve.G.N0.3)
+
+▼?
+
+NSFW improved merge model based on anything and everything mix ver.1.5
 
 ▼Use Models
 1. anything and everything mix ver.1.5 [5265dcf6]
