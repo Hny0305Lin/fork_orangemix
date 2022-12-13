@@ -9,7 +9,7 @@ This repository shares various Merge models that can be used with StableDiffusio
 
 Maintain a repository for the following purposes.
 1. to provide easy access to models commonly used in the Japanese community. Model names are named after Cookbook precedents.
-2. Upload models that I have personally merged with my own in my mood!
+2. a place to upload my personal merged models as in my mood.
 
 <img src="https://i.imgur.com/PRHjwT3.jpg"  width="600" height="">
 
