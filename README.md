@@ -24,7 +24,7 @@ Maintain a repository for the following purposes.
 ## Batch Download
 
 1. install Git
-2. create a folder of your choice and type "cmd" in the directory field → Enter to open a command prompt in the folder's directory.
+2. create a folder of your choice and type "cmd" in the directory field → Enter → open a command prompt to the folder's directory.
 3. run the following commands in order.
 ```
 git lfs install
