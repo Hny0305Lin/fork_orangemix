@@ -14,8 +14,33 @@ Maintain a repository for the following purposes.
 <img src="https://i.imgur.com/PRHjwT3.jpg"  width="600" height="">
 
 
-## Reference
+# Reference
 +/hdg/ Stable Diffusion Models Cookbook - https://rentry.org/hdgrecipes#g-anons-unnamed-mix-e93c3bf7
+
+----
+
+# How to download
+
+## Batch Download
+
+1. install Git
+2. create a folder of your choice and type "cmd" in the directory field → Enter to open a command prompt in the folder's directory.
+3. run the following commands in order.
+```
+git lfs install
+git clone https://huggingface.co/WarriorMama777/OrangeMixs
+```
+4. complete
+
+
+
+## select and download
+
+1. Go to the Files and vaersions tab.
+2. select the model you want to download
+3. download
+4. complete
+
 
 # Merge Recipes
 
