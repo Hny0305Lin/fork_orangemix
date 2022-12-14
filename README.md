@@ -125,6 +125,8 @@ It is a merged model that just did Elysium_Anime_V2+ (NAI-NAISFW) 0.3.
 ▼?
 
 This is a merge model that improves on the AnythingV3, where NSFW representation is not good.
+It can produce SFW, NSFW, and any other type of artwork, while retaining the flat, beautifully painted style of AnythingV3.
+Stable. Popular in the Japanese community.
 
 ▼Use Models
 1. AnythingV3.0 huggingface pruned [2700c435]
