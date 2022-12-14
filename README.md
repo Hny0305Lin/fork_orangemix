@@ -17,6 +17,10 @@ Maintain a repository for the following purposes.
 # Reference
 +/hdg/ Stable Diffusion Models Cookbook - https://rentry.org/hdgrecipes#g-anons-unnamed-mix-e93c3bf7
 
+# Disclaimer
+You have complete control over whether or not to generate NSFW content, and you do so at your own will.
+The posting of learning models is not intended to display obscene material.
+
 ----
 
 # How to download
