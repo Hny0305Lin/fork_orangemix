@@ -11,7 +11,7 @@ Maintain a repository for the following purposes.
 1. to provide easy access to models commonly used in the Japanese community. Model names are named after Cookbook precedents.
 2. As a place to upload my merge models when I feel like it.
 
-<img src="https://i.imgur.com/PRHjwT3.jpg"  width="600" height="">
+<img src="https://i.imgur.com/VZg0LqQ.png"  width="1000" height="">
 
 
 # Reference
