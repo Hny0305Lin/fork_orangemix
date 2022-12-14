@@ -41,18 +41,82 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 3. download
 4. complete
 
+----
 
 # Merge Recipes
 
+
+## ElyOrangeMix [6b508e59]
+
+<img src="https://i.imgur.com/AInEXA5.jpg"  width="800" height="">
+
+▼?
+
+This is a merge model that improves on the Elysium_Anime_V2, where NSFW representation is not good.
+I actually tested it and found that it was possible to output NSFW content while retaining Elysium's three-dimensional, thickly painted style.
+
+▼Use Models
+
+1. Elysium_Anime_V2 [6b508e59]
+2. NovelAI animefull-final-pruned [925997e9]
+3. NovelAI sfw [1d4a34af]
+4. Gape60 [25396b85]
+
+### Instructions
+
+| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Add Difference @ 0.3 | Elysium_Anime_V2 | NovelAI animefull | NovelAI sfw  | tempmix-part1 [] |
+| 2 | Add Difference @ 1.0 | tempmix-part1 | Gape60 | NovelAI animefull | ElyOrangeMix  [6b508e59] |
+
+---
+
+## ElyOrangeMix_half [6b508e59]
+
+▼?
+
++Gape0.5 version ElyOrangeMix.
+
+▼Use Models
+
+1. Elysium_Anime_V2 [6b508e59]
+2. NovelAI animefull-final-pruned [925997e9]
+3. NovelAI sfw [1d4a34af]
+4. Gape60 [25396b85]
+
+### Instructions
+
+| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Add Difference @ 0.3 | Elysium_Anime_V2 | NovelAI animefull | NovelAI sfw  | tempmix-part1 [] |
+| 2 | Add Difference @ 0.5 | tempmix-part1 | Gape60 | NovelAI animefull | ElyOrangeMix_half  [6b508e59] |
+
+
+----
+
+## ElyNightOrangeMix[6b508e59]
+
+▼?
+
+It is a merged model that just did Elysium_Anime_V2+ (NAI-NAISFW) 0.3.
+
+▼Use Models
+
+1. Elysium_Anime_V2 [6b508e59]
+2. NovelAI animefull-final-pruned [925997e9]
+3. NovelAI sfw [1d4a34af]
+
+### Instructions
+
+| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Add Difference @ 0.3 | Elysium_Anime_V2 | NovelAI animefull | NovelAI sfw  | ElyNightOrangeMix |
+
+----
+
 ## BloodOrangeMix [ffa7b160]｜Anything+Nai+Gape
 
-<img src="https://i.imgur.com/soAnnFk.jpg"  width="600" height="">
-prompt
-
-```
-SFW, 1girl, solo focus, Science Academia aesthetic, from below, looking at viewer, mature female, adult, small Breasts, Skinny, Excited, Huge smile, hands between legs, sitting, Turtleneck, jammers, silver trim,long hair, doughnut hair bun, gradient hair, light blue hair, grey hair, (BloodOrange:1.3),( orange\(fruits\):1.3),(female:1.5), (white border:1.3), outside border, :d, looking at viewer
-```
-
+<img src="https://i.imgur.com/soAnnFk.jpg"  width="800" height="">
 
 ▼?
 
@@ -87,7 +151,7 @@ NSFW expression will be softer and have less impact on the Anything style painti
 3. NovelAI sfw [1d4a34af]
 4. Gape60 [25396b85]
 
-### **Instructions:**
+### Instructions
 
 | Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
 | --- | --- | --- | --- | --- | --- |
@@ -96,11 +160,12 @@ NSFW expression will be softer and have less impact on the Anything style painti
 
 ----
 
-## NightOrangeMix [ffa7b160]
+
+## BloodNightOrangeMix [ffa7b160]
 
 ▼?
 
-AnythingV3+(NAI-NAISFW)0.3. That's it.
+It is a merged model that just did AnythingV3+ (NAI-NAISFW) 0.3.
 
 ▼Use Models
 
@@ -112,11 +177,13 @@ AnythingV3+(NAI-NAISFW)0.3. That's it.
 
 | Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.3 | AnythingV3.0 | NovelAI animefull | NovelAI sfw  | NightOrangeMix |
+| 1 | Add Difference @ 0.3 | AnythingV3.0 | NovelAI animefull | NovelAI sfw  | BloodNightOrangeMix |
 
 ----
 
 ## ElderOrangeMix [3a46a1e0] ｜anything and everything mix ver.1.5+Gape+Nai(AnEve.G.N0.3)
+
+※I found this model to be very prone to body collapse. Not recommended.
 
 ▼?
 
