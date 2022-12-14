@@ -47,7 +47,7 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 
 ----
 
-# Merge Recipes
+# Model Detail & Merge Recipes
 
 
 ## ElyOrangeMix [6b508e59]
