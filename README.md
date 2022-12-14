@@ -18,8 +18,9 @@ Maintain a repository for the following purposes.
 +/hdg/ Stable Diffusion Models Cookbook - https://rentry.org/hdgrecipes#g-anons-unnamed-mix-e93c3bf7
 
 # Disclaimer
-You have complete control over whether or not to generate NSFW content, and you do so at your own will.
-The posting of learning models is not intended to display obscene material.
+The user has complete control over whether or not to generate NSFW content, and the user's decision to enjoy either SFW or NSFW is entirely up to the user. 
+The learning model does not contain any obscene visual content that can be viewed with a single click. 
+The posting of the Learning Model is not intended to display obscene material in a public place.
 
 ----
 
