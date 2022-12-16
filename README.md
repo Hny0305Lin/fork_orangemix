@@ -51,7 +51,7 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 # Model Detail & Merge Recipes
 
 
-## ElyOrangeMix [6b508e59]
+## ElyOrangeMix [6b508e59] Elysium_Anime_V2 + NAI + Gape
 
 <img src="https://i.imgur.com/AInEXA5.jpg"  width="800" height="">
 
