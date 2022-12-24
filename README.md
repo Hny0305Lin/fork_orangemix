@@ -105,7 +105,7 @@ Used embeddings: bad_prompt_version2 [afea]
 
 - Prompts can be long or short
 - Sampler: “DPM++ SDE Karras” is good
-- Steps: forTest: 20～24 ,illusration: 24～50
+- Steps: forTest: 20～24 ,illustration: 24～50
 - Clipskip: 1
 - USE “upscale latent space”
 - Denoise strength: 0.45 (0.4~0.5)
