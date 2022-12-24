@@ -109,7 +109,7 @@ Used embeddings: bad_prompt_version2 [afea]
 - Clipskip: 1
 - USE “upscale latent space”
 - Denoise strength: 0.45 (0.4~0.5)
-If you use 0.7~, the picture will change too much.
+If you use 0.7～, the picture will change too much.
 
 
 🗒Model List
