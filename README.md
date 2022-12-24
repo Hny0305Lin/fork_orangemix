@@ -193,7 +193,7 @@ JUST AbyssOrangeMix_base+ (NAI-NAISFW) 0.3.
 
 | Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.5 | AbyssOrangeMix_Night | NovelAI animefull | NovelAI sfw  | AbyssOrangeMix_half |
+| 1 | Add Difference @ 0.5 | AbyssOrangeMix_Night | Gape60 | NovelAI animefull | AbyssOrangeMix_half |
 
 ### AbyssOrangeMix
 
