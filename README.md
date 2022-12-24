@@ -68,6 +68,7 @@ By Anon, 115th thread
 The merged model was formulated using an extension such as sdweb-merge-block-weighted-gui, which merges models at separate rates for each of the 25 U-Net blocks (input, intermediate, and output).
 The validation of many Anons has shown that such a recipe can generate a painting style that is anatomically realistic enough to feel the finger skeleton, but still maintains an anime-style face.
 
+※This model is the result of a great deal of testing and experimentation by many Anons🤗
 ※This model can be very difficult to handle. I am not 100% confident in my ability to use this model. It is peaky and for experts.
 
 
