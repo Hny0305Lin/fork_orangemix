@@ -287,6 +287,16 @@ This is a merge model that improves on the AnythingV3, where NSFW representation
 It can produce SFW, NSFW, and any other type of artwork, while retaining the flat, beautifully painted style of AnythingV3.
 Stable. Popular in the Japanese community.
 
+
+▼ModelList & Hash(SHA256)  
+- BloodNightOrangeMix.ckpt  
+f8aff727ba3da0358815b1766ed232fd1ef9682ad165067cac76e576d19689e0
+- BloodOrangeMix_half.ckpt  
+b2168aaa59fa91229b8add21f140ac9271773fe88a387276f3f0c7d70f726a83
+- BloodOrangeMix.ckpt  
+25cece3fe303ea8e3ad40c3dca788406dbd921bcf3aa8e3d1c7c5ac81f208a4f
+
+
 ▼Use Models
 1. AnythingV3.0 huggingface pruned [2700c435]
 2. NovelAI animefull-final-pruned [925997e9]
