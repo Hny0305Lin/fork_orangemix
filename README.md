@@ -120,6 +120,17 @@ If you use 0.7～, the picture will change too much.
         - AbyssOrangeMix｜+ Gape1.0 Merge
 
 
+▼Hash
+
+- AbyssOrangeMix.safetensors  
+6bb3a5a3b1eadd32dfbc8f0987559c48cb4177aee7582baa6d6a25181929b345
+- AbyssOrangeMix_half.safetensors  
+468d1b5038c4fbd354113842e606fe0557b4e0e16cbaca67706b29bcf51dc402
+- AbyssOrangeMix_Night.safetensors  
+167cd104699dd98df22f4dfd3c7a2c7171df550852181e454e71e5bff61d56a6
+- AbyssOrangeMix_base.ckpt  
+bbd2621f3ec4fad707f75fc032a2c2602c296180a53ed3d9897d8ca7a01dd6ed
+
 
 ▼Use Models
 
