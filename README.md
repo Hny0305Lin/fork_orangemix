@@ -4,6 +4,14 @@ tags:
   - stable-diffusion
   - text-to-image
 ---
+
+# Notice
+※「AbyssOrangeMix」などの_Night等の修飾子がついていないモデルのマージが正常に行われていない可能性が高いことが分かりました。  
+現在のアップされているAbyssOrange, ElyOrange, BloodOrangeは_baseと出力が重複しています。
+2022年12月26日
+
+----
+
 # This repo is.
 This repository shares various Merge models that can be used with StableDiffusionWebui:Automatic1111 and others.
 
