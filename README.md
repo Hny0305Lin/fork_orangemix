@@ -38,7 +38,7 @@ The posting of the Learning Model is not intended to display obscene material in
 ## Batch Download
 
 1. install Git
-2. create a folder of your choice and type "cmd" in the directory field → Enter → open a command prompt to the folder's directory.
+2. create a folder of your choice and right click → "Git bash here" and open a gitbash on the folder's directory.
 3. run the following commands in order.
 ```
 git lfs install
