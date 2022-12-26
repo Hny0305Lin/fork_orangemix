@@ -7,7 +7,7 @@ tags:
 
 ----
 
-# OrangeMixs
+# OrangeMixs🍊
 This repository shares various Merge models that can be used with StableDiffusionWebui:Automatic1111 and others.
 
 Maintain a repository for the following purposes.
@@ -52,7 +52,7 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 
 ----
 
-# Model Detail & Merge Recipes
+# Model Detail & Merge Recipes🍊
 
 
 
