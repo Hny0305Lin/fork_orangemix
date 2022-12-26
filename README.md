@@ -7,7 +7,7 @@ tags:
 
 ----
 
-# This repo is.
+# OrangeMixs
 This repository shares various Merge models that can be used with StableDiffusionWebui:Automatic1111 and others.
 
 Maintain a repository for the following purposes.
