@@ -8,11 +8,11 @@ tags:
 ----
 
 # OrangeMixs🍊
-This repository shares various Merge models that can be used with StableDiffusionWebui:Automatic1111 and others.
+"OrangeMixs" shares various Merge models that can be used with StableDiffusionWebui:Automatic1111 and others.
 
 Maintain a repository for the following purposes.
-1. to provide easy access to models commonly used in the Japanese community. 
-2. As a place to upload my merge models when I feel like it.
+1. to provide easy access to models commonly used in the Japanese community.The Wisdom of the Anons💎
+3. As a place to upload my merge models when I feel like it.
 
 <img src="https://i.imgur.com/VZg0LqQ.png"  width="1000" height="">
 
