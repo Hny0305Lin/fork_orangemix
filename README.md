@@ -59,8 +59,8 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 
 - _base : SFW😉
 - _Night : SFW ～ Soft NSFW🥰
-- _half : NSFW ～ HARDCORE👄
-- unlabeled : HARDCORE ～ 🤯  ex)AbyssOrangeMix, BloodOrangeMix...etc
+- _half : SFW ～ NSFW👄
+- unlabeled : SFW ～ HARDCORE ～🤯  ex)AbyssOrangeMix, BloodOrangeMix...etc
 
 
 ## AbyssOrangeMix
