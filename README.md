@@ -55,7 +55,7 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 # Model Detail & Merge Recipes🍊
 
 
-## How to choce models
+## How to choice models
 
 - _base : SFW😉
 - _Night : SFW ～ Soft NSFW🥰
