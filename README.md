@@ -117,7 +117,9 @@ Used embeddings: bad_prompt_version2 [afea]
 
 ▼How to use
 
-- Prompts can be long or short
+- ~~Prompts can be long or short~~  
+As simple as possible is good. Do not add excessive detail prompts. Start with just this.
+(worst quality, low quality:1.4)
 - Sampler: “DPM++ SDE Karras” is good
 - Steps: forTest: 20～24 ,illustration: 24～50
 - Clipskip: 1
