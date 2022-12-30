@@ -50,6 +50,11 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 3. download
 4. complete
 
+## Troubleshooting
+
+1. blurred Images & clearly low quality output  
+If the generated images are blurred or only clearly low quality output is produced, it is possible that the vae, etc. are not loaded properly. Try reloading the model/vae or restarting the WebUI/OS.
+
 ----
 
 # Model Detail & Merge Recipes🍊
