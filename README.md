@@ -127,6 +127,13 @@ As simple as possible is good. Do not add excessive detail prompts. Start with j
 - Denoise strength: 0.45 (0.4~0.5)
 If you use 0.7～, the picture will change too much.
 
+▼Prompts
+
+🖌When generating cute girls, try this negative prompt first. It avoids low quality, prevents blurring, avoids dull colors, and dictates Anime-like cute face modeling.
+
+```jsx
+nsfw, (worst quality, low quality:1.3), (depth of field, blurry:1.2), (greyscale, monochrome:1.1), 3D face, nose, cropped, lowres, text, jpeg artifacts, signature, watermark, username, blurry, artist name, trademark, watermark, title, (tan, muscular, loli, petite, child, infant, toddlers, chibi, sd character:1.1), multiple view, Reference sheet,
+```
 
 🗒Model List
 
