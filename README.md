@@ -68,7 +68,244 @@ If the generated images are blurred or only clearly low quality output is produc
 - unlabeled : SFW ～ HARDCORE ～🤯  ex)AbyssOrangeMix, BloodOrangeMix...etc
 
 
-## AbyssOrangeMix
+## EerieOrangeMix🍊 (Preparing files)
+
+EerieOrangeMix is the generic name for a U-Net Blocks Weight Merge Models based on Elysium(Anime V2).  
+Since there are infinite possibilities for U-Net Blocks Weight Merging, I plan to treat all Elysium-based models as a lineage of this model.
+
+※This does not fundamentally improve the fingers, and I recommend using bad_prompt, etc. (Embedding) in combination.
+
+<img src="https://files.catbox.moe/yjnqna.webp"  width="1000" height="" alt=”HeroImage_EerieOrangeMix_Designed_comp001” >
+
+
+### EerieOrangeMix
+
+▼?  
+
+This merge model is simply a U-Net Blocks Weight Merge of ElysiumAnime V2 with the AbyssOrangeMix method.
+
+The AnythingModel is good at cute girls anyway, and no matter how hard I try, it doesn't seem to be good at women in their late 20s and beyond. Therefore, I created a U-Net Blocks Weight Merge model based on my personal favorite ElysiumAnime V2 model. ElyOrangeMix was originally my favorite, so this is an enhanced version of that.
+
+🗒Model List  
+
+- EerieOrangeMix_base｜Instagram+F222 U-Net Blocks Weight Merge
+    - EerieOrangeMix_night｜+ NAI-NAISFW Merge
+        - EerieOrangeMix_half｜+ Gape0.5 Merge
+        - EerieOrangeMix｜+ Gape1.0 Merge
+
+▼Hash  
+
+- EerieOrangeMix.safetensors
+- EerieOrangeMix_half.safetensors
+- EerieOrangeMix_night.safetensors
+- EerieOrangeMix_base.ckpt
+
+▼Use Models  
+
+[] = webuHash,「」= SHA256
+
+1. Elysium Anime V2
+[]「5c4787ce1386500ee05dbb9d27c17273c7a78493535f2603321f40f6e0796851」
+2. NovelAI animefull-final-pruned
+[925997e9]「89d59c3dde4c56c6d5c41da34cc55ce479d93b4007046980934b14db71bdb2a8」
+3. NovelAI sfw
+[1d4a34af]「22fa233c2dfd7748d534be603345cb9abf994a23244dfdfc1013f4f90322feca」
+4. Gape60
+[25396b85]「893cca5903ccd0519876f58f4bc188dd8fcc5beb8a69c1a3f1a5fe314bb573f5」
+5. instagram-latest-plus-clip-v6e1_50000.safetensors
+[] 「8f1d325b194570754c6bd06cf1e90aa9219a7e732eb3d488fb52157e9451a2a5」
+6. f222
+[] 「9e2c6ceff3f6d6f65c6fb0e10d8e69d772871813be647fd2ea5d06e00db33c1f」
+7. sd1.5_pruned
+[] 「e1441589a6f3c5a53f5f54d0975a18a7feb7cdf0b0dee276dfc3331ae376a053」
+
+▼ Sample Gallery  
+
+<img src="https://files.catbox.moe/oqbvti.webp"  width="1000" height="" alt=”2022-12-30_MotorbikeGIrlAsa3_comp001”>
+<details>
+  <summary>More🖼</summary>
+  <img src="https://files.catbox.moe/nmmswd.webp"  width="" height="600" alt=”2022-12-30_SampleGallery5”>
+</details>
+
+▼ How to use  
+
+
+- As simple as possible is good. Do not add excessive detail prompts. Start with just this.
+(worst quality, low quality:1.4)
+- Sampler: “DPM++ SDE Karras” is good
+- Steps: forTest: 20～24 ,illustration: 24～50
+- Clipskip: 1
+- USE “upscale latent space”
+- Denoise strength: 0.45 (0.4~0.5)  
+If you use 0.7～, the picture will change too much.
+
+▼Prompts
+
+🖌When generating cute girls, try this negative prompt first. It avoids low quality, prevents blurring, avoids dull colors, and dictates Anime-like cute face modeling.
+
+```jsx
+nsfw, (worst quality, low quality:1.3), (depth of field, blurry:1.2), (greyscale, monochrome:1.1), 3D face, nose, cropped, lowres, text, jpeg artifacts, signature, watermark, username, blurry, artist name, trademark, watermark, title, (tan, muscular, loli, petite, child, infant, toddlers, chibi, sd character:1.1), multiple view, Reference sheet,
+```
+
+---
+
+### EerieOrangeMix_base
+
+▼?  
+Details are omitted since it is the same as AbyssOrangeMix.
+
+▼**Instructions:**
+
+STEP: 1｜Creation of photorealistic model for Merge
+
+| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Add Difference @ 1.0 | instagram-latest-plus-clip-v6e1_50000 | f222 | sd1.5_pruned | Insta_F222 |
+
+STEP: 2｜Block Merge
+
+Merge InstaF222
+
+| Model: A | Model: B | Weight | Base alpha | Merge Name |
+| --- | --- | --- | --- | --- |
+| AnythingV3.0 | Insta_F222 | 1,0.9,0.7,0.5,0.3,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0 | Temp1 |
+
+### EerieOrangeMix_Night
+
+▼?
+
+JUST EerieOrangeMix_base+ (NAI-NAISFW) 0.3.
+
+▼**Instructions:**
+
+| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Add Difference @ 0.3 | EerieOrangeMix_base | NovelAI animefull | NovelAI sfw | EerieOrangeMix_Night |
+
+### EerieOrangeMix_half
+
+▼?
++Gape0.5 version EerieOrangeMix.
+
+▼**Instructions:**
+
+| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Add Difference @ 0.5 | EerieOrangeMix_Night | NovelAI animefull | NovelAI sfw | EerieOrangeMix_half |
+
+### EerieOrangeMix
+
+▼**Instructions:**
+
+| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Add Difference @ 1.0 | EerieOrangeMix_Night | Gape60 | NovelAI animefull | EerieOrangeMix |
+
+----
+
+### 🍊EerieOrangeMix2
+
+▼?
+
+The model was created by adding the hierarchy responsible for detailing and painting ElysiumV1 to EerieOrangeMix_base, then merging NAI and Gape.
+
+🗒Model List
+
+- EerieOrangeMix2_base｜Instagram+F222+ElysiumV1 U-Net Blocks Weight Merge
+    - EerieOrangeMix2_night｜+ NAI-NAISFW Merge
+        - EerieOrangeMix2_half｜+ Gape0.5 Merge
+        - EerieOrangeMix2｜+ Gape1.0 Merge
+
+▼Hash
+
+- EerieOrangeMix2.safetensors
+- EerieOrangeMix2_half.safetensors
+- EerieOrangeMix2_night.safetensors
+- EerieOrangeMix2_base.ckpt
+
+▼Use Models
+
+[] = webuHash,「」= SHA256
+
+1. Elysium Anime V2
+[]「5c4787ce1386500ee05dbb9d27c17273c7a78493535f2603321f40f6e0796851」
+2. NovelAI animefull-final-pruned
+[925997e9]「89d59c3dde4c56c6d5c41da34cc55ce479d93b4007046980934b14db71bdb2a8」
+3. NovelAI sfw
+[1d4a34af]「22fa233c2dfd7748d534be603345cb9abf994a23244dfdfc1013f4f90322feca」
+4. Gape60
+[25396b85]「893cca5903ccd0519876f58f4bc188dd8fcc5beb8a69c1a3f1a5fe314bb573f5」
+5. instagram-latest-plus-clip-v6e1_50000.safetensors
+[] 「8f1d325b194570754c6bd06cf1e90aa9219a7e732eb3d488fb52157e9451a2a5」
+6. f222
+[] 「9e2c6ceff3f6d6f65c6fb0e10d8e69d772871813be647fd2ea5d06e00db33c1f」
+7. sd1.5_pruned
+[] 「e1441589a6f3c5a53f5f54d0975a18a7feb7cdf0b0dee276dfc3331ae376a053」
+8. ElysiumV1
+「abbb28cb5e70d3e0a635f241b8d61cefe42eb8f1be91fd1168bc3e52b0f09ae4」
+
+### EerieOrangeMix2_base
+
+▼?
+
+▼**Instructions:**
+
+STEP: 1｜Block Merge
+
+Merge ElysiumV1
+
+The generated results do not change much with or without this process, but I wanted to incorporate Elysium's depiction, so I merged it.
+
+| Model: A | Model: B | Weight | Base alpha | Merge Name |
+| --- | --- | --- | --- | --- |
+| EerieOrangeMix_base | ElysiumV1 | 1,0.9,0.7,0.5,0.3,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0 | EerieOrangeMix2_base |
+
+### EerieOrangeMix_night
+
+▼?
+
+JUST EerieOrangeMix2_base+ (NAI-NAISFW) 0.3.
+
+▼**Instructions:**
+
+| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Add Difference @ 0.3 | EerieOrangeMix_base | NovelAI animefull | NovelAI sfw | EerieOrangeMix2_Night |
+
+### EerieOrangeMix_half
+
+▼?
++Gape0.5 version EerieOrangeMix2.
+
+▼**Instructions:**
+
+| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Add Difference @ 0.5 | EerieOrangeMix_Night | NovelAI animefull | NovelAI sfw | EerieOrangeMix2_half |
+
+### EerieOrangeMix
+
+▼**Instructions:**
+
+| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Add Difference @ 1.0 | EerieOrangeMix_Night | Gape60 | NovelAI animefull | EerieOrangeMix2 |
+
+
+## Models Comparison
+
+<img src="https://files.catbox.moe/mp2fr4.webp"  width="1000" height="" alt="MotorbikeGIrlAsa_Eerie_Abyss_Comparison_comp001">  
+<img src="https://files.catbox.moe/9xqths.webp"  width="1000" height="" alt=”Eerie_Abyss_Comparison_02_comp001”> 
+<img src="https://files.catbox.moe/cm6c7m.webp"  width="1000" height="" alt=”Eerie_Comparison_01_comp001”>  
+※The difference is slight but probably looks like this.
+← warm color, ↑ natural color, → animated color
+
+
+
+----
+
+
+## AbyssOrangeMix🍊
 
 ――How can you guys take on such a deep swamp and get results?  
 Is it something like "Made in Abyss"?  
@@ -83,8 +320,8 @@ The merged model was formulated using an extension such as sdweb-merge-block-wei
 The validation of many Anons has shown that such a recipe can generate a painting style that is anatomically realistic enough to feel the finger skeleton, but still maintains an anime-style face.
 
 ※This model is the result of a great deal of testing and experimentation by many Anons🤗
-※This model can be very difficult to handle. I am not 100% confident in my ability to use this model. It is peaky and for experts.
-
+※This model can be very difficult to handle. I am not 100% confident in my ability to use this model. It is peaky and for experts.  
+※This does not fundamentally improve the fingers, and I recommend using bad_prompt, etc. (Embedding) in combination.  
 
 ▼Sample Gallery
 
@@ -239,7 +476,7 @@ JUST AbyssOrangeMix_base+ (NAI-NAISFW) 0.3.
 ▼?
 
 This is a merge model that improves on the Elysium_Anime_V2, where NSFW representation is not good.
-I actually tested it and found that it was possible to output NSFW content while retaining Elysium's three-dimensional, thickly painted style.
+It can produce SFW, NSFW, and any other type of artwork, while retaining the Elysium's three-dimensional, thickly painted style.
 
 ▼Use Models
 
