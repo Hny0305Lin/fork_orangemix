@@ -68,7 +68,7 @@ If the generated images are blurred or only clearly low quality output is produc
 - unlabeled : SFW ～ HARDCORE ～🤯  ex)AbyssOrangeMix, BloodOrangeMix...etc
 
 
-## EerieOrangeMix🍊 (Preparing files)
+## EerieOrangeMix🍊
 
 EerieOrangeMix is the generic name for a U-Net Blocks Weight Merge Models based on Elysium(Anime V2).  
 Since there are infinite possibilities for U-Net Blocks Weight Merging, I plan to treat all Elysium-based models as a lineage of this model.
