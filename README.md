@@ -55,6 +55,12 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 1. blurred Images & clearly low quality output  
 If the generated images are blurred or only clearly low quality output is produced, it is possible that the vae, etc. are not loaded properly. Try reloading the model/vae or restarting the WebUI/OS.
 
+## Tips
+
+<img src="https://files.catbox.moe/nte6ud.webp"  width="500" height="">
+<img src="https://files.catbox.moe/lta462.webp"  width="500" height="">
+
+
 ----
 
 # Model Detail & Merge Recipes🍊
