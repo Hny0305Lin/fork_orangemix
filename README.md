@@ -59,7 +59,7 @@ If the generated images are blurred or only clearly low quality output is produc
 
 ## FAQ
 
-▼Noooo, can't generate image like samples.This models hype.
+▼Noooo, can't generate image like samples.This models is hype.
 <img src="https://files.catbox.moe/nte6ud.webp"  width="500" height="">
 <img src="https://files.catbox.moe/lta462.webp"  width="500" height="">
 
