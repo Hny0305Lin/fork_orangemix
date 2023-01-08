@@ -58,6 +58,10 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 If the generated images are blurred or only clearly low quality output is produced, it is possible that the vae, etc. are not loaded properly. Try reloading the model/vae or restarting the WebUI/OS.
 
 ## FAQ
+▼Nooo, Don’t work. This guy is Scammer  
+STEP1: BUY HUGE PC  
+Anon is working day and night on the minimum PC specs that GenerativeAI can run on. The following is a detailed list.    
+https://seesaawiki.jp/nai_ch/d/%a5%ed%a1%bc%a5%ab%a5%eb%c9%f4%a1%a1PC%a5%b9%a5%da%a5%c3%a5%af%c1%ea%c3%cc%bc%bc
 
 ▼Noooo, can't generate image like samples.This models is hype.
 <img src="https://files.catbox.moe/nte6ud.webp"  width="500" height="">
