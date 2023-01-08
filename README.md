@@ -149,16 +149,16 @@ All prompts to generate sample images ※Preparing
 
 ▼How to use
 
-- ~~Prompts can be long or short~~
-As simple as possible is good. Do not add excessive detail prompts. Start with just this negative propmt.
-(worst quality, low quality:1.4)
+- ~~Prompts can be long or short~~  
+As simple as possible is good. Do not add excessive detail prompts. Start with just this negative propmt.  
+(worst quality, low quality:1.4)  
 - Sampler: “DPM++ SDE Karras” is good
 - Steps: forTest: 12～ ,illustration: 20～
 - Clipskip: 1 or 2
 - Upscaler : Latenet (nearest-exact)
-- Denoise strength: 0.5 (0.5~0.6)
-If you use 0.7～, the picture will change too much.
-If below 0.45, Block noise occurs.
+- Denoise strength: 0.5 (0.5~0.6)  
+If you use 0.7～, the picture will change too much.  
+If below 0.45, Block noise occurs.  
 
 🗒Model List
 
@@ -166,10 +166,10 @@ If below 0.45, Block noise occurs.
     - AbyssOrangeMix2_nsfw｜+ NAI-NAISFW Merge
         - AbyssOrangeMix2_hard｜+ Gape0.3 Merge
 
-※Changed suffix of models.
-_base → _sfw: _base was changed to _sfw.  
-_night → _nsfw: Merged models up to NAI-NAI SFW were changed from _night to _nsfw.   
-_half and non suffix → _hard: Gape merged models were given the suffix _hard.gape was reduced to 0.3 because it affects character modeling.
+※Changed suffix of models.  
+_base → _sfw: _base was changed to _sfw.    
+_night → _nsfw: Merged models up to NAI-NAI SFW were changed from _night to _nsfw.    
+_half and non suffix → _hard: Gape merged models were given the suffix _hard.gape was reduced to 0.3 because it affects character modeling.  
 
 ▼How to choice models
 
