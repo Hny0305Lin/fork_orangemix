@@ -7,6 +7,8 @@ tags:
 
 ----
 
+
+
 # OrangeMixs🍊
 "OrangeMixs" shares various Merge models that can be used with StableDiffusionWebui:Automatic1111 and others.
 
@@ -72,6 +74,158 @@ If the generated images are blurred or only clearly low quality output is produc
 - _Night : SFW ～ Soft NSFW🥰
 - _half : SFW ～ NSFW👄
 - unlabeled : SFW ～ HARDCORE ～🤯  ex)AbyssOrangeMix, BloodOrangeMix...etc
+
+## AbyssOrangeMix2
+
+――Creating the next generation of illustration with “Abyss”!
+
+<img src="https://github.com/WarriorMama777/imgup/blob/main/img/AbyssOrangeMix2/HeroImage_AbyssOrangeMix2_Designed_01_comp001.webp?raw=true"  width="" height="" alt=”HeroImage_AbyssOrangeMix2_Designed_01_comp001”>
+
+▼About
+
+Abyss is an AI model capable of generating high-quality, highly realistic illustrations. It can generate elaborate and detailed illustrations that cannot be drawn by hand. It can also be used for a variety of purposes, making it extremely useful for design and artwork. Furthermore, it provides an unparalleled new means of expression. It can generate illustrations in a variety of genres to meet a wide range of needs. I encourage you to use "Abyss" to make your designs and artwork richer and of higher quality.
+
+▼Description for engineers/enthusiasts
+
+The merged model was formulated using an extension such as sdweb-merge-block-weighted-gui, which merges models at separate rates for each of the 25 U-Net blocks (input, intermediate, and output).
+The validation of many Anons has shown that such a recipe can generate a painting style that is anatomically realistic enough to feel the finger skeleton, but still maintains an anime-style face.
+
+The changes from AbyssOrangeMix are as follows.
+
+1. the model used for U-Net Blocks Weight Merge was changed from Instagram+F222 to BasilMix. (https://huggingface.co/nuigurumi)
+
+This is an excellent merge model that can generate decent human bodies while maintaining the facial layers of the Instagram model. Thanks!!!
+This has improved the dullness of the color and given a more Japanese skin tone (or more precisely, the moisturized white skin that the Japanese would ideally like).
+Also, the unnatural bokeh that sometimes occurred in the previous version may have been eliminated (needs to be verified). 
+
+2.Added IN deep layers (IN06-11) to the layer merging from the realistic model (BasilMix).
+
+It is said that the IN deep layer (IN06-11) is the layer that determines composition, etc., but perhaps light, reflections, skin texture, etc., may also be involved.
+It is like "Global Illumination," "Normal Map," and "Ambient Occlusion" in 3DCG.
+
+<img src="https://github.com/WarriorMama777/imgup/blob/main/img/AbyssOrangeMix2/AbyssOrangeMix2_comparison_comp001.webp?raw=true"  width="" height="" alt=”AbyssOrangeMix2_comparison_comp001”>
+
+※This does not fundamentally improve the fingers, and I recommend using bad_prompt, etc. (Embedding) in combination.  
+About 30-50% chance of generating correct fingers(?). Abyss is deep.
+
+▼Sample Gallery
+
+The prompts for generating these images were all generated using ChatGPT. I simply asked "Pirates sailing the oceans" to tell me what the prompts were.  
+However, to make sure the AI understood the specifications, I used the template for AI questions (Question template for AI prompt generation(v1.2) ).   
+Please review the following.
+
+```jsx
+https://seesaawiki.jp/nai_ch/d/AI%a4%f2%b3%e8%cd%d1%a4%b7%a4%bf%a5%d7%a5%ed%a5%f3%a5%d7%a5%c8%c0%b8%c0%ae
+```
+
+The images thus generated, strangely enough, look like MidJourney or Nijijourney illustrations. Perhaps they are passing user prompts through GPT or something else before passing them on to the image AI🤔
+
+<img src="https://github.com/WarriorMama777/imgup/blob/main/img/AbyssOrangeMix2/SampleGallerBoardDesign_AbyssOrangeMix2_ReadMore_comp001.webp?raw=true"  width="" height="" alt=”SampleGallerBoardDesign_AbyssOrangeMix2_03_comp001”>
+
+<details>
+<summary>▼READ MORE🖼</summary>
+
+<img src="https://github.com/WarriorMama777/imgup/blob/main/img/AbyssOrangeMix2/SampleGallerBoardDesign_AbyssOrangeMix2_03_comp001.webp?raw=true"  width="" height="" alt=”SampleGallerBoardDesign_AbyssOrangeMix2_03_comp001”>
+</details>
+
+All prompts to generate sample images ※Preparing
+
+1. a
+2. a
+3. a
+4. a
+5. a
+6. a
+7. a
+8. a
+9. a
+10. a
+11. a
+
+▼How to use
+
+- ~~Prompts can be long or short~~
+As simple as possible is good. Do not add excessive detail prompts. Start with just this negative propmt.
+(worst quality, low quality:1.4)
+- Sampler: “DPM++ SDE Karras” is good
+- Steps: forTest: 12～ ,illustration: 20～
+- Clipskip: 1 or 2
+- Upscaler : Latenet (nearest-exact)
+- Denoise strength: 0.5 (0.5~0.6)
+If you use 0.7～, the picture will change too much.
+If below 0.45, Block noise occurs.
+
+🗒Model List
+
+- AbyssOrangeMix2_sfw｜BasilMix U-Net Blocks Weight Merge
+    - AbyssOrangeMix2_nsfw｜+ NAI-NAISFW Merge
+        - AbyssOrangeMix2_hard｜+ Gape0.3 Merge
+
+※Changed suffix of models.
+_base → _sfw: _base was changed to _sfw.  
+_night → _nsfw: Merged models up to NAI-NAI SFW were changed from _night to _nsfw.   
+_half and non suffix → _hard: Gape merged models were given the suffix _hard.gape was reduced to 0.3 because it affects character modeling.
+
+▼How to choice models
+
+- _sfw : SFW😉
+- _nsfw : SFW ～ Soft NSFW🥰
+- _hard : SFW ～ hard NSFW👄
+
+▼Hash
+
+- AbyssOrangeMix2_sfw.safetensors  
+f75b19923f2a4a0e70f564476178eedd94e76e2c94f8fd8f80c548742b5b51b9  
+- AbyssOrangeMix2_nsfw.safetensors  
+0873291ac5419eaa7a18726e8841ce0f15f701ace29e0183c47efad2018900a4  
+- AbyssOrangeMix_hard.safetensors  
+0fc198c4908e98d7aae2a76bd78fa004e9c21cb0be7582e36008b4941169f18e  
+
+▼Use Models
+
+1. AnythingV3.0 huggingface pruned  
+[2700c435]「543bcbc21294831c6245cd74c8a7707761e28812c690f946cb81fef930d54b5e」  
+2. NovelAI animefull-final-pruned  
+[925997e9]「89d59c3dde4c56c6d5c41da34cc55ce479d93b4007046980934b14db71bdb2a8」  
+3. NovelAI sfw  
+[1d4a34af]「22fa233c2dfd7748d534be603345cb9abf994a23244dfdfc1013f4f90322feca」  
+4. Gape60  
+[25396b85]「893cca5903ccd0519876f58f4bc188dd8fcc5beb8a69c1a3f1a5fe314bb573f5」  
+5. BasilMix  
+「bbf07e3a1c3482c138d096f7dcdb4581a2aa573b74a68ba0906c7b657942f1c2」  
+
+### AbyssOrangeMix2_sfw
+
+▼**Instructions:**
+
+STEP: 1｜Block Merge
+
+| Model: A | Model: B | Weight | Base alpha | Merge Name |
+| --- | --- | --- | --- | --- |
+| AnythingV3.0  | BasilMix | 1,0.9,0.7,0.5,0.3,0.1,1,1,1,1,1,1,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0 | AbyssOrangeMix2_sfw |
+
+### AbyssOrangeMix2_nsfw
+
+▼?
+
+JUST AbyssOrangeMix_base+ (NAI-NAISFW) 0.3.
+
+▼**Instructions:**
+
+| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Add Difference @ 0.3 | AbyssOrangeMix_base | NovelAI animefull | NovelAI sfw  | AbyssOrangeMix2_nsfw |
+
+### AbyssOrangeMix2_hard
+
+▼?
++Gape0.3 version AbyssOrangeMix.
+
+▼**Instructions:**
+
+| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Add Difference @ 0.3 | AbyssOrangeMix2_nsfw | Gape60 | NovelAI animefull | AbyssOrangeMix2_hard |
 
 
 ## EerieOrangeMix🍊
