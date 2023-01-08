@@ -73,13 +73,6 @@ A safe model that is free from these dangers is the model with the .safetensors 
 # Model Detail & Merge Recipes🍊
 
 
-## How to choice models
-
-- _base : SFW😉
-- _Night : SFW ～ Soft NSFW🥰
-- _half : SFW ～ NSFW👄
-- unlabeled : SFW ～ HARDCORE ～🤯  ex)AbyssOrangeMix, BloodOrangeMix...etc
-
 ## AbyssOrangeMix2
 
 ――Creating the next generation of illustration with “Abyss”!
@@ -260,6 +253,13 @@ The AnythingModel is good at cute girls anyway, and no matter how hard I try, it
         - EerieOrangeMix_half｜+ Gape0.5 Merge
         - EerieOrangeMix｜+ Gape1.0 Merge
 
+▼ How to choice models
+
+- _base : SFW😉
+- _Night : SFW ～ Soft NSFW🥰
+- _half : SFW ～ NSFW👄
+- unlabeled : SFW ～ HARDCORE ～🤯  ex)AbyssOrangeMix, BloodOrangeMix...etc
+
 ▼Hash  
 
 - EerieOrangeMix.safetensors
@@ -382,6 +382,13 @@ The model was created by adding the hierarchy responsible for detailing and pain
     - EerieOrangeMix2_night｜+ NAI-NAISFW Merge
         - EerieOrangeMix2_half｜+ Gape0.5 Merge
         - EerieOrangeMix2｜+ Gape1.0 Merge
+     
+▼ How to choice models
+
+- _base : SFW😉
+- _Night : SFW ～ Soft NSFW🥰
+- _half : SFW ～ NSFW👄
+- unlabeled : SFW ～ HARDCORE ～🤯  ex)AbyssOrangeMix, BloodOrangeMix...etc
 
 ▼Hash
 
@@ -546,6 +553,12 @@ nsfw, (worst quality, low quality:1.3), (depth of field, blurry:1.2), (greyscale
         - AbyssOrangeMix_half｜+ Gape0.5 Merge
         - AbyssOrangeMix｜+ Gape1.0 Merge
 
+▼ How to choice models
+
+- _base : SFW😉
+- _Night : SFW ～ Soft NSFW🥰
+- _half : SFW ～ NSFW👄
+- unlabeled : SFW ～ HARDCORE ～🤯  ex)AbyssOrangeMix, BloodOrangeMix...etc
 
 ▼Hash (SHA256)
 
@@ -645,6 +658,13 @@ JUST AbyssOrangeMix_base+ (NAI-NAISFW) 0.3.
 This is a merge model that improves on the Elysium_Anime_V2, where NSFW representation is not good.
 It can produce SFW, NSFW, and any other type of artwork, while retaining the Elysium's three-dimensional, thickly painted style.
 
+▼ How to choice models
+
+- _base : SFW😉
+- _Night : SFW ～ Soft NSFW🥰
+- _half : SFW ～ NSFW👄
+- unlabeled : SFW ～ HARDCORE ～🤯  ex)AbyssOrangeMix, BloodOrangeMix...etc
+
 ▼Use Models
 
 1. Elysium_Anime_V2 [6b508e59]
@@ -723,6 +743,12 @@ b2168aaa59fa91229b8add21f140ac9271773fe88a387276f3f0c7d70f726a83
 - BloodOrangeMix.ckpt  
 25cece3fe303ea8e3ad40c3dca788406dbd921bcf3aa8e3d1c7c5ac81f208a4f
 
+▼ How to choice models
+
+- _base : SFW😉
+- _Night : SFW ～ Soft NSFW🥰
+- _half : SFW ～ NSFW👄
+- unlabeled : SFW ～ HARDCORE ～🤯  ex)AbyssOrangeMix, BloodOrangeMix...etc
 
 ▼Use Models
 1. AnythingV3.0 huggingface pruned [2700c435]
