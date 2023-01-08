@@ -213,7 +213,7 @@ STEP: 1｜Block Merge
 
 ▼?
 
-JUST AbyssOrangeMix_base+ (NAI-NAISFW) 0.3.
+JUST AbyssOrangeMix2_sfw+ (NAI-NAISFW) 0.3.
 
 ▼**Instructions:**
 
@@ -224,13 +224,15 @@ JUST AbyssOrangeMix_base+ (NAI-NAISFW) 0.3.
 ### AbyssOrangeMix2_hard
 
 ▼?
-+Gape0.3 version AbyssOrangeMix.
++Gape0.3 version AbyssOrangeMix2_nsfw.
 
 ▼**Instructions:**
 
 | Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Difference @ 0.3 | AbyssOrangeMix2_nsfw | Gape60 | NovelAI animefull | AbyssOrangeMix2_hard |
+
+----
 
 
 ## EerieOrangeMix🍊
