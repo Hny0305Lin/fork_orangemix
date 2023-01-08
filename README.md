@@ -57,11 +57,16 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 1. blurred Images & clearly low quality output  
 If the generated images are blurred or only clearly low quality output is produced, it is possible that the vae, etc. are not loaded properly. Try reloading the model/vae or restarting the WebUI/OS.
 
-## Tips
+## FAQ
 
+▼Noooo, can't generate image like samples.This models hype.
 <img src="https://files.catbox.moe/nte6ud.webp"  width="500" height="">
 <img src="https://files.catbox.moe/lta462.webp"  width="500" height="">
 
+▼Nooooo, This models have troy virus. don't download.  
+All models in this repository are secure. It is most likely that anti-virus software has detected them erroneously.    
+However, the models with the .ckpt extension have the potential danger of executing arbitrary code.    
+A safe model that is free from these dangers is the model with the .safetensors extension.  
 
 ----
 
