@@ -81,7 +81,10 @@ A safe model that is free from these dangers is the model with the .safetensors 
 
 ▼About
 
-Abyss is an AI model capable of generating high-quality, highly realistic illustrations. It can generate elaborate and detailed illustrations that cannot be drawn by hand. It can also be used for a variety of purposes, making it extremely useful for design and artwork. Furthermore, it provides an unparalleled new means of expression. It can generate illustrations in a variety of genres to meet a wide range of needs. I encourage you to use "Abyss" to make your designs and artwork richer and of higher quality.
+AbyssOrangeMix2 is an AI model capable of generating high-quality, highly realistic illustrations. 
+It can generate elaborate and detailed illustrations that cannot be drawn by hand. It can also be used for a variety of purposes, making it extremely useful for design and artwork.
+Furthermore, it provides an unparalleled new means of expression. 
+It can generate illustrations in a variety of genres to meet a wide range of needs. I encourage you to use "Abyss" to make your designs and artwork richer and of higher quality.
 
 ▼Description for engineers/enthusiasts
 
