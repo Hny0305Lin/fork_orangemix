@@ -5,27 +5,78 @@ tags:
   - text-to-image
 ---
 
+
 ----
 
-
-
 # OrangeMixs🍊
+
 "OrangeMixs" shares various Merge models that can be used with StableDiffusionWebui:Automatic1111 and others.
 
 Maintain a repository for the following purposes.
+
 1. to provide easy access to models commonly used in the Japanese community.The Wisdom of the Anons💎
 3. As a place to upload my merge models when I feel like it.
 
 <img src="https://i.imgur.com/VZg0LqQ.png"  width="1000" height="">
 
+----
+
+# Table of Contents
+
+- [OrangeMixs🍊](#orangemixs)
+- [Table of Contents](#table-of-contents)
+- [Reference](#reference)
+- [Disclaimer](#disclaimer)
+- [How to download](#how-to-download)
+  - [Batch Download](#batch-download)
+  - [select and download](#select-and-download)
+- [Model Detail \& Merge Recipes🍊](#model-detail--merge-recipes)
+  - [AbyssOrangeMix2🍊](#abyssorangemix2)
+    - [AbyssOrangeMix2\_sfw](#abyssorangemix2_sfw)
+    - [AbyssOrangeMix2\_nsfw](#abyssorangemix2_nsfw)
+    - [AbyssOrangeMix2\_hard](#abyssorangemix2_hard)
+  - [EerieOrangeMix🍊](#eerieorangemix)
+    - [EerieOrangeMix](#eerieorangemix-1)
+      - [EerieOrangeMix\_base](#eerieorangemix_base)
+      - [EerieOrangeMix\_Night](#eerieorangemix_night)
+      - [EerieOrangeMix\_half](#eerieorangemix_half)
+      - [EerieOrangeMix](#eerieorangemix-2)
+    - [EerieOrangeMix2](#eerieorangemix2)
+      - [EerieOrangeMix2\_base](#eerieorangemix2_base)
+      - [EerieOrangeMix2\_night](#eerieorangemix2_night)
+      - [EerieOrangeMix2\_half](#eerieorangemix2_half)
+      - [EerieOrangeMix2](#eerieorangemix2-1)
+    - [Models Comparison](#models-comparison)
+  - [AbyssOrangeMix🍊](#abyssorangemix)
+    - [AbyssOrangeMix\_base](#abyssorangemix_base)
+    - [AbyssOrangeMix\_Night](#abyssorangemix_night)
+    - [AbyssOrangeMix\_half](#abyssorangemix_half)
+    - [AbyssOrangeMix](#abyssorangemix-1)
+  - [ElyOrangeMix🍊](#elyorangemix)
+    - [ElyOrangeMix](#elyorangemix-1)
+    - [ElyOrangeMix\_half \[6b508e59\]](#elyorangemix_half-6b508e59)
+    - [ElyNightOrangeMix\[6b508e59\]](#elynightorangemix6b508e59)
+  - [BloodOrangeMix🍊](#bloodorangemix)
+    - [BloodOrangeMix](#bloodorangemix-1)
+    - [BloodOrangeMix\_half \[ffa7b160\]](#bloodorangemix_half-ffa7b160)
+    - [BloodNightOrangeMix \[ffa7b160\]](#bloodnightorangemix-ffa7b160)
+  - [ElderOrangeMix \[3a46a1e0\]](#elderorangemix-3a46a1e0)
+  - [Troubleshooting](#troubleshooting)
+  - [FAQ](#faq)
+
+
+
+----
 
 # Reference
-+/hdg/ Stable Diffusion Models Cookbook - https://rentry.org/hdgrecipes#g-anons-unnamed-mix-e93c3bf7
+
++/hdg/ Stable Diffusion Models Cookbook - <https://rentry.org/hdgrecipes#g-anons-unnamed-mix-e93c3bf7>
 Model names are named after Cookbook precedents🍊
 
 # Disclaimer
-The user has complete control over whether or not to generate NSFW content, and the user's decision to enjoy either SFW or NSFW is entirely up to the user. 
-The learning model does not contain any obscene visual content that can be viewed with a single click. 
+
+The user has complete control over whether or not to generate NSFW content, and the user's decision to enjoy either SFW or NSFW is entirely up to the user.
+The learning model does not contain any obscene visual content that can be viewed with a single click.
 The posting of the Learning Model is not intended to display obscene material in a public place.
 
 ----
@@ -37,13 +88,13 @@ The posting of the Learning Model is not intended to display obscene material in
 1. install Git
 2. create a folder of your choice and right click → "Git bash here" and open a gitbash on the folder's directory.
 3. run the following commands in order.
+
 ```
 git lfs install
 git clone https://huggingface.co/WarriorMama777/OrangeMixs
 ```
+
 4. complete
-
-
 
 ## select and download
 
@@ -52,13 +103,11 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 3. download
 4. complete
 
-
 ----
 
 # Model Detail & Merge Recipes🍊
 
-
-## AbyssOrangeMix2
+## AbyssOrangeMix2🍊
 
 ――Creating the next generation of illustration with “Abyss”!
 
@@ -66,9 +115,9 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 
 ▼About
 
-AbyssOrangeMix2 is an AI model capable of generating high-quality, highly realistic illustrations. 
+AbyssOrangeMix2 is an AI model capable of generating high-quality, highly realistic illustrations.
 It can generate elaborate and detailed illustrations that cannot be drawn by hand. It can also be used for a variety of purposes, making it extremely useful for design and artwork.
-Furthermore, it provides an unparalleled new means of expression. 
+Furthermore, it provides an unparalleled new means of expression.
 It can generate illustrations in a variety of genres to meet a wide range of needs. I encourage you to use "Abyss" to make your designs and artwork richer and of higher quality.
 
 ▼Description for engineers/enthusiasts
@@ -78,11 +127,11 @@ The validation of many Anons has shown that such a recipe can generate a paintin
 
 The changes from AbyssOrangeMix are as follows.
 
-1. the model used for U-Net Blocks Weight Merge was changed from Instagram+F222 to BasilMix. (https://huggingface.co/nuigurumi)
+1. the model used for U-Net Blocks Weight Merge was changed from Instagram+F222 to BasilMix. (<https://huggingface.co/nuigurumi>)
 
 This is an excellent merge model that can generate decent human bodies while maintaining the facial layers of the Instagram model. Thanks!!!
 This has improved the dullness of the color and given a more Japanese skin tone (or more precisely, the moisturized white skin that the Japanese would ideally like).
-Also, the unnatural bokeh that sometimes occurred in the previous version may have been eliminated (needs to be verified). 
+Also, the unnatural bokeh that sometimes occurred in the previous version may have been eliminated (needs to be verified).
 
 2.Added IN deep layers (IN06-11) to the layer merging from the realistic model (BasilMix).
 
@@ -97,7 +146,7 @@ About 30-50% chance of generating correct fingers(?). Abyss is deep.
 ▼Sample Gallery
 
 The prompts for generating these images were all generated using ChatGPT. I simply asked "Pirates sailing the oceans" to tell me what the prompts were.  
-However, to make sure the AI understood the specifications, I used the template for AI questions (Question template for AI prompt generation(v1.2) ).   
+However, to make sure the AI understood the specifications, I used the template for AI questions (Question template for AI prompt generation(v1.2) ).
 Please review the following.
 
 ```jsx
@@ -112,21 +161,24 @@ The images thus generated, strangely enough, look like MidJourney or Nijijourney
 <summary>▼READ MORE🖼</summary>
 
 <img src="https://github.com/WarriorMama777/imgup/blob/main/img/AbyssOrangeMix2/SampleGallerBoardDesign_AbyssOrangeMix2_03_comp001.webp?raw=true"  width="" height="" alt=”SampleGallerBoardDesign_AbyssOrangeMix2_03_comp001”>
+
+▼All prompts to generate sample images
+
+1. [Gaming Girl](https://majinai.art/ja/i/GbTbLyk)
+2. [Fantasy](https://majinai.art/ja/i/ax45Pof)
+3. [Rainy Day](https://majinai.art/ja/i/1P9DUul)
+4. [Kemomimi Girl](https://majinai.art/ja/i/hrUSb31)
+5. [Supermarket](https://majinai.art/ja/i/6Mf4bVK)
+6. [Lunch Time](https://majinai.art/ja/i/YAgQ4On)
+7. [Womens in Foreast](https://majinai.art/ja/i/oHZYum_)
+8. [Pirate](https://majinai.art/ja/i/yEA3EZk)
+9. [Japanese Girl](https://majinai.art/ja/i/x4G_B_e)
+10. [Sweets Time](https://majinai.art/ja/i/vK_mkac)
+11. [Glasses Girl](https://majinai.art/ja/i/Z87IHOC)
+
 </details>
 
-All prompts to generate sample images ※Preparing
 
-1. a
-2. a
-3. a
-4. a
-5. a
-6. a
-7. a
-8. a
-9. a
-10. a
-11. a
 
 ▼How to use
 
@@ -137,20 +189,21 @@ As simple as possible is good. Do not add excessive detail prompts. Start with j
 - Steps: forTest: 12～ ,illustration: 20～
 - Clipskip: 1 or 2
 - Upscaler : Latenet (nearest-exact)
-- Denoise strength: 0.5 (0.5~0.6)  
+- CFG Scale : 5 or 6 (4～8)
+- Denoise strength: 0.5 (0.45~0.6)  
 If you use 0.7～, the picture will change too much.  
 If below 0.45, Block noise occurs.  
 
 🗒Model List
 
 - AbyssOrangeMix2_sfw｜BasilMix U-Net Blocks Weight Merge
-    - AbyssOrangeMix2_nsfw｜+ NAI-NAISFW Merge
-        - AbyssOrangeMix2_hard｜+ Gape0.3 Merge
+  - AbyssOrangeMix2_nsfw｜+ NAI-NAISFW Merge
+    - AbyssOrangeMix2_hard｜+ Gape0.3 Merge
 
 ※Changed suffix of models.  
-_base → _sfw: _base was changed to _sfw.    
-_night → _nsfw: Merged models up to NAI-NAI SFW were changed from _night to _nsfw.    
-_half and non suffix → _hard: Gape merged models were given the suffix _hard.gape was reduced to 0.3 because it affects character modeling.  
+_base →_sfw: _base was changed to_sfw.
+_night →_nsfw: Merged models up to NAI-NAI SFW were changed from _night to_nsfw.
+_half and non suffix →_hard: Gape merged models were given the suffix _hard.gape was reduced to 0.3 because it affects character modeling.  
 
 ▼How to choice models
 
@@ -171,13 +224,13 @@ f75b19923f2a4a0e70f564476178eedd94e76e2c94f8fd8f80c548742b5b51b9
 
 1. AnythingV3.0 huggingface pruned  
 [2700c435]「543bcbc21294831c6245cd74c8a7707761e28812c690f946cb81fef930d54b5e」  
-2. NovelAI animefull-final-pruned  
+1. NovelAI animefull-final-pruned  
 [925997e9]「89d59c3dde4c56c6d5c41da34cc55ce479d93b4007046980934b14db71bdb2a8」  
-3. NovelAI sfw  
+1. NovelAI sfw  
 [1d4a34af]「22fa233c2dfd7748d534be603345cb9abf994a23244dfdfc1013f4f90322feca」  
-4. Gape60  
+1. Gape60  
 [25396b85]「893cca5903ccd0519876f58f4bc188dd8fcc5beb8a69c1a3f1a5fe314bb573f5」  
-5. BasilMix  
+1. BasilMix  
 「bbf07e3a1c3482c138d096f7dcdb4581a2aa573b74a68ba0906c7b657942f1c2」  
 
 ### AbyssOrangeMix2_sfw
@@ -207,14 +260,13 @@ JUST AbyssOrangeMix2_sfw+ (NAI-NAISFW) 0.3.
 ▼?
 +Gape0.3 version AbyssOrangeMix2_nsfw.
 
-▼**Instructions:**
+▼Instructions
 
 | Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Difference @ 0.3 | AbyssOrangeMix2_nsfw | Gape60 | NovelAI animefull | AbyssOrangeMix2_hard |
 
 ----
-
 
 ## EerieOrangeMix🍊
 
@@ -224,7 +276,6 @@ Since there are infinite possibilities for U-Net Blocks Weight Merging, I plan t
 ※This does not fundamentally improve the fingers, and I recommend using bad_prompt, etc. (Embedding) in combination.
 
 <img src="https://files.catbox.moe/yjnqna.webp"  width="1000" height="" alt=”HeroImage_EerieOrangeMix_Designed_comp001” >
-
 
 ### EerieOrangeMix
 
@@ -237,9 +288,9 @@ The AnythingModel is good at cute girls anyway, and no matter how hard I try, it
 🗒Model List  
 
 - EerieOrangeMix_base｜Instagram+F222 U-Net Blocks Weight Merge
-    - EerieOrangeMix_night｜+ NAI-NAISFW Merge
-        - EerieOrangeMix_half｜+ Gape0.5 Merge
-        - EerieOrangeMix｜+ Gape1.0 Merge
+  - EerieOrangeMix_night｜+ NAI-NAISFW Merge
+    - EerieOrangeMix_half｜+ Gape0.5 Merge
+    - EerieOrangeMix｜+ Gape1.0 Merge
 
 ▼ How to choice models
 
@@ -257,7 +308,7 @@ The AnythingModel is good at cute girls anyway, and no matter how hard I try, it
 
 ▼Use Models  
 
-[] = webuHash,「」= SHA256
+[] = WebUI Hash,「」= SHA256
 
 1. Elysium Anime V2
 []「5c4787ce1386500ee05dbb9d27c17273c7a78493535f2603321f40f6e0796851」
@@ -284,7 +335,6 @@ The AnythingModel is good at cute girls anyway, and no matter how hard I try, it
 
 ▼ How to use  
 
-
 - As simple as possible is good. Do not add excessive detail prompts. Start with just this.
 (worst quality, low quality:1.4)
 - Sampler: “DPM++ SDE Karras” is good
@@ -304,7 +354,7 @@ nsfw, (worst quality, low quality:1.3), (depth of field, blurry:1.2), (greyscale
 
 ---
 
-### EerieOrangeMix_base
+#### EerieOrangeMix_base
 
 ▼?  
 Details are omitted since it is the same as AbyssOrangeMix.
@@ -325,19 +375,19 @@ Merge InstaF222
 | --- | --- | --- | --- | --- |
 | AnythingV3.0 | Insta_F222 | 1,0.9,0.7,0.5,0.3,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0 | Temp1 |
 
-### EerieOrangeMix_Night
+#### EerieOrangeMix_Night
 
 ▼?
 
 JUST EerieOrangeMix_base+ (NAI-NAISFW) 0.3.
 
-▼**Instructions:**
+▼Instructions
 
 | Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Difference @ 0.3 | EerieOrangeMix_base | NovelAI animefull | NovelAI sfw | EerieOrangeMix_Night |
 
-### EerieOrangeMix_half
+#### EerieOrangeMix_half
 
 ▼?
 +Gape0.5 version EerieOrangeMix.
@@ -348,7 +398,7 @@ JUST EerieOrangeMix_base+ (NAI-NAISFW) 0.3.
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Difference @ 0.5 | EerieOrangeMix_Night | NovelAI animefull | NovelAI sfw | EerieOrangeMix_half |
 
-### EerieOrangeMix
+#### EerieOrangeMix
 
 ▼**Instructions:**
 
@@ -358,7 +408,7 @@ JUST EerieOrangeMix_base+ (NAI-NAISFW) 0.3.
 
 ----
 
-### 🍊EerieOrangeMix2
+### EerieOrangeMix2
 
 ▼?
 
@@ -367,10 +417,10 @@ The model was created by adding the hierarchy responsible for detailing and pain
 🗒Model List
 
 - EerieOrangeMix2_base｜Instagram+F222+ElysiumV1 U-Net Blocks Weight Merge
-    - EerieOrangeMix2_night｜+ NAI-NAISFW Merge
-        - EerieOrangeMix2_half｜+ Gape0.5 Merge
-        - EerieOrangeMix2｜+ Gape1.0 Merge
-     
+  - EerieOrangeMix2_night｜+ NAI-NAISFW Merge
+    - EerieOrangeMix2_half｜+ Gape0.5 Merge
+    - EerieOrangeMix2｜+ Gape1.0 Merge
+
 ▼ How to choice models
 
 - _base : SFW😉
@@ -406,11 +456,11 @@ The model was created by adding the hierarchy responsible for detailing and pain
 8. ElysiumV1
 「abbb28cb5e70d3e0a635f241b8d61cefe42eb8f1be91fd1168bc3e52b0f09ae4」
 
-### EerieOrangeMix2_base
+#### EerieOrangeMix2_base
 
 ▼?
 
-▼**Instructions:**
+▼Instructions
 
 STEP: 1｜Block Merge
 
@@ -422,30 +472,30 @@ The generated results do not change much with or without this process, but I wan
 | --- | --- | --- | --- | --- |
 | EerieOrangeMix_base | ElysiumV1 | 1,0.9,0.7,0.5,0.3,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0 | EerieOrangeMix2_base |
 
-### EerieOrangeMix_night
+#### EerieOrangeMix2_night
 
 ▼?
 
 JUST EerieOrangeMix2_base+ (NAI-NAISFW) 0.3.
 
-▼**Instructions:**
+▼Instructions
 
 | Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Difference @ 0.3 | EerieOrangeMix_base | NovelAI animefull | NovelAI sfw | EerieOrangeMix2_Night |
 
-### EerieOrangeMix_half
+#### EerieOrangeMix2_half
 
 ▼?
 +Gape0.5 version EerieOrangeMix2.
 
-▼**Instructions:**
+▼Instructions
 
 | Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Difference @ 0.5 | EerieOrangeMix_Night | NovelAI animefull | NovelAI sfw | EerieOrangeMix2_half |
 
-### EerieOrangeMix
+#### EerieOrangeMix2
 
 ▼**Instructions:**
 
@@ -453,19 +503,15 @@ JUST EerieOrangeMix2_base+ (NAI-NAISFW) 0.3.
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Difference @ 1.0 | EerieOrangeMix_Night | Gape60 | NovelAI animefull | EerieOrangeMix2 |
 
-
-## Models Comparison
+### Models Comparison
 
 <img src="https://files.catbox.moe/mp2fr4.webp"  width="1000" height="" alt="MotorbikeGIrlAsa_Eerie_Abyss_Comparison_comp001">  
-<img src="https://files.catbox.moe/9xqths.webp"  width="1000" height="" alt=”Eerie_Abyss_Comparison_02_comp001”> 
+<img src="https://files.catbox.moe/9xqths.webp"  width="1000" height="" alt=”Eerie_Abyss_Comparison_02_comp001”>
 <img src="https://files.catbox.moe/cm6c7m.webp"  width="1000" height="" alt=”Eerie_Comparison_01_comp001”>  
 ※The difference is slight but probably looks like this.
 ← warm color, ↑ natural color, → animated color
 
-
-
 ----
-
 
 ## AbyssOrangeMix🍊
 
@@ -474,7 +520,6 @@ Is it something like "Made in Abyss"?
 By Anon, 115th thread
 
 <img src="https://files.catbox.moe/wst1bp.webp"  width="1000" height="">
-
 
 ▼?
 
@@ -498,7 +543,6 @@ The validation of many Anons has shown that such a recipe can generate a paintin
 Negative prompt: (bad_prompt_version2:1), distant view, lip, Pregnant, maternity, pointy ears, realistic, tan, muscular, greyscale, monochrome, lineart, 2koma, 3koma, 4koma, manga, 3D, 3Dcubism, pablo picasso, disney, marvel, mutanted breasts, mutanted nipple, cropped, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, artist name, lowres, trademark, watermark, title, text, deformed, bad anatomy, disfigured, mutated, extra limbs, ugly, missing limb, floating limbs, disconnected limbs, out of frame, mutated hands and fingers, poorly drawn hands, malformed hands, poorly drawn face, poorly drawn asymmetrical eyes, (blurry:1.4), duplicate (loli, petite, child, infant, toddlers, chibi, sd character, teen age:1.4), tsurime, helmet hair, evil smile, smug_face, naughty smile, multiple view, Reference sheet, (worst quality, low quality:1.4),
 Steps: 24, Sampler: DPM++ SDE Karras, CFG scale: 10, Seed: 1159970659, Size: 1536x768, Model hash: cc44dbff, Model: AbyssOrangeMix, Variation seed: 93902374, Variation seed strength: 0.45, Denoising strength: 0.45, ENSD: 31337
 ```
-
 
 (2)
 <img src="https://files.catbox.moe/6cbrqh.webp" width="" height="600">
@@ -537,9 +581,9 @@ nsfw, (worst quality, low quality:1.3), (depth of field, blurry:1.2), (greyscale
 🗒Model List
 
 - AbyssOrangeMix_base｜Instagram Merge
-    - AbyssOrangeMix_Night｜+ NAI-NAISFW Merge
-        - AbyssOrangeMix_half｜+ Gape0.5 Merge
-        - AbyssOrangeMix｜+ Gape1.0 Merge
+  - AbyssOrangeMix_Night｜+ NAI-NAISFW Merge
+    - AbyssOrangeMix_half｜+ Gape0.5 Merge
+    - AbyssOrangeMix｜+ Gape1.0 Merge
 
 ▼ How to choice models
 
@@ -559,8 +603,6 @@ nsfw, (worst quality, low quality:1.3), (depth of field, blurry:1.2), (greyscale
 - AbyssOrangeMix_base.ckpt  
 bbd2621f3ec4fad707f75fc032a2c2602c296180a53ed3d9897d8ca7a01dd6ed
 
-
-
 ▼Use Models
 
 1. AnythingV3.0 huggingface pruned
@@ -577,8 +619,6 @@ bbd2621f3ec4fad707f75fc032a2c2602c296180a53ed3d9897d8ca7a01dd6ed
 [] 「9e2c6ceff3f6d6f65c6fb0e10d8e69d772871813be647fd2ea5d06e00db33c1f」
 7. sd1.5_pruned
 [] 「e1441589a6f3c5a53f5f54d0975a18a7feb7cdf0b0dee276dfc3331ae376a053」
-
-
 
 ### AbyssOrangeMix_base
 
@@ -631,20 +671,13 @@ JUST AbyssOrangeMix_base+ (NAI-NAISFW) 0.3.
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Difference @ 1.0 | AbyssOrangeMix_Night | Gape60 | NovelAI animefull | AbyssOrangeMix |
 
-
 ----
 
-
-
-
-## ElyOrangeMix [6b508e59]｜Elysium_Anime_V2 + NAI + Gape
+## ElyOrangeMix🍊
 
 <img src="https://i.imgur.com/AInEXA5.jpg"  width="1000" height="">
 
-▼?
 
-This is a merge model that improves on the Elysium_Anime_V2, where NSFW representation is not good.
-It can produce SFW, NSFW, and any other type of artwork, while retaining the Elysium's three-dimensional, thickly painted style.
 
 ▼ How to choice models
 
@@ -653,6 +686,17 @@ It can produce SFW, NSFW, and any other type of artwork, while retaining the Ely
 - _half : SFW ～ NSFW👄
 - unlabeled : SFW ～ HARDCORE ～🤯  ex)AbyssOrangeMix, BloodOrangeMix...etc
 
+▼Hash (SHA256)
+
+- ElyOrangeMix [6b508e59]
+
+### ElyOrangeMix
+
+▼?
+Elysium_Anime_V2 + NAI + Gape.  
+This is a merge model that improves on the Elysium_Anime_V2, where NSFW representation is not good.  
+It can produce SFW, NSFW, and any other type of artwork, while retaining the Elysium's three-dimensional, thickly painted style.
+
 ▼Use Models
 
 1. Elysium_Anime_V2 [6b508e59]
@@ -660,7 +704,7 @@ It can produce SFW, NSFW, and any other type of artwork, while retaining the Ely
 3. NovelAI sfw [1d4a34af]
 4. Gape60 [25396b85]
 
-### Instructions
+▼Instructions
 
 | Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
 | --- | --- | --- | --- | --- | --- |
@@ -669,7 +713,7 @@ It can produce SFW, NSFW, and any other type of artwork, while retaining the Ely
 
 ---
 
-## ElyOrangeMix_half [6b508e59]
+### ElyOrangeMix_half [6b508e59]
 
 ▼?
 
@@ -682,17 +726,16 @@ It can produce SFW, NSFW, and any other type of artwork, while retaining the Ely
 3. NovelAI sfw [1d4a34af]
 4. Gape60 [25396b85]
 
-### Instructions
+▼Instructions
 
 | Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Difference @ 0.3 | Elysium_Anime_V2 | NovelAI animefull | NovelAI sfw  | tempmix-part1 [] |
 | 2 | Add Difference @ 0.5 | tempmix-part1 | Gape60 | NovelAI animefull | ElyOrangeMix_half  [6b508e59] |
 
-
 ----
 
-## ElyNightOrangeMix[6b508e59]
+### ElyNightOrangeMix[6b508e59]
 
 ▼?
 
@@ -704,7 +747,7 @@ It is a merged model that just did Elysium_Anime_V2+ (NAI-NAISFW) 0.3.
 2. NovelAI animefull-final-pruned [925997e9]
 3. NovelAI sfw [1d4a34af]
 
-### Instructions
+▼Instructions
 
 | Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
 | --- | --- | --- | --- | --- | --- |
@@ -712,24 +755,26 @@ It is a merged model that just did Elysium_Anime_V2+ (NAI-NAISFW) 0.3.
 
 ----
 
-## BloodOrangeMix [ffa7b160]｜Anything+NAI+Gape
+## BloodOrangeMix🍊
 
 <img src="https://i.imgur.com/soAnnFk.jpg"  width="1000" height="">
 
 ▼?
+Anything+NAI+Gape.  
+This is a merge model that improves on the AnythingV3, where NSFW representation is not good.  
+It can produce SFW, NSFW, and any other type of artwork, while retaining the flat, beautifully painted style of AnythingV3.  
+Stable. Popular in the Japanese community.  
 
-This is a merge model that improves on the AnythingV3, where NSFW representation is not good.
-It can produce SFW, NSFW, and any other type of artwork, while retaining the flat, beautifully painted style of AnythingV3.
-Stable. Popular in the Japanese community.
+▼ModelList & [] = WebUI Hash,「」= SHA256
 
-
-▼ModelList & Hash(SHA256)  
 - BloodNightOrangeMix.ckpt  
-f8aff727ba3da0358815b1766ed232fd1ef9682ad165067cac76e576d19689e0
+ 「f8aff727ba3da0358815b1766ed232fd1ef9682ad165067cac76e576d19689e0」
 - BloodOrangeMix_half.ckpt  
-b2168aaa59fa91229b8add21f140ac9271773fe88a387276f3f0c7d70f726a83
+「b2168aaa59fa91229b8add21f140ac9271773fe88a387276f3f0c7d70f726a83」
 - BloodOrangeMix.ckpt  
-25cece3fe303ea8e3ad40c3dca788406dbd921bcf3aa8e3d1c7c5ac81f208a4f
+[ffa7b160] 「25cece3fe303ea8e3ad40c3dca788406dbd921bcf3aa8e3d1c7c5ac81f208a4f」
+- BloodOrangeMix.safetensors  
+「79a1edf6af43c75ee1e00a884a09213a28ee743b2e913de978cb1f6faa1b320d」
 
 ▼ How to choice models
 
@@ -738,13 +783,17 @@ b2168aaa59fa91229b8add21f140ac9271773fe88a387276f3f0c7d70f726a83
 - _half : SFW ～ NSFW👄
 - unlabeled : SFW ～ HARDCORE ～🤯  ex)AbyssOrangeMix, BloodOrangeMix...etc
 
+
+### BloodOrangeMix
+
 ▼Use Models
+
 1. AnythingV3.0 huggingface pruned [2700c435]
 2. NovelAI animefull-final-pruned [925997e9]
 3. NovelAI sfw [1d4a34af]
 4. Gape60 [25396b85]
 
-### **Instructions:**
+▼Instructions
 
 | Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
 | --- | --- | --- | --- | --- | --- |
@@ -753,10 +802,10 @@ b2168aaa59fa91229b8add21f140ac9271773fe88a387276f3f0c7d70f726a83
 
 ----
 
-## BloodOrangeMix_half [ffa7b160]｜Anything+Nai+Gape0.5
+### BloodOrangeMix_half [ffa7b160]
 
 ▼?
-
+Anything+Nai+Gape0.5
 +Gape0.5 version BloodOrangeMix.
 NSFW expression will be softer and have less impact on the Anything style painting style.
 
@@ -767,7 +816,7 @@ NSFW expression will be softer and have less impact on the Anything style painti
 3. NovelAI sfw [1d4a34af]
 4. Gape60 [25396b85]
 
-### Instructions
+▼Instructions
 
 | Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
 | --- | --- | --- | --- | --- | --- |
@@ -776,8 +825,7 @@ NSFW expression will be softer and have less impact on the Anything style painti
 
 ----
 
-
-## BloodNightOrangeMix [ffa7b160]
+### BloodNightOrangeMix [ffa7b160]
 
 ▼?
 
@@ -789,7 +837,7 @@ It is a merged model that just did AnythingV3+ (NAI-NAISFW) 0.3.
 2. NovelAI animefull-final-pruned [925997e9]
 3. NovelAI sfw [1d4a34af]
 
-### **Instructions:**
+▼Instructions
 
 | Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
 | --- | --- | --- | --- | --- | --- |
@@ -797,21 +845,22 @@ It is a merged model that just did AnythingV3+ (NAI-NAISFW) 0.3.
 
 ----
 
-## ElderOrangeMix [3a46a1e0] ｜anything and everything mix ver.1.5+Gape+Nai(AnEve.G.N0.3)
+## ElderOrangeMix [3a46a1e0]
 
 ※I found this model to be very prone to body collapse. Not recommended.
 
 ▼?
-
+anything and everything mix ver.1.5+Gape+Nai(AnEve.G.N0.3)
 This is a merged model with improved NSFW representation of anything and everything mix ver.1.5.
 
 ▼Use Models
+
 1. anything and everything mix ver.1.5 [5265dcf6]
 2. NovelAI animefull-final-pruned [925997e9]
 3. NovelAI sfw [1d4a34af]
 4. Gape60 [25396b85]
 
-### **Instructions:**
+▼Instructions:**
 
 | Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
 | --- | --- | --- | --- | --- | --- |
@@ -819,7 +868,6 @@ This is a merged model with improved NSFW representation of anything and everyth
 | 2 | Add Difference @ 0.3 | tempmix-part1 | NovelAI full | NovelAI sfw | ElderOrangeMix  [3a46a1e0] |
 
 ----
-
 
 ## Troubleshooting
 
@@ -833,17 +881,16 @@ If the generated images are blurred or only clearly low quality output is produc
 
 ▼Nooo, Don’t work. This guy is Scammer  
 STEP1: BUY HUGE PC  
-Anon is working day and night on the minimum PC specs that GenerativeAI can run on. The following is a detailed list.    
-https://seesaawiki.jp/nai_ch/d/%a5%ed%a1%bc%a5%ab%a5%eb%c9%f4%a1%a1PC%a5%b9%a5%da%a5%c3%a5%af%c1%ea%c3%cc%bc%bc
+Anon is working day and night on the minimum PC specs that GenerativeAI can run on. The following is a detailed list.  
+<https://seesaawiki.jp/nai_ch/d/%a5%ed%a1%bc%a5%ab%a5%eb%c9%f4%a1%a1PC%a5%b9%a5%da%a5%c3%a5%af%c1%ea%c3%cc%bc%bc>
 
 ▼Noooo, can't generate image like samples.This models is hype.
 <img src="https://files.catbox.moe/nte6ud.webp"  width="500" height="">
 <img src="https://files.catbox.moe/lta462.webp"  width="500" height="">
 
 ▼Nooooo, This models have troy virus. don't download.  
-All models in this repository are secure. It is most likely that anti-virus software has detected them erroneously.    
-However, the models with the .ckpt extension have the potential danger of executing arbitrary code.    
+All models in this repository are secure. It is most likely that anti-virus software has detected them erroneously.  
+However, the models with the .ckpt extension have the potential danger of executing arbitrary code.  
 A safe model that is free from these dangers is the model with the .safetensors extension.  
 
 </details>
-
