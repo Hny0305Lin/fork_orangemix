@@ -52,25 +52,6 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 3. download
 4. complete
 
-## Troubleshooting
-
-1. blurred Images & clearly low quality output  
-If the generated images are blurred or only clearly low quality output is produced, it is possible that the vae, etc. are not loaded properly. Try reloading the model/vae or restarting the WebUI/OS.
-
-## FAQ
-▼Nooo, Don’t work. This guy is Scammer  
-STEP1: BUY HUGE PC  
-Anon is working day and night on the minimum PC specs that GenerativeAI can run on. The following is a detailed list.    
-https://seesaawiki.jp/nai_ch/d/%a5%ed%a1%bc%a5%ab%a5%eb%c9%f4%a1%a1PC%a5%b9%a5%da%a5%c3%a5%af%c1%ea%c3%cc%bc%bc
-
-▼Noooo, can't generate image like samples.This models is hype.
-<img src="https://files.catbox.moe/nte6ud.webp"  width="500" height="">
-<img src="https://files.catbox.moe/lta462.webp"  width="500" height="">
-
-▼Nooooo, This models have troy virus. don't download.  
-All models in this repository are secure. It is most likely that anti-virus software has detected them erroneously.    
-However, the models with the .ckpt extension have the potential danger of executing arbitrary code.    
-A safe model that is free from these dangers is the model with the .safetensors extension.  
 
 ----
 
@@ -838,4 +819,31 @@ This is a merged model with improved NSFW representation of anything and everyth
 | 2 | Add Difference @ 0.3 | tempmix-part1 | NovelAI full | NovelAI sfw | ElderOrangeMix  [3a46a1e0] |
 
 ----
+
+
+## Troubleshooting
+
+1. blurred Images & clearly low quality output  
+If the generated images are blurred or only clearly low quality output is produced, it is possible that the vae, etc. are not loaded properly. Try reloading the model/vae or restarting the WebUI/OS.
+
+## FAQ
+
+<details>
+  <summary>READ MORE</summary>
+
+▼Nooo, Don’t work. This guy is Scammer  
+STEP1: BUY HUGE PC  
+Anon is working day and night on the minimum PC specs that GenerativeAI can run on. The following is a detailed list.    
+https://seesaawiki.jp/nai_ch/d/%a5%ed%a1%bc%a5%ab%a5%eb%c9%f4%a1%a1PC%a5%b9%a5%da%a5%c3%a5%af%c1%ea%c3%cc%bc%bc
+
+▼Noooo, can't generate image like samples.This models is hype.
+<img src="https://files.catbox.moe/nte6ud.webp"  width="500" height="">
+<img src="https://files.catbox.moe/lta462.webp"  width="500" height="">
+
+▼Nooooo, This models have troy virus. don't download.  
+All models in this repository are secure. It is most likely that anti-virus software has detected them erroneously.    
+However, the models with the .ckpt extension have the potential danger of executing arbitrary code.    
+A safe model that is free from these dangers is the model with the .safetensors extension.  
+
+</details>
 
