@@ -8,7 +8,7 @@ tags:
 
 ----
 
-# OrangeMixs🍊
+# OrangeMixs
 
 "OrangeMixs" shares various Merge models that can be used with StableDiffusionWebui:Automatic1111 and others.
 
@@ -23,19 +23,19 @@ Maintain a repository for the following purposes.
 
 # Table of Contents
 
-- [OrangeMixs🍊](#orangemixs)
+- [OrangeMixs](#orangemixs)
 - [Table of Contents](#table-of-contents)
 - [Reference](#reference)
 - [Disclaimer](#disclaimer)
 - [How to download](#how-to-download)
   - [Batch Download](#batch-download)
   - [select and download](#select-and-download)
-- [Model Detail \& Merge Recipes🍊](#model-detail--merge-recipes)
-  - [AbyssOrangeMix2🍊](#abyssorangemix2)
+- [Model Detail \& Merge Recipes](#model-detail--merge-recipes)
+  - [AbyssOrangeMix2](#abyssorangemix2)
     - [AbyssOrangeMix2\_sfw](#abyssorangemix2_sfw)
     - [AbyssOrangeMix2\_nsfw](#abyssorangemix2_nsfw)
     - [AbyssOrangeMix2\_hard](#abyssorangemix2_hard)
-  - [EerieOrangeMix🍊](#eerieorangemix)
+  - [EerieOrangeMix](#eerieorangemix)
     - [EerieOrangeMix](#eerieorangemix-1)
       - [EerieOrangeMix\_base](#eerieorangemix_base)
       - [EerieOrangeMix\_Night](#eerieorangemix_night)
@@ -47,16 +47,16 @@ Maintain a repository for the following purposes.
       - [EerieOrangeMix2\_half](#eerieorangemix2_half)
       - [EerieOrangeMix2](#eerieorangemix2-1)
     - [Models Comparison](#models-comparison)
-  - [AbyssOrangeMix🍊](#abyssorangemix)
+  - [AbyssOrangeMix](#abyssorangemix)
     - [AbyssOrangeMix\_base](#abyssorangemix_base)
     - [AbyssOrangeMix\_Night](#abyssorangemix_night)
     - [AbyssOrangeMix\_half](#abyssorangemix_half)
     - [AbyssOrangeMix](#abyssorangemix-1)
-  - [ElyOrangeMix🍊](#elyorangemix)
+  - [ElyOrangeMix](#elyorangemix)
     - [ElyOrangeMix](#elyorangemix-1)
     - [ElyOrangeMix\_half \[6b508e59\]](#elyorangemix_half-6b508e59)
     - [ElyNightOrangeMix\[6b508e59\]](#elynightorangemix6b508e59)
-  - [BloodOrangeMix🍊](#bloodorangemix)
+  - [BloodOrangeMix](#bloodorangemix)
     - [BloodOrangeMix](#bloodorangemix-1)
     - [BloodOrangeMix\_half \[ffa7b160\]](#bloodorangemix_half-ffa7b160)
     - [BloodNightOrangeMix \[ffa7b160\]](#bloodnightorangemix-ffa7b160)
@@ -105,9 +105,9 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 
 ----
 
-# Model Detail & Merge Recipes🍊
+# Model Detail & Merge Recipes
 
-## AbyssOrangeMix2🍊
+## AbyssOrangeMix2
 
 ――Creating the next generation of illustration with “Abyss”!
 
@@ -268,7 +268,7 @@ JUST AbyssOrangeMix2_sfw+ (NAI-NAISFW) 0.3.
 
 ----
 
-## EerieOrangeMix🍊
+## EerieOrangeMix
 
 EerieOrangeMix is the generic name for a U-Net Blocks Weight Merge Models based on Elysium(Anime V2).  
 Since there are infinite possibilities for U-Net Blocks Weight Merging, I plan to treat all Elysium-based models as a lineage of this model.
@@ -513,7 +513,7 @@ JUST EerieOrangeMix2_base+ (NAI-NAISFW) 0.3.
 
 ----
 
-## AbyssOrangeMix🍊
+## AbyssOrangeMix
 
 ――How can you guys take on such a deep swamp and get results?  
 Is it something like "Made in Abyss"?  
@@ -673,7 +673,7 @@ JUST AbyssOrangeMix_base+ (NAI-NAISFW) 0.3.
 
 ----
 
-## ElyOrangeMix🍊
+## ElyOrangeMix
 
 <img src="https://i.imgur.com/AInEXA5.jpg"  width="1000" height="">
 
@@ -755,7 +755,7 @@ It is a merged model that just did Elysium_Anime_V2+ (NAI-NAISFW) 0.3.
 
 ----
 
-## BloodOrangeMix🍊
+## BloodOrangeMix
 
 <img src="https://i.imgur.com/soAnnFk.jpg"  width="1000" height="">
 
