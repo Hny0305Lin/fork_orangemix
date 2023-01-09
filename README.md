@@ -113,6 +113,9 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 
 <img src="https://github.com/WarriorMama777/imgup/blob/main/img/AbyssOrangeMix2/HeroImage_AbyssOrangeMix2_Designed_01_comp001.webp?raw=true"  width="" height="" alt=”HeroImage_AbyssOrangeMix2_Designed_01_comp001”>
 
+Prompt: [https://majinai.art/ja/i/nxpKRpw](https://majinai.art/ja/i/nxpKRpw)
+
+
 ▼About
 
 AbyssOrangeMix2 is an AI model capable of generating high-quality, highly realistic illustrations.
