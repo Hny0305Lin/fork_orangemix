@@ -54,13 +54,13 @@ Maintain a repository for the following purposes.
     - [AbyssOrangeMix](#abyssorangemix-1)
   - [ElyOrangeMix](#elyorangemix)
     - [ElyOrangeMix](#elyorangemix-1)
-    - [ElyOrangeMix\_half \[6b508e59\]](#elyorangemix_half-6b508e59)
-    - [ElyNightOrangeMix\[6b508e59\]](#elynightorangemix6b508e59)
+    - [ElyOrangeMix\_half](#elyorangemix_half)
+    - [ElyNightOrangeMix](#elynightorangemix)
   - [BloodOrangeMix](#bloodorangemix)
     - [BloodOrangeMix](#bloodorangemix-1)
-    - [BloodOrangeMix\_half \[ffa7b160\]](#bloodorangemix_half-ffa7b160)
-    - [BloodNightOrangeMix \[ffa7b160\]](#bloodnightorangemix-ffa7b160)
-  - [ElderOrangeMix \[3a46a1e0\]](#elderorangemix-3a46a1e0)
+    - [BloodOrangeMix\_half](#bloodorangemix_half)
+    - [BloodNightOrangeMix](#bloodnightorangemix)
+  - [ElderOrangeMix](#elderorangemix)
   - [Troubleshooting](#troubleshooting)
   - [FAQ](#faq)
 
@@ -677,7 +677,10 @@ JUST AbyssOrangeMix_base+ (NAI-NAISFW) 0.3.
 
 <img src="https://i.imgur.com/AInEXA5.jpg"  width="1000" height="">
 
-
+▼?  
+Elysium_Anime_V2 + NAI + Gape.  
+This is a merge model that improves on the Elysium_Anime_V2, where NSFW representation is not good.  
+It can produce SFW, NSFW, and any other type of artwork, while retaining the Elysium's three-dimensional, thickly painted style.
 
 ▼ How to choice models
 
@@ -689,13 +692,11 @@ JUST AbyssOrangeMix_base+ (NAI-NAISFW) 0.3.
 ▼Hash (SHA256)
 
 - ElyOrangeMix [6b508e59]
+- ElyOrangeMix_half [6b508e59]
+- ElyNightOrangeMix[6b508e59]
+
 
 ### ElyOrangeMix
-
-▼?
-Elysium_Anime_V2 + NAI + Gape.  
-This is a merge model that improves on the Elysium_Anime_V2, where NSFW representation is not good.  
-It can produce SFW, NSFW, and any other type of artwork, while retaining the Elysium's three-dimensional, thickly painted style.
 
 ▼Use Models
 
@@ -713,7 +714,7 @@ It can produce SFW, NSFW, and any other type of artwork, while retaining the Ely
 
 ---
 
-### ElyOrangeMix_half [6b508e59]
+### ElyOrangeMix_half
 
 ▼?
 
@@ -735,7 +736,7 @@ It can produce SFW, NSFW, and any other type of artwork, while retaining the Ely
 
 ----
 
-### ElyNightOrangeMix[6b508e59]
+### ElyNightOrangeMix
 
 ▼?
 
@@ -768,9 +769,9 @@ Stable. Popular in the Japanese community.
 ▼ModelList & [] = WebUI Hash,「」= SHA256
 
 - BloodNightOrangeMix.ckpt  
- 「f8aff727ba3da0358815b1766ed232fd1ef9682ad165067cac76e576d19689e0」
+  [ffa7b160]「f8aff727ba3da0358815b1766ed232fd1ef9682ad165067cac76e576d19689e0」
 - BloodOrangeMix_half.ckpt  
-「b2168aaa59fa91229b8add21f140ac9271773fe88a387276f3f0c7d70f726a83」
+ [ffa7b160]「b2168aaa59fa91229b8add21f140ac9271773fe88a387276f3f0c7d70f726a83」
 - BloodOrangeMix.ckpt  
 [ffa7b160] 「25cece3fe303ea8e3ad40c3dca788406dbd921bcf3aa8e3d1c7c5ac81f208a4f」
 - BloodOrangeMix.safetensors  
@@ -802,7 +803,7 @@ Stable. Popular in the Japanese community.
 
 ----
 
-### BloodOrangeMix_half [ffa7b160]
+### BloodOrangeMix_half
 
 ▼?
 Anything+Nai+Gape0.5
@@ -825,7 +826,7 @@ NSFW expression will be softer and have less impact on the Anything style painti
 
 ----
 
-### BloodNightOrangeMix [ffa7b160]
+### BloodNightOrangeMix
 
 ▼?
 
@@ -845,13 +846,16 @@ It is a merged model that just did AnythingV3+ (NAI-NAISFW) 0.3.
 
 ----
 
-## ElderOrangeMix [3a46a1e0]
+## ElderOrangeMix
 
 ※I found this model to be very prone to body collapse. Not recommended.
 
 ▼?
 anything and everything mix ver.1.5+Gape+Nai(AnEve.G.N0.3)
 This is a merged model with improved NSFW representation of anything and everything mix ver.1.5.
+
+▼Hash
+[3a46a1e0]
 
 ▼Use Models
 
