@@ -62,7 +62,7 @@ Maintain a repository for the following purposes.
     - [BloodNightOrangeMix](#bloodnightorangemix)
   - [ElderOrangeMix](#elderorangemix)
   - [Troubleshooting](#troubleshooting)
-  - [FAQ](#faq)
+  - [FAQ and Tips](#faq-and-tips)
 
 
 
@@ -200,8 +200,8 @@ If below 0.45, Block noise occurs.
 🗒Model List
 
 - AbyssOrangeMix2_sfw｜BasilMix U-Net Blocks Weight Merge
-  - AbyssOrangeMix2_nsfw｜+ NAI-NAISFW Merge
-    - AbyssOrangeMix2_hard｜+ Gape0.3 Merge
+  - AbyssOrangeMix2_nsfw｜+ NAI-NAISFW 0.3 Merge
+    - AbyssOrangeMix2_hard｜+ Gape 0.3 Merge
 
 ※Changed suffix of models.  
 _base →_sfw: _base was changed to_sfw.
@@ -216,12 +216,14 @@ _half and non suffix →_hard: Gape merged models were given the suffix _hard.ga
 
 ▼Hash
 
+- AbyssOrangeMix2_sfw.ckpt  
+「f75b19923f2a4a0e70f564476178eedd94e76e2c94f8fd8f80c548742b5b51b9」
 - AbyssOrangeMix2_sfw.safetensors  
-f75b19923f2a4a0e70f564476178eedd94e76e2c94f8fd8f80c548742b5b51b9  
+「038ba203d8ba3c8af24f14e01fbb870c85bbb8d4b6d9520804828f4193d12ce9」  
 - AbyssOrangeMix2_nsfw.safetensors  
-0873291ac5419eaa7a18726e8841ce0f15f701ace29e0183c47efad2018900a4  
+「0873291ac5419eaa7a18726e8841ce0f15f701ace29e0183c47efad2018900a4」  
 - AbyssOrangeMix_hard.safetensors  
-0fc198c4908e98d7aae2a76bd78fa004e9c21cb0be7582e36008b4941169f18e  
+「0fc198c4908e98d7aae2a76bd78fa004e9c21cb0be7582e36008b4941169f18e」  
 
 ▼Use Models
 
@@ -881,10 +883,8 @@ This is a merged model with improved NSFW representation of anything and everyth
 1. blurred Images & clearly low quality output  
 If the generated images are blurred or only clearly low quality output is produced, it is possible that the vae, etc. are not loaded properly. Try reloading the model/vae or restarting the WebUI/OS.
 
-## FAQ
+## FAQ and Tips
 
-<details>
-  <summary>READ MORE</summary>
 
 ▼Nooo, Don’t work. This guy is Scammer  
 STEP1: BUY HUGE PC  
@@ -892,12 +892,12 @@ Anon is working day and night on the minimum PC specs that GenerativeAI can run 
 <https://seesaawiki.jp/nai_ch/d/%a5%ed%a1%bc%a5%ab%a5%eb%c9%f4%a1%a1PC%a5%b9%a5%da%a5%c3%a5%af%c1%ea%c3%cc%bc%bc>
 
 ▼Noooo, can't generate image like samples.This models is hype.
+❌
 <img src="https://files.catbox.moe/nte6ud.webp"  width="500" height="">
+🟢
 <img src="https://files.catbox.moe/lta462.webp"  width="500" height="">
 
 ▼Nooooo, This models have troy virus. don't download.  
 All models in this repository are secure. It is most likely that anti-virus software has detected them erroneously.  
 However, the models with the .ckpt extension have the potential danger of executing arbitrary code.  
 A safe model that is free from these dangers is the model with the .safetensors extension.  
-
-</details>
