@@ -217,7 +217,7 @@ _half and non suffix →_hard: Gape merged models were given the suffix _hard.ga
 ▼Hash
 
 - AbyssOrangeMix2_sfw.ckpt  
-「f75b19923f2a4a0e70f564476178eedd94e76e2c94f8fd8f80c548742b5b51b9」
+「f75b19923f2a4a0e70f564476178eedd94e76e2c94f8fd8f80c548742b5b51b9」  
 - AbyssOrangeMix2_sfw.safetensors  
 「038ba203d8ba3c8af24f14e01fbb870c85bbb8d4b6d9520804828f4193d12ce9」  
 - AbyssOrangeMix2_nsfw.safetensors  
@@ -891,10 +891,10 @@ STEP1: BUY HUGE PC
 Anon is working day and night on the minimum PC specs that GenerativeAI can run on. The following is a detailed list.  
 <https://seesaawiki.jp/nai_ch/d/%a5%ed%a1%bc%a5%ab%a5%eb%c9%f4%a1%a1PC%a5%b9%a5%da%a5%c3%a5%af%c1%ea%c3%cc%bc%bc>
 
-▼Noooo, can't generate image like samples.This models is hype.
-❌
+▼Noooo, can't generate image like samples.This models is hype.  
+❌  
 <img src="https://files.catbox.moe/nte6ud.webp"  width="500" height="">
-🟢
+🟢  
 <img src="https://files.catbox.moe/lta462.webp"  width="500" height="">
 
 ▼Nooooo, This models have troy virus. don't download.  
