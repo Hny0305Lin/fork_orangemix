@@ -173,7 +173,7 @@ The images thus generated, strangely enough, look like MidJourney or Nijijourney
 4. [Kemomimi Girl](https://majinai.art/ja/i/hrUSb31)
 5. [Supermarket](https://majinai.art/ja/i/6Mf4bVK)
 6. [Lunch Time](https://majinai.art/ja/i/YAgQ4On)
-7. [Womens in Foreast](https://majinai.art/ja/i/oHZYum_)
+7. [Womens in the Forest](https://majinai.art/ja/i/oHZYum_)
 8. [Pirate](https://majinai.art/ja/i/yEA3EZk)
 9. [Japanese Girl](https://majinai.art/ja/i/x4G_B_e)
 10. [Sweets Time](https://majinai.art/ja/i/vK_mkac)
