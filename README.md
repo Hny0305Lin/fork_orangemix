@@ -31,35 +31,35 @@ Maintain a repository for the following purposes.
   - [Batch Download](#batch-download)
   - [select and download](#select-and-download)
 - [Model Detail \& Merge Recipes](#model-detail--merge-recipes)
-  - [AbyssOrangeMix2](#abyssorangemix2)
-    - [AbyssOrangeMix2\_sfw](#abyssorangemix2_sfw)
-    - [AbyssOrangeMix2\_nsfw](#abyssorangemix2_nsfw)
-    - [AbyssOrangeMix2\_hard](#abyssorangemix2_hard)
-  - [EerieOrangeMix](#eerieorangemix)
-    - [EerieOrangeMix](#eerieorangemix-1)
-      - [EerieOrangeMix\_base](#eerieorangemix_base)
-      - [EerieOrangeMix\_Night](#eerieorangemix_night)
-      - [EerieOrangeMix\_half](#eerieorangemix_half)
-      - [EerieOrangeMix](#eerieorangemix-2)
-    - [EerieOrangeMix2](#eerieorangemix2)
-      - [EerieOrangeMix2\_base](#eerieorangemix2_base)
-      - [EerieOrangeMix2\_night](#eerieorangemix2_night)
-      - [EerieOrangeMix2\_half](#eerieorangemix2_half)
-      - [EerieOrangeMix2](#eerieorangemix2-1)
+  - [AbyssOrangeMix2 (AOM2)](#abyssorangemix2-aom2)
+    - [AbyssOrangeMix2\_sfw (AOM2s)](#abyssorangemix2_sfw-aom2s)
+    - [AbyssOrangeMix2\_nsfw (AOM2n)](#abyssorangemix2_nsfw-aom2n)
+    - [AbyssOrangeMix2\_hard (AOM2h)](#abyssorangemix2_hard-aom2h)
+  - [EerieOrangeMix (EOM)](#eerieorangemix-eom)
+    - [EerieOrangeMix (EOM1)](#eerieorangemix-eom1)
+      - [EerieOrangeMix\_base (EOM1b)](#eerieorangemix_base-eom1b)
+      - [EerieOrangeMix\_Night (EOM1n)](#eerieorangemix_night-eom1n)
+      - [EerieOrangeMix\_half (EOM1h)](#eerieorangemix_half-eom1h)
+      - [EerieOrangeMix (EOM1)](#eerieorangemix-eom1-1)
+    - [EerieOrangeMix2 (EOM2)](#eerieorangemix2-eom2)
+      - [EerieOrangeMix2\_base (EOM2b)](#eerieorangemix2_base-eom2b)
+      - [EerieOrangeMix2\_night (EOM2n)](#eerieorangemix2_night-eom2n)
+      - [EerieOrangeMix2\_half (EOM2h)](#eerieorangemix2_half-eom2h)
+      - [EerieOrangeMix2 (EOM2)](#eerieorangemix2-eom2-1)
     - [Models Comparison](#models-comparison)
-  - [AbyssOrangeMix](#abyssorangemix)
-    - [AbyssOrangeMix\_base](#abyssorangemix_base)
-    - [AbyssOrangeMix\_Night](#abyssorangemix_night)
-    - [AbyssOrangeMix\_half](#abyssorangemix_half)
-    - [AbyssOrangeMix](#abyssorangemix-1)
-  - [ElyOrangeMix](#elyorangemix)
-    - [ElyOrangeMix](#elyorangemix-1)
-    - [ElyOrangeMix\_half](#elyorangemix_half)
-    - [ElyNightOrangeMix](#elynightorangemix)
-  - [BloodOrangeMix](#bloodorangemix)
-    - [BloodOrangeMix](#bloodorangemix-1)
-    - [BloodOrangeMix\_half](#bloodorangemix_half)
-    - [BloodNightOrangeMix](#bloodnightorangemix)
+  - [AbyssOrangeMix (AOM)](#abyssorangemix-aom)
+    - [AbyssOrangeMix\_base (AOMb)](#abyssorangemix_base-aomb)
+    - [AbyssOrangeMix\_Night (AOMn)](#abyssorangemix_night-aomn)
+    - [AbyssOrangeMix\_half (AOMh)](#abyssorangemix_half-aomh)
+    - [AbyssOrangeMix (AOM)](#abyssorangemix-aom-1)
+  - [ElyOrangeMix (ELOM)](#elyorangemix-elom)
+    - [ElyOrangeMix (ELOM)](#elyorangemix-elom-1)
+    - [ElyOrangeMix\_half (ELOMh)](#elyorangemix_half-elomh)
+    - [ElyNightOrangeMix (ELOMn)](#elynightorangemix-elomn)
+  - [BloodOrangeMix (BOM)](#bloodorangemix-bom)
+    - [BloodOrangeMix (BOM)](#bloodorangemix-bom-1)
+    - [BloodOrangeMix\_half (BOMh)](#bloodorangemix_half-bomh)
+    - [BloodNightOrangeMix (BOMn)](#bloodnightorangemix-bomn)
   - [ElderOrangeMix](#elderorangemix)
   - [Troubleshooting](#troubleshooting)
   - [FAQ and Tips](#faq-and-tips)
@@ -107,7 +107,7 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 
 # Model Detail & Merge Recipes
 
-## AbyssOrangeMix2
+## AbyssOrangeMix2 (AOM2)
 
 ――Creating the next generation of illustration with “Abyss”!
 
@@ -118,7 +118,7 @@ Prompt: [https://majinai.art/ja/i/nxpKRpw](https://majinai.art/ja/i/nxpKRpw)
 
 ▼About
 
-AbyssOrangeMix2 is an AI model capable of generating high-quality, highly realistic illustrations.
+AbyssOrangeMix2 (AOM2) is an AI model capable of generating high-quality, highly realistic illustrations.
 It can generate elaborate and detailed illustrations that cannot be drawn by hand. It can also be used for a variety of purposes, making it extremely useful for design and artwork.
 Furthermore, it provides an unparalleled new means of expression.
 It can generate illustrations in a variety of genres to meet a wide range of needs. I encourage you to use "Abyss" to make your designs and artwork richer and of higher quality.
@@ -173,7 +173,7 @@ The images thus generated, strangely enough, look like MidJourney or Nijijourney
 4. [Kemomimi Girl](https://majinai.art/ja/i/hrUSb31)
 5. [Supermarket](https://majinai.art/ja/i/6Mf4bVK)
 6. [Lunch Time](https://majinai.art/ja/i/YAgQ4On)
-7. [Womens in the Forest](https://majinai.art/ja/i/oHZYum_)
+7. [Womens in the Garden](https://majinai.art/ja/i/oHZYum_)
 8. [Pirate](https://majinai.art/ja/i/yEA3EZk)
 9. [Japanese Girl](https://majinai.art/ja/i/x4G_B_e)
 10. [Sweets Time](https://majinai.art/ja/i/vK_mkac)
@@ -238,7 +238,7 @@ _half and non suffix →_hard: Gape merged models were given the suffix _hard.ga
 1. BasilMix  
 「bbf07e3a1c3482c138d096f7dcdb4581a2aa573b74a68ba0906c7b657942f1c2」  
 
-### AbyssOrangeMix2_sfw
+### AbyssOrangeMix2_sfw (AOM2s)
 
 ▼**Instructions:**
 
@@ -248,7 +248,7 @@ STEP: 1｜Block Merge
 | --- | --- | --- | --- | --- |
 | AnythingV3.0  | BasilMix | 1,0.9,0.7,0.5,0.3,0.1,1,1,1,1,1,1,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0 | AbyssOrangeMix2_sfw |
 
-### AbyssOrangeMix2_nsfw
+### AbyssOrangeMix2_nsfw (AOM2n)
 
 ▼?
 
@@ -260,7 +260,7 @@ JUST AbyssOrangeMix2_sfw+ (NAI-NAISFW) 0.3.
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Difference @ 0.3 | AbyssOrangeMix_base | NovelAI animefull | NovelAI sfw  | AbyssOrangeMix2_nsfw |
 
-### AbyssOrangeMix2_hard
+### AbyssOrangeMix2_hard (AOM2h)
 
 ▼?
 +Gape0.3 version AbyssOrangeMix2_nsfw.
@@ -273,7 +273,7 @@ JUST AbyssOrangeMix2_sfw+ (NAI-NAISFW) 0.3.
 
 ----
 
-## EerieOrangeMix
+## EerieOrangeMix (EOM)
 
 EerieOrangeMix is the generic name for a U-Net Blocks Weight Merge Models based on Elysium(Anime V2).  
 Since there are infinite possibilities for U-Net Blocks Weight Merging, I plan to treat all Elysium-based models as a lineage of this model.
@@ -282,7 +282,7 @@ Since there are infinite possibilities for U-Net Blocks Weight Merging, I plan t
 
 <img src="https://files.catbox.moe/yjnqna.webp"  width="1000" height="" alt=”HeroImage_EerieOrangeMix_Designed_comp001” >
 
-### EerieOrangeMix
+### EerieOrangeMix (EOM1)
 
 ▼?  
 
@@ -359,7 +359,7 @@ nsfw, (worst quality, low quality:1.3), (depth of field, blurry:1.2), (greyscale
 
 ---
 
-#### EerieOrangeMix_base
+#### EerieOrangeMix_base (EOM1b)
 
 ▼?  
 Details are omitted since it is the same as AbyssOrangeMix.
@@ -380,7 +380,7 @@ Merge InstaF222
 | --- | --- | --- | --- | --- |
 | AnythingV3.0 | Insta_F222 | 1,0.9,0.7,0.5,0.3,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0 | Temp1 |
 
-#### EerieOrangeMix_Night
+#### EerieOrangeMix_Night (EOM1n)
 
 ▼?
 
@@ -392,7 +392,7 @@ JUST EerieOrangeMix_base+ (NAI-NAISFW) 0.3.
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Difference @ 0.3 | EerieOrangeMix_base | NovelAI animefull | NovelAI sfw | EerieOrangeMix_Night |
 
-#### EerieOrangeMix_half
+#### EerieOrangeMix_half (EOM1h)
 
 ▼?
 +Gape0.5 version EerieOrangeMix.
@@ -403,7 +403,7 @@ JUST EerieOrangeMix_base+ (NAI-NAISFW) 0.3.
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Difference @ 0.5 | EerieOrangeMix_Night | NovelAI animefull | NovelAI sfw | EerieOrangeMix_half |
 
-#### EerieOrangeMix
+#### EerieOrangeMix (EOM1)
 
 ▼**Instructions:**
 
@@ -413,7 +413,7 @@ JUST EerieOrangeMix_base+ (NAI-NAISFW) 0.3.
 
 ----
 
-### EerieOrangeMix2
+### EerieOrangeMix2 (EOM2)
 
 ▼?
 
@@ -461,7 +461,7 @@ The model was created by adding the hierarchy responsible for detailing and pain
 8. ElysiumV1
 「abbb28cb5e70d3e0a635f241b8d61cefe42eb8f1be91fd1168bc3e52b0f09ae4」
 
-#### EerieOrangeMix2_base
+#### EerieOrangeMix2_base (EOM2b)
 
 ▼?
 
@@ -477,7 +477,7 @@ The generated results do not change much with or without this process, but I wan
 | --- | --- | --- | --- | --- |
 | EerieOrangeMix_base | ElysiumV1 | 1,0.9,0.7,0.5,0.3,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0 | EerieOrangeMix2_base |
 
-#### EerieOrangeMix2_night
+#### EerieOrangeMix2_night (EOM2n)
 
 ▼?
 
@@ -489,7 +489,7 @@ JUST EerieOrangeMix2_base+ (NAI-NAISFW) 0.3.
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Difference @ 0.3 | EerieOrangeMix_base | NovelAI animefull | NovelAI sfw | EerieOrangeMix2_Night |
 
-#### EerieOrangeMix2_half
+#### EerieOrangeMix2_half (EOM2h)
 
 ▼?
 +Gape0.5 version EerieOrangeMix2.
@@ -500,7 +500,7 @@ JUST EerieOrangeMix2_base+ (NAI-NAISFW) 0.3.
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Difference @ 0.5 | EerieOrangeMix_Night | NovelAI animefull | NovelAI sfw | EerieOrangeMix2_half |
 
-#### EerieOrangeMix2
+#### EerieOrangeMix2 (EOM2)
 
 ▼**Instructions:**
 
@@ -518,7 +518,7 @@ JUST EerieOrangeMix2_base+ (NAI-NAISFW) 0.3.
 
 ----
 
-## AbyssOrangeMix
+## AbyssOrangeMix (AOM)
 
 ――How can you guys take on such a deep swamp and get results?  
 Is it something like "Made in Abyss"?  
@@ -625,7 +625,7 @@ bbd2621f3ec4fad707f75fc032a2c2602c296180a53ed3d9897d8ca7a01dd6ed
 7. sd1.5_pruned
 [] 「e1441589a6f3c5a53f5f54d0975a18a7feb7cdf0b0dee276dfc3331ae376a053」
 
-### AbyssOrangeMix_base
+### AbyssOrangeMix_base (AOMb)
 
 ▼?
 
@@ -645,7 +645,7 @@ STEP: 2｜Block Merge
 | --- | --- | --- | --- | --- |
 | AnythingV3.0  | Insta_F222 | 1,0.9,0.7,0.5,0.3,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0 | AbyssOrangeMix_base |
 
-### AbyssOrangeMix_Night
+### AbyssOrangeMix_Night (AOMn)
 
 ▼?
 
@@ -657,7 +657,7 @@ JUST AbyssOrangeMix_base+ (NAI-NAISFW) 0.3.
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Difference @ 0.3 | AbyssOrangeMix_base | NovelAI animefull | NovelAI sfw  | AbyssOrangeMix_Night |
 
-### AbyssOrangeMix_half
+### AbyssOrangeMix_half (AOMh)
 
 ▼?
 +Gape0.5 version AbyssOrangeMix.
@@ -668,7 +668,7 @@ JUST AbyssOrangeMix_base+ (NAI-NAISFW) 0.3.
 | --- | --- | --- | --- | --- | --- |
 | 1 | Add Difference @ 0.5 | AbyssOrangeMix_Night | Gape60 | NovelAI animefull | AbyssOrangeMix_half |
 
-### AbyssOrangeMix
+### AbyssOrangeMix (AOM)
 
 ▼**Instructions:**
 
@@ -678,7 +678,7 @@ JUST AbyssOrangeMix_base+ (NAI-NAISFW) 0.3.
 
 ----
 
-## ElyOrangeMix
+## ElyOrangeMix (ELOM)
 
 <img src="https://i.imgur.com/AInEXA5.jpg"  width="1000" height="">
 
@@ -701,7 +701,7 @@ It can produce SFW, NSFW, and any other type of artwork, while retaining the Ely
 - ElyNightOrangeMix[6b508e59]
 
 
-### ElyOrangeMix
+### ElyOrangeMix (ELOM)
 
 ▼Use Models
 
@@ -719,7 +719,7 @@ It can produce SFW, NSFW, and any other type of artwork, while retaining the Ely
 
 ---
 
-### ElyOrangeMix_half
+### ElyOrangeMix_half (ELOMh)
 
 ▼?
 
@@ -741,7 +741,7 @@ It can produce SFW, NSFW, and any other type of artwork, while retaining the Ely
 
 ----
 
-### ElyNightOrangeMix
+### ElyNightOrangeMix (ELOMn)
 
 ▼?
 
@@ -761,7 +761,7 @@ It is a merged model that just did Elysium_Anime_V2+ (NAI-NAISFW) 0.3.
 
 ----
 
-## BloodOrangeMix
+## BloodOrangeMix (BOM)
 
 <img src="https://i.imgur.com/soAnnFk.jpg"  width="1000" height="">
 
@@ -790,7 +790,7 @@ Stable. Popular in the Japanese community.
 - unlabeled : SFW ～ HARDCORE ～🤯  ex)AbyssOrangeMix, BloodOrangeMix...etc
 
 
-### BloodOrangeMix
+### BloodOrangeMix (BOM)
 
 ▼Use Models
 
@@ -808,7 +808,7 @@ Stable. Popular in the Japanese community.
 
 ----
 
-### BloodOrangeMix_half
+### BloodOrangeMix_half (BOMh)
 
 ▼?
 Anything+Nai+Gape0.5
@@ -831,7 +831,7 @@ NSFW expression will be softer and have less impact on the Anything style painti
 
 ----
 
-### BloodNightOrangeMix
+### BloodNightOrangeMix (BOMn)
 
 ▼?
 
@@ -851,7 +851,7 @@ It is a merged model that just did AnythingV3+ (NAI-NAISFW) 0.3.
 
 ----
 
-## ElderOrangeMix
+## ElderOrangeMix 
 
 ※I found this model to be very prone to body collapse. Not recommended.
 
