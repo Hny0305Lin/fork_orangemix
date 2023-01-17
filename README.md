@@ -185,7 +185,7 @@ The images thus generated, strangely enough, look like MidJourney or Nijijourney
 
 ▼How to use
 
-- VAE: orangemix.vae.pt (※Just renamed from nai.vae.pt)
+- VAE: orangemix.vae.pt
 - ~~Prompts can be long or short~~  
 As simple as possible is good. Do not add excessive detail prompts. Start with just this negative propmt.  
 (worst quality, low quality:1.4)  
@@ -341,7 +341,7 @@ The AnythingModel is good at cute girls anyway, and no matter how hard I try, it
 
 ▼ How to use  
 
-- VAE: orangemix.vae.pt (※Just renamed from nai.vae.pt)
+- VAE: orangemix.vae.pt
 - As simple as possible is good. Do not add excessive detail prompts. Start with just this.
 (worst quality, low quality:1.4)
 - Sampler: “DPM++ SDE Karras” is good
@@ -567,7 +567,7 @@ Used embeddings: bad_prompt_version2 [afea]
 
 ▼How to use
 
-- VAE: orangemix.vae.pt (※Just renamed from nai.vae.pt)
+- VAE: orangemix.vae.pt
 - ~~Prompts can be long or short~~  
 As simple as possible is good. Do not add excessive detail prompts. Start with just this.
 (worst quality, low quality:1.4)
@@ -698,7 +698,7 @@ It can produce SFW, NSFW, and any other type of artwork, while retaining the Ely
 - unlabeled : SFW ～ HARDCORE ～🤯  ex)AbyssOrangeMix, BloodOrangeMix...etc
 
 ▼How to use
-- VAE: orangemix.vae.pt (※Just renamed from nai.vae.pt)
+- VAE: orangemix.vae.pt
 
 ▼Hash (SHA256)
 
@@ -796,7 +796,7 @@ Stable. Popular in the Japanese community.
 - unlabeled : SFW ～ HARDCORE ～🤯  ex)AbyssOrangeMix, BloodOrangeMix...etc
 
 ▼How to use
-- VAE: orangemix.vae.pt (※Just renamed from nai.vae.pt)
+- VAE: orangemix.vae.pt
 
 ### BloodOrangeMix (BOM)
 
