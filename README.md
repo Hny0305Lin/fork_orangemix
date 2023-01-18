@@ -1,5 +1,5 @@
 ---
-license: cc0-1.0
+license: apache-2.0
 tags:
   - stable-diffusion
   - text-to-image
@@ -26,6 +26,7 @@ Maintain a repository for the following purposes.
 - [OrangeMixs](#orangemixs)
 - [Table of Contents](#table-of-contents)
 - [Reference](#reference)
+- [Licence](#licence)
 - [Disclaimer](#disclaimer)
 - [How to download](#how-to-download)
   - [Batch Download](#batch-download)
@@ -72,6 +73,16 @@ Maintain a repository for the following purposes.
 
 +/hdg/ Stable Diffusion Models Cookbook - <https://rentry.org/hdgrecipes#g-anons-unnamed-mix-e93c3bf7>
 Model names are named after Cookbook precedents🍊
+
+# Licence
+As of 2023-01-18, this repository is covered by the Apache License 2.0🐦  
+(This is the result of research into an appropriate licence to inherit the work of the cookbooks, the primary reference source for model card notation.)  
+
+http://www.apache.org/licenses/LICENSE-2.0  
+- Retain copyright and patent notices
+- **Clearly indicate where modifications have been made.**
+- Commercial use permitted, modification permitted, redistribution permitted, patents permitted.
+- No warranty
 
 # Disclaimer
 
