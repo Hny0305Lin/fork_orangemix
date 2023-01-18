@@ -80,7 +80,10 @@ As of 2023-01-18, this repository is covered by the Apache License 2.0🐦
 
 http://www.apache.org/licenses/LICENSE-2.0  
 - Retain copyright and patent notices
-- **Clearly indicate where modifications have been made.**
+
+＿人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人＿  
+＞**卍卍卍🐦Clearly indicate where modifications have been made🐦卍卍卍**＜  
+￣^Y^Y^YY^Y^Y^Y^YY^Y^Y^Y^YY^Y^Y^Y^YY^Y^Y^Y^YY^Y^Y^Y^Y^Y^Y^Y^Y^YY^Y￣  
 - Commercial use permitted, modification permitted, redistribution permitted, patents permitted.
 - No warranty
 
