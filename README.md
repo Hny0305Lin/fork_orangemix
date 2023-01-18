@@ -86,8 +86,6 @@ This model is open access and available to all, with a CreativeML OpenRAIL-M lic
 
 - **Clearly indicate where modifications have been made.**  
 If you used it for merging, please state what steps you took to do so.
-- Commercial use permitted, modification permitted, redistribution permitted, patents permitted.
-- No warranty
 
 # Disclaimer
 
