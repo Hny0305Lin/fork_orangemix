@@ -347,11 +347,11 @@ Also, the unnatural bokeh that sometimes occurred in the previous version may ha
 2.Added IN deep layers (IN06-11) to the layer merging from the realistic model (BasilMix).
 
 It is said that the IN deep layer (IN06-11) is the layer that determines composition, etc., but perhaps light, reflections, skin texture, etc., may also be involved.
-It is like "Global Illumination," "Normal Map," and "Ambient Occlusion" in 3DCG.
+It is like "Global Illumination", "Ray tracing" and "Ambient Occlusion" in 3DCG.
 
 <img src="https://github.com/WarriorMama777/imgup/blob/main/img/AbyssOrangeMix2/AbyssOrangeMix2_comparison_comp001.webp?raw=true"  width="" height="" alt=”AbyssOrangeMix2_comparison_comp001”>
 
-※This does not fundamentally improve the fingers, and I recommend using bad_prompt, etc. (Embedding) in combination.  
+※This does not fundamentally improve the fingers. Therefore, More research needs to be done to improve the fingers (e.g. 'bad_prompt').
 About 30-50% chance of generating correct fingers(?). Abyss is deep.
 
 ▼Sample Gallery
@@ -1115,7 +1115,7 @@ Anon is working day and night on the minimum PC specs that GenerativeAI can run 
 <img src="https://files.catbox.moe/lta462.webp"  width="500" height="">
 
 
-Simple Negative, Best Way  
+Simple Negative, Better Way  
 (Particularly useful for U-Net Blocks Weight Merge models)
 
 ▼Nooooo, This models have troy virus. don't download.  
