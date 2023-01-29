@@ -1109,13 +1109,14 @@ Anon is working day and night on the minimum PC specs that GenerativeAI can run 
 
 ▼Noooo, can't generate image like samples.This models is hype. 
 
-Simple Negative, Best Way  
-(Particularly useful for U-Net Blocks Weight Merge models)
-
 ❌  
 <img src="https://files.catbox.moe/nte6ud.webp"  width="500" height="">
 🟢  
 <img src="https://files.catbox.moe/lta462.webp"  width="500" height="">
+
+
+Simple Negative, Best Way  
+(Particularly useful for U-Net Blocks Weight Merge models)
 
 ▼Nooooo, This models have troy virus. don't download.  
 All models in this repository are secure. It is most likely that anti-virus software has detected them erroneously.  
