@@ -19,11 +19,6 @@ Maintain a repository for the following purposes.
 
 <img src="https://i.imgur.com/VZg0LqQ.png"  width="1000" height="">
 
-# Gradio
-
-We support a [Gradio](https://github.com/gradio-app/gradio) Web UI to run OrangeMixs:
-[![Open In Spaces](https://camo.githubusercontent.com/00380c35e60d6b04be65d3d94a58332be5cc93779f630bcdfc18ab9a3a7d3388/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f25463025394625413425393725323048756767696e67253230466163652d5370616365732d626c7565)](https://huggingface.co/spaces/akhaliq/webui-orangemixs)
-
 ----
 
 # Table of Contents
@@ -141,6 +136,9 @@ AbyssOrangeMix2 (AOM2) is an AI model capable of generating high-quality, highly
 It can generate elaborate and detailed illustrations that cannot be drawn by hand. It can also be used for a variety of purposes, making it extremely useful for design and artwork.
 Furthermore, it provides an unparalleled new means of expression.
 It can generate illustrations in a variety of genres to meet a wide range of needs. I encourage you to use "Abyss" to make your designs and artwork richer and of higher quality.
+
+<img src="https://raw.githubusercontent.com/WarriorMama777/imgup/main/img/AbyssOrangeMix2/UBM_ON_OFF_4_comp001.webp"  width="" height="" alt=”UBM_ON_OFF_4_comp001.webp”>
+※nvidia joke.
 
 ▼Description for engineers/enthusiasts
 
