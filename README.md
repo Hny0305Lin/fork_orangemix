@@ -33,7 +33,7 @@ Maintain a repository for the following purposes.
 - [How to download](#how-to-download)
   - [Batch Download](#batch-download)
   - [select and download](#select-and-download)
-- [Model Helth chack](#model-helth-chack)
+- [Model Helth Check](#model-helth-check)
 - [Model Detail \& Merge Recipes](#model-detail--merge-recipes)
   - [AbyssOrangeMix2 (AOM2)](#abyssorangemix2-aom2)
     - [AbyssOrangeMix2\_sfw (AOM2s)](#abyssorangemix2_sfw-aom2s)
@@ -121,13 +121,13 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 
 ----
 
-# Model Helth chack
+# Model Helth Check
 
 According to the author of the U-Net Blocks Weight Merge extension, there are cases of model corruption in merged models. The results of a health check carried out using a script to repair problems with corrupted merged models🕵️‍♀️  
 Reference：[調査] Smile Test: Elysium_Anime_V3 問題を調べる #3｜bbcmc｜note - https://note.com/bbcmc/n/n12c05bf109cc
 
 <details>
-  <summary>🩺READ MORE: Models Helth chack List🩺</summary>
+  <summary>🩺READ MORE: Models Helth Check List🩺</summary>
 
  - AbyssOrangeMixs2
     
@@ -311,8 +311,6 @@ Reference：[調査] Smile Test: Elysium_Anime_V3 問題を調べる #3｜bbcmc�
 ----
 
 # Model Detail & Merge Recipes
-
-----
 
 ## AbyssOrangeMix2 (AOM2)
 
