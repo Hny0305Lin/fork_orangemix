@@ -1107,7 +1107,11 @@ STEP1: BUY HUGE PC
 Anon is working day and night on the minimum PC specs that GenerativeAI can run on. The following is a detailed list.  
 <https://seesaawiki.jp/nai_ch/d/%a5%ed%a1%bc%a5%ab%a5%eb%c9%f4%a1%a1PC%a5%b9%a5%da%a5%c3%a5%af%c1%ea%c3%cc%bc%bc>
 
-▼Noooo, can't generate image like samples.This models is hype.  
+▼Noooo, can't generate image like samples.This models is hype. 
+
+Simple Negative, Best Way  
+(Particularly useful for U-Net Blocks Weight Merge models)
+
 ❌  
 <img src="https://files.catbox.moe/nte6ud.webp"  width="500" height="">
 🟢  
