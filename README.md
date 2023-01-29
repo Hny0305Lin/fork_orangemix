@@ -351,7 +351,7 @@ It is like "Global Illumination", "Ray tracing" and "Ambient Occlusion" in 3DCG.
 
 <img src="https://github.com/WarriorMama777/imgup/blob/main/img/AbyssOrangeMix2/AbyssOrangeMix2_comparison_comp001.webp?raw=true"  width="" height="" alt=”AbyssOrangeMix2_comparison_comp001”>
 
-※This does not fundamentally improve the fingers. Therefore, More research needs to be done to improve the fingers (e.g. 'bad_prompt').
+※This does not fundamentally improve the fingers. Therefore, More research needs to be done to improve the fingers (e.g. '[bad_prompt](https://huggingface.co/datasets/Nerfgun3/bad_prompt)').
 About 30-50% chance of generating correct fingers(?). Abyss is deep.
 
 ▼Sample Gallery
@@ -487,7 +487,7 @@ JUST AbyssOrangeMix2_sfw+ (NAI-NAISFW) 0.3.
 EerieOrangeMix is the generic name for a U-Net Blocks Weight Merge Models based on Elysium(Anime V2).  
 Since there are infinite possibilities for U-Net Blocks Weight Merging, I plan to treat all Elysium-based models as a lineage of this model.
 
-※This does not fundamentally improve the fingers, and I recommend using bad_prompt, etc. (Embedding) in combination.
+※This does not fundamentally improve the fingers. Therefore, More research needs to be done to improve the fingers (e.g. '[bad_prompt](https://huggingface.co/datasets/Nerfgun3/bad_prompt)').
 
 <img src="https://files.catbox.moe/yjnqna.webp"  width="1000" height="" alt=”HeroImage_EerieOrangeMix_Designed_comp001” >
 
