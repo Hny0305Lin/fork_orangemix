@@ -588,7 +588,7 @@ Merge InstaF222
 
 | Model: A | Model: B | Weight | Base alpha | Merge Name |
 | --- | --- | --- | --- | --- |
-| AnythingV3.0 | Insta_F222 | 1,0.9,0.7,0.5,0.3,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0 | Temp1 |
+| Elysium Anime V2 | Insta_F222 | 1,0.9,0.7,0.5,0.3,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0 | Temp1 |
 
 #### EerieOrangeMix_Night (EOM1n)
 
