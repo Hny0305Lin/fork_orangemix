@@ -153,7 +153,10 @@ There are two major changes from AOM2.
 
 e.g.: explanatory diagram by MEME : [GO TO MEME ZONE↓](#MEME_realface)
 
-2: sfw/nsfw merged into one model. Originally, nsfw models were separated because adding NSFW content (models like NAI and gape) would change the face and cause the aforementioned problems. Now that those have been improved, the models can be packed into one.
+2: sfw/nsfw merged into one model. Originally, nsfw models were separated because adding NSFW content (models like NAI and gape) would change the face and cause the aforementioned problems. Now that those have been improved, the models can be packed into one.  
+In addition, thanks to excellent extensions such as [ModelToolkit](https://github.com/arenatemp/stable-diffusion-webui-model-toolkit
+), the model file size could be reduced (1.98 GB per model).
+
 
 ![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/AOM3_G_Full_2_comp002.webp?raw=true "")
 
