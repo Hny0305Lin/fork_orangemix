@@ -35,10 +35,10 @@ Maintain a repository for the following purposes.
   - [select and download](#select-and-download)
 - [Model Detail \& Merge Recipes](#model-detail--merge-recipes)
   - [AbyssOrangeMix3 (AOM3)](#abyssorangemix3-aom3)
-    - [\[AOM3\]](#aom3)
-    - [\[AOM3A1\]](#aom3a1)
-    - [\[AOM3A2\]](#aom3a2)
-    - [\[AOM3A3\]](#aom3a3)
+    - [AOM3](#aom3)
+    - [AOM3A1](#aom3a1)
+    - [AOM3A2](#aom3a2)
+    - [AOM3A3](#aom3a3)
   - [AbyssOrangeMix2 (AOM2)](#abyssorangemix2-aom2)
     - [AbyssOrangeMix2\_sfw (AOM2s)](#abyssorangemix2_sfw-aom2s)
     - [AbyssOrangeMix2\_nsfw (AOM2n)](#abyssorangemix2_nsfw-aom2n)
@@ -144,14 +144,14 @@ The main model, "AOM3 (AbyssOrangeMix3)", is a purely upgraded model that improv
 
 &nbsp;
 
- ### [AOM3] 
+### AOM3
 
-Features: high-quality, realistic textured illustrations can be generated.
+Features: high-quality, realistic textured illustrations can be generated.  
 There are two major changes from AOM2.
 
 1: Models for NSFW such as _nsfw and _hard have been improved: the models after nsfw in AOM2 generated creepy realistic faces, muscles and ribs when using Hires.fix, even though they were animated characters. These have all been improved in AOM3.
 
-e.g.: explanatory diagram by MEME [GO TO MEME ZONE↓](#MEME_realface)
+e.g.: explanatory diagram by MEME : [GO TO MEME ZONE↓](#MEME_realface)
 
 2: sfw/nsfw merged into one model. Originally, nsfw models were separated because adding NSFW content (models like NAI and gape) would change the face and cause the aforementioned problems. Now that those have been improved, the models can be packed into one.
 
@@ -159,15 +159,15 @@ e.g.: explanatory diagram by MEME [GO TO MEME ZONE↓](#MEME_realface)
 
 ▼Variations
 
- ### [AOM3A1]
+### AOM3A1
 
 Features: Anime like illustrations with flat paint. Cute enough as it is, but I really like to apply LoRA of anime characters to this model to generate high quality anime illustrations like a frame from a theatre version.
 
-###  [AOM3A2]
+ ### AOM3A2
 
 Features: Oil paintings like style artistic illustrations and stylish background depictions. In fact, this is mostly due to the work of Counterfeit 2.5, but the textures are more realistic thanks to the U-Net Blocks Weight Merge.
 
- ### [AOM3A3] 
+ ### AOM3A3
 
 Features: Midpoint of artistic and kawaii. the model has been tuned to combine realistic textures, a artistic style that also feels like an oil colour style, and a cute anime-style face. Can be used to create a wide range of illustrations.
 
@@ -177,6 +177,137 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
 
 ![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/AOM3_G_Art_comp003.webp?raw=true "")
 
+
+▼Sample Gallery
+
+Editing🚧
+
+▼How to use
+
+- Prompts
+    - Negative prompts is As simple as possible is good.  
+    (worst quality, low quality:1.4)
+    - Using "3D" as a negative will result in a rough sketch style at the "sketch" level. Use with caution as it is a very strong prompt.
+    - How to avoid Real Face  
+    (realistic, lip, nose, tooth, rouge, lipstick, eyeshadow:1.0), (abs, muscular, rib:1.0),
+    - How to avoid Bokeh  
+    (depth of field, bokeh, blurry:1.4)
+    - 🔰Basic negative prompts sample for Anime girl  
+    (worst quality, low quality:1.4), (realistic, lip, nose, tooth, rouge, lipstick, eyeshadow:1.0), (dusty sunbeams:1.0),, (abs, muscular, rib:1.0), (depth of field, bokeh, blurry:1.4), (greyscale, monochrome:1.0), text, title, logo, signature
+- Sampler: “DPM++ SDE Karras” is good
+- Steps: forTest: 12～ ,illustration: 20～
+- Clipskip: 1 or 2
+- Upscaler :
+    - Detailed illust → Latenet (nearest-exact)  
+    Denoise strength: 0.5 (0.5~0.6)
+    - Simple upscale: Swin IR, ESRGAN, Remacri etc…  
+    Denoise strength: Can be set low. (0.35~0.6)
+
+---
+
+👩‍🍳Model details / Recipe
+
+▼Hash
+
+- AOM3.safetensors  
+D124FC18F0232D7F0A2A70358CDB1288AF9E1EE8596200F50F0936BE59514F6D
+- AOM3A1.safetensors  
+F303D108122DDD43A34C160BD46DBB08CB0E088E979ACDA0BF168A7A1F5820E0
+- AOM3A2.safetensors  
+553398964F9277A104DA840A930794AC5634FC442E6791E5D7E72B82B3BB88C3
+- AOM3A3.safetensors  
+EB4099BA9CD5E69AB526FCA22A2E967F286F8512D9509B735C892FA6468767CF
+
+▼Use Models
+
+1. AOM2sfw  
+「038ba203d8ba3c8af24f14e01fbb870c85bbb8d4b6d9520804828f4193d12ce9」
+2. AnythingV3.0 huggingface pruned  
+[2700c435]「543bcbc21294831c6245cd74c8a7707761e28812c690f946cb81fef930d54b5e」
+3. NovelAI animefull-final-pruned  
+[925997e9]「89d59c3dde4c56c6d5c41da34cc55ce479d93b4007046980934b14db71bdb2a8」
+4. NovelAI sfw  
+[1d4a34af]「22fa233c2dfd7748d534be603345cb9abf994a23244dfdfc1013f4f90322feca」
+5. Gape60  
+[25396b85]「893cca5903ccd0519876f58f4bc188dd8fcc5beb8a69c1a3f1a5fe314bb573f5」
+6. BasilMix  
+「bbf07e3a1c3482c138d096f7dcdb4581a2aa573b74a68ba0906c7b657942f1c2」
+7. chilloutmix_fp16.safetensors  
+「4b3bf0860b7f372481d0b6ac306fed43b0635caf8aa788e28b32377675ce7630」
+8. Counterfeit-V2.5_fp16.safetensors  
+「71e703a0fca0e284dd9868bca3ce63c64084db1f0d68835f0a31e1f4e5b7cca6」
+9. kenshi_01_fp16.safetensors  
+「3b3982f3aaeaa8af3639a19001067905e146179b6cddf2e3b34a474a0acae7fa」
+
+----
+
+▼AOM3
+
+▼**Instructions:**
+
+USE: [https://github.com/hako-mikan/sd-webui-supermerger/](https://github.com/hako-mikan/sd-webui-supermerger/)  
+
+(This extension is really great. It turns a month's work into an hour. Thank you)
+
+STEP: 1 | BWM : NAI - NAIsfw & gape - NAI
+
+CUT: IN05-IN08, OUT10-11
+
+| Model: A | Model: B | Model: C | Interpolation Method | Weight | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| AOM2sfw | NAI full | NAI sfw | Add Difference @ 1.0 | 0,0.5,0.5,0.5,0.5,0.5,0,0,0,0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0,0 | temp01 |
+
+CUT: IN05-IN08, OUT10-11
+
+| Model: A | Model: B | Model: C | Interpolation Method | Weight | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| temp01 | gape60 | NAI full | Add Difference @ 1.0 | 0,0.5,0.5,0.5,0.5,0.5,0,0,0,0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0,0 | AOM3 |
+
+▼AOM3A1
+
+▼**Instructions:**
+
+STEP: 1 | Change the base photorealistic model of AOM3 from BasilMix to Chilloutmix.
+
+Change the photorealistic model from BasilMix to Chilloutmix and proceed to gapeNAI merge.
+
+STEP: 2 | 
+
+| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| 1 | SUM @ 0.5 | Counterfeit2.5 | Kenshi |  | Counterfeit+Kenshi |
+
+STEP: 3 | 
+
+CUT: BASE0, IN00-IN08：0, IN10：0.1, OUT03-04-05：0, OUT08：0.2
+
+| Model: A | Model: B | Model: C | Interpolation Method | Weight | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| AOM3 | Counterfeit+Kenshi |  | Add SUM @ 1.0 | 0,0,0,0,0,0,0,0,0,0.3,0.1,0.3,0.3,0.3,0.2,0.1,0,0,0,0.3,0.3,0.2,0.3,0.4,0.5 | AOM3A1 |
+
+▼AOM3A2
+
+▼?
+
+CUT: BASE0, IN05:0.3、IN06-IN08：0, IN10：0.1, OUT03：0, OUT04：0.3, OUT05：0, OUT08：0.2
+
+▼**Instructions:**
+
+| Model: A | Model: B | Model: C | Interpolation Method | Weight | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| AOM3 | Counterfeit2.5 |  | Add SUM @ 1.0 | 0,1,1,1,1,1,0.3,0,0,0,1,0.1,1,1,1,1,1,0,1,0,1,1,0.2,1,1,1 | AOM3A2 |
+
+▼AOM3A3
+
+▼?
+
+CUT : BASE0, IN05-IN08：0, IN10：0.1, OUT03：0.5, OUT04-05：0.1, OUT08：0.2
+
+| Model: A | Model: B | Model: C | Interpolation Method | Weight | Merge Name |
+| --- | --- | --- | --- | --- | --- |
+| AOM3 | Counterfeit2.5 |  | Add SUM @ 1.0 | 0,0.6,0.6,0.6,0.6,0.6,0,0,0,0,0.6,0.1,0.6,0.6,0.6,0.6,0.6,0.5,0.1,0.1,0.6,0.6,0.2,0.6,0.6,0.6 | AOM3A3 |
+
+----
 
 &nbsp;
 
@@ -994,10 +1125,10 @@ If the generated images are blurred or only clearly low quality output is produc
 
 ▼Noo, Too many models. Tell me which one to choose.  
 
-![全部同じじゃないですか](https://github.com/WarriorMama777/imgup/blob/main/img/img_general/WHICH_MODEL_IS_BEST_comp001.webp?raw=true "全部同じじゃないですか")
+![全部同じじゃないですか](https://github.com/WarriorMama777/imgup/blob/main/img/img_general/img_MEME_whichModel_comp001.webp?raw=true "全部同じじゃないですか")
 ――©秋本治『こちら葛飾区亀有公園前派出所』
 
-▼Nooo, Don’t work. This guy is Scammer  
+▼Nooo, not work. This guy is Scammer  
 STEP1: BUY HUGE PC  
 
 ▼Noooo, can't generate image like samples.This models is hype. 
