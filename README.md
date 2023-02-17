@@ -33,13 +33,18 @@ Maintain a repository for the following purposes.
 - [How to download](#how-to-download)
   - [Batch Download](#batch-download)
   - [select and download](#select-and-download)
-- [Model Helth Check](#model-helth-check)
 - [Model Detail \& Merge Recipes](#model-detail--merge-recipes)
+  - [AbyssOrangeMix3 (AOM3)](#abyssorangemix3-aom3)
+    - [\[AOM3\]](#aom3)
+    - [\[AOM3A1\]](#aom3a1)
+    - [\[AOM3A2\]](#aom3a2)
+    - [\[AOM3A3\]](#aom3a3)
   - [AbyssOrangeMix2 (AOM2)](#abyssorangemix2-aom2)
     - [AbyssOrangeMix2\_sfw (AOM2s)](#abyssorangemix2_sfw-aom2s)
     - [AbyssOrangeMix2\_nsfw (AOM2n)](#abyssorangemix2_nsfw-aom2n)
     - [AbyssOrangeMix2\_hard (AOM2h)](#abyssorangemix2_hard-aom2h)
   - [EerieOrangeMix (EOM)](#eerieorangemix-eom)
+    - [EerieOrangeMix2.5 (EOM2.5)](#eerieorangemix25-eom25)
     - [EerieOrangeMix (EOM1)](#eerieorangemix-eom1)
       - [EerieOrangeMix\_base (EOM1b)](#eerieorangemix_base-eom1b)
       - [EerieOrangeMix\_Night (EOM1n)](#eerieorangemix_night-eom1n)
@@ -66,7 +71,7 @@ Maintain a repository for the following purposes.
     - [BloodNightOrangeMix (BOMn)](#bloodnightorangemix-bomn)
   - [ElderOrangeMix](#elderorangemix)
   - [Troubleshooting](#troubleshooting)
-  - [FAQ and Tips](#faq-and-tips)
+  - [FAQ and Tips (🐈MEME ZONE🦐)](#faq-and-tips-meme-zone)
 
 
 
@@ -121,196 +126,59 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 
 ----
 
-# Model Helth Check
 
-According to the author of the U-Net Blocks Weight Merge extension, there are cases of model corruption in merged models. The results of a health check carried out using a script to repair problems with corrupted merged models🕵️‍♀️  
-Reference：[調査] Smile Test: Elysium_Anime_V3 問題を調べる #3｜bbcmc｜note - https://note.com/bbcmc/n/n12c05bf109cc
-
-<details>
-  <summary>🩺READ MORE: Models Helth Check List🩺</summary>
-
- - AbyssOrangeMixs2
-    
-    ✅
-    python fix_position_ids.py --model C:\ProgramTools\__GenerativeAI\StableDiffusion_AUTOMATIC1111_v6.0\stable-diffusion-webui\models\Stable-diffusion\AbyssOrangeMix2_hard.safetensors
-    
-    ```jsx
-    tensor([[True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True]])
-    ```
-    
-    ✅
-    python fix_position_ids.py --model C:\ProgramTools\__GenerativeAI\StableDiffusion_AUTOMATIC1111_v6.0\stable-diffusion-webui\models\Stable-diffusion\AbyssOrangeMix2_nsfw.safetensors
-    
-    ```jsx
-    tensor([[True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True]])
-    ```
-    
-    ✅
-    python fix_position_ids.py --model C:\ProgramTools\__GenerativeAI\StableDiffusion_AUTOMATIC1111_v6.0\stable-diffusion-webui\models\Stable-diffusion\AbyssOrangeMix2_sfw.safetensors
-    
-    ```jsx
-    tensor([[True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True]])
-    ```
-    
-- AbyssOrangeMix
-    
-    
-    ✅
-    
-    python fix_position_ids.py --model H:\Resources\Resources_AI\__Models\MergeModels\OrangeMixs\AbyssOrangeMix\AbyssOrangeMix.safetensors
-    
-    ```
-    tensor([[True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True]])
-    ```
-    
-    python fix_position_ids.py --model H:\Resources\Resources_AI\__Models\MergeModels\OrangeMixs\AbyssOrangeMix\AbyssOrangeMix_night.safetensors
-    
-    ```
-    tensor([[True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True]])
-    ```
-    
-    python fix_position_ids.py --model H:\Resources\Resources_AI\__Models\MergeModels\OrangeMixs\AbyssOrangeMix\AbyssOrangeMix_half.safetensors
-    
-    ```
-    tensor([[True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True]])
-    ```
-    
-    python fix_position_ids.py --model H:\Resources\Resources_AI\__Models\MergeModels\OrangeMixs\AbyssOrangeMix\AbyssOrangeMix_base.ckpt
-    
-    ```
-    tensor([[True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True]])
-    ```
-
-
-- AnythingV3
-    
-    ✅
-    ```jsx
-    python fix_position_ids.py --model C:\ProgramTools\__GenerativeAI\StableDiffusion_AUTOMATIC1111_v6.0\stable-diffusion-webui\models\Stable-diffusion\An_V3_Pr.ckpt
-    ```
-    
-    ```jsx
-    tensor([[True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True]])
-    ```
-    
-- NAI
-    
-    ✅
-    python fix_position_ids.py --model C:\ProgramTools\__GenerativeAI\StableDiffusion_AUTOMATIC1111_v6.0\stable-diffusion-webui\models\Stable-diffusion\nai.safetensors
-    
-    ```jsx
-    tensor([[True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True, True, True, True, True, True, True, True,
-    True, True, True, True, True]])
-    ```
-    
-    ✅
-    python fix_position_ids.py --model C:\ProgramTools\__GenerativeAI\StableDiffusion_AUTOMATIC1111_v6.0\stable-diffusion-webui\models\Stable-diffusion\nai_sfw.safetensors
-    
-    ```jsx
-    tensor([[True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True]])
-    ```
-    
-- gape
-    
-    ✅
-    
-    python fix_position_ids.py --model "C:\ProgramTools\__GenerativeAI\StableDiffusion_AUTOMATIC1111_v6.0\stable-diffusion-webui\models\Stable-diffusion\gape60.ckpt”
-    
-    ```jsx
-    tensor([[True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True, True, True, True, True, True, True, True,
-             True, True, True, True, True]])
-    ```
-    
-
-- EerieOrangeMix
-    
-    ⚠ All model 1 False  
-    1 False
-
-    tensor([[ True,  True,  True,  True,  True,  True,  True,  True,  True,  True,
-    True,  True,  True,  True,  True,  True,  True,  True,  True,  True,
-    True,  True,  True,  True,  True,  True,  True,  True,  True,  True,
-    True,  True,  True,  True,  True,  True,  True,  True,  True,  True,
-    True, False,  True,  True,  True,  True,  True,  True,  True,  True,
-    True,  True,  True,  True,  True,  True,  True,  True,  True,  True,
-    True,  True,  True,  True,  True,  True,  True,  True,  True,  True,
-    True,  True,  True,  True,  True,  True,  True]])
-    corrupt token indexes : [41]
-    missing token numbers : [41]
-
-</details>
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
 
 ----
 
 # Model Detail & Merge Recipes
+
+## AbyssOrangeMix3 (AOM3)
+
+![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/AOM3_G_Top_comp001.webp?raw=true "")
+
+――Everyone has different “ABYSS”!
+
+▼About
+
+The main model, "AOM3 (AbyssOrangeMix3)", is a purely upgraded model that improves on the problems of the previous version, "AOM2". "AOM3" can generate illustrations with very realistic textures and can generate a wide variety of content. There are also three variant models based on the AOM3 that have been adjusted to a unique illustration style. These models will help you to express your ideas more clearly.
+
+&nbsp;
+
+ ### [AOM3] 
+
+Features: high-quality, realistic textured illustrations can be generated.
+There are two major changes from AOM2.
+
+1: Models for NSFW such as _nsfw and _hard have been improved: the models after nsfw in AOM2 generated creepy realistic faces, muscles and ribs when using Hires.fix, even though they were animated characters. These have all been improved in AOM3.
+
+e.g.: explanatory diagram by MEME [GO TO MEME ZONE↓](#MEME_realface)
+
+2: sfw/nsfw merged into one model. Originally, nsfw models were separated because adding NSFW content (models like NAI and gape) would change the face and cause the aforementioned problems. Now that those have been improved, the models can be packed into one.
+
+![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/AOM3_G_Full_2_comp002.webp?raw=true "")
+
+▼Variations
+
+ ### [AOM3A1]
+
+Features: Anime like illustrations with flat paint. Cute enough as it is, but I really like to apply LoRA of anime characters to this model to generate high quality anime illustrations like a frame from a theatre version.
+
+###  [AOM3A2]
+
+Features: Oil paintings like style artistic illustrations and stylish background depictions. In fact, this is mostly due to the work of Counterfeit 2.5, but the textures are more realistic thanks to the U-Net Blocks Weight Merge.
+
+ ### [AOM3A3] 
+
+Features: Midpoint of artistic and kawaii. the model has been tuned to combine realistic textures, a artistic style that also feels like an oil colour style, and a cute anime-style face. Can be used to create a wide range of illustrations.
+
+In addition, these U-Net Blocks Weight Merge models take numerous steps but are carefully merged to ensure that mutual content is not overwritten.
+
+&nbsp;
+
+![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/AOM3_G_Art_comp003.webp?raw=true "")
+
+
+&nbsp;
 
 ## AbyssOrangeMix2 (AOM2)
 
@@ -319,7 +187,6 @@ Reference：[調査] Smile Test: Elysium_Anime_V3 問題を調べる #3｜bbcmc�
 <img src="https://github.com/WarriorMama777/imgup/blob/main/img/AbyssOrangeMix2/HeroImage_AbyssOrangeMix2_Designed_01_comp001.webp?raw=true"  width="" height="" alt=”HeroImage_AbyssOrangeMix2_Designed_01_comp001”>
 
 Prompt: [https://majinai.art/ja/i/nxpKRpw](https://majinai.art/ja/i/nxpKRpw)
-
 
 ▼About
 
@@ -490,6 +357,25 @@ Since there are infinite possibilities for U-Net Blocks Weight Merging, I plan t
 ※This does not fundamentally improve the fingers. Therefore, More research needs to be done to improve the fingers (e.g. '[bad_prompt](https://huggingface.co/datasets/Nerfgun3/bad_prompt)').
 
 <img src="https://files.catbox.moe/yjnqna.webp"  width="1000" height="" alt=”HeroImage_EerieOrangeMix_Designed_comp001” >
+
+### EerieOrangeMix2.5 (EOM2.5)
+
+This is a update to EerieOrangeMix applying AOM2 methods.  
+Originally, "EOM2" would have been a more appropriate name, but I mis-numbered it (it is already in use). Therefore, the name EOM2.5 is used as an alternative.
+
+Major changes include.
+
+- Repaired the broken ElysiumV2 anime. Repair script “fix_postion_ids.py” was giving a 1False error in "Is there a difference between the current data and the candidate content of the fix?", which has been repaired.The type of data in tensor is now torch.int64 and is now aligned with a clean integer value.
+- AOM2 methods were applied. This means that the base model for the U-Net Blocks Weight Merge is now BasilMix.
+
+▼Sample Gallery
+
+
+▼**Instructions:**
+
+The recipe for this model (EOM2.5) can be explained simply by replacing the AOM2 base model with the repaired ElysiumV2 anime, so it will not be discussed here.
+
+&nbsp;
 
 ### EerieOrangeMix (EOM1)
 
@@ -1071,8 +957,8 @@ It is a merged model that just did AnythingV3+ (NAI-NAISFW) 0.3.
 
 ※I found this model to be very prone to body collapse. Not recommended.
 
-▼?
-anything and everything mix ver.1.5+Gape+Nai(AnEve.G.N0.3)
+▼?  
+anything and everything mix ver.1.5+Gape+Nai(AnEve.G.N0.3)  
 This is a merged model with improved NSFW representation of anything and everything mix ver.1.5.
 
 ▼Hash
@@ -1099,20 +985,28 @@ This is a merged model with improved NSFW representation of anything and everyth
 1. blurred Images & clearly low quality output  
 If the generated images are blurred or only clearly low quality output is produced, it is possible that the vae, etc. are not loaded properly. Try reloading the model/vae or restarting the WebUI/OS.
 
-## FAQ and Tips
+## FAQ and Tips (🐈MEME ZONE🦐)
 
+▼No, AOM2 (only hentai models)  
+<a name="MEME_realface"></a>
+
+![](https://github.com/WarriorMama777/imgup/blob/main/img/img_general/img_Neko.webp?raw=true "")
+
+▼Noo, Too many models. Tell me which one to choose.  
+
+![全部同じじゃないですか](https://github.com/WarriorMama777/imgup/blob/main/img/img_general/WHICH_MODEL_IS_BEST_comp001.webp?raw=true "全部同じじゃないですか")
+――©秋本治『こちら葛飾区亀有公園前派出所』
 
 ▼Nooo, Don’t work. This guy is Scammer  
 STEP1: BUY HUGE PC  
-Anon is working day and night on the minimum PC specs that GenerativeAI can run on. The following is a detailed list.  
-<https://seesaawiki.jp/nai_ch/d/%a5%ed%a1%bc%a5%ab%a5%eb%c9%f4%a1%a1PC%a5%b9%a5%da%a5%c3%a5%af%c1%ea%c3%cc%bc%bc>
 
 ▼Noooo, can't generate image like samples.This models is hype. 
 
 ❌  
-<img src="https://files.catbox.moe/nte6ud.webp"  width="500" height="">
+<img src="https://files.catbox.moe/nte6ud.webp"  width="500" height="">  
+
 🟢  
-<img src="https://files.catbox.moe/lta462.webp"  width="500" height="">
+<img src="https://files.catbox.moe/lta462.webp"  width="500" height="">  
 
 
 Simple Negative, Better Way  
