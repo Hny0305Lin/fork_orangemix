@@ -1137,8 +1137,7 @@ If the generated images are blurred or only clearly low quality output is produc
 
 ▼Noo, Too many models. Tell me which one to choose.  
 
-![全部同じじゃないですか](https://github.com/WarriorMama777/imgup/blob/main/img/img_general/img_MEME_whichModel_comp001.webp?raw=true "全部同じじゃないですか")
-――©秋本治『こちら葛飾区亀有公園前派出所』
+→ [全部同じじゃないですか](https://github.com/WarriorMama777/imgup/blob/main/img/img_general/img_MEME_whichModel_comp001.webp?raw=true "全部同じじゃないですか")
 
 ▼Nooo, not work. This guy is Scammer  
 STEP1: BUY HUGE PC  
