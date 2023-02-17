@@ -53,7 +53,6 @@ We support a [Gradio](https://github.com/gradio-app/gradio) Web UI to run Orange
     - [AbyssOrangeMix2\_nsfw (AOM2n)](#abyssorangemix2_nsfw-aom2n)
     - [AbyssOrangeMix2\_hard (AOM2h)](#abyssorangemix2_hard-aom2h)
   - [EerieOrangeMix (EOM)](#eerieorangemix-eom)
-    - [EerieOrangeMix2.5 (EOM2.5)](#eerieorangemix25-eom25)
     - [EerieOrangeMix (EOM1)](#eerieorangemix-eom1)
       - [EerieOrangeMix\_base (EOM1b)](#eerieorangemix_base-eom1b)
       - [EerieOrangeMix\_Night (EOM1n)](#eerieorangemix_night-eom1n)
@@ -501,22 +500,6 @@ Since there are infinite possibilities for U-Net Blocks Weight Merging, I plan t
 
 <img src="https://files.catbox.moe/yjnqna.webp"  width="1000" height="" alt=”HeroImage_EerieOrangeMix_Designed_comp001” >
 
-### EerieOrangeMix2.5 (EOM2.5)
-
-This is a update to EerieOrangeMix applying AOM2 methods.  
-Originally, "EOM2" would have been a more appropriate name, but I mis-numbered it (it is already in use). Therefore, the name EOM2.5 is used as an alternative.
-
-Major changes include.
-
-- Repaired the broken ElysiumV2 anime. Repair script “fix_postion_ids.py” was giving a 1False error in "Is there a difference between the current data and the candidate content of the fix?", which has been repaired.The type of data in tensor is now torch.int64 and is now aligned with a clean integer value.
-- AOM2 methods were applied. This means that the base model for the U-Net Blocks Weight Merge is now BasilMix.
-
-▼Sample Gallery
-
-
-▼**Instructions:**
-
-The recipe for this model (EOM2.5) can be explained simply by replacing the AOM2 base model with the repaired ElysiumV2 anime, so it will not be discussed here.
 
 &nbsp;
 
