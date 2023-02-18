@@ -41,7 +41,8 @@ We support a [Gradio](https://github.com/gradio-app/gradio) Web UI to run Orange
 - [Disclaimer](#disclaimer)
 - [How to download](#how-to-download)
   - [Batch Download](#batch-download)
-  - [select and download](#select-and-download)
+  - [Batch Download (Advanced)](#batch-download-advanced)
+  - [Select and download](#select-and-download)
 - [Model Detail \& Merge Recipes](#model-detail--merge-recipes)
   - [AbyssOrangeMix3 (AOM3)](#abyssorangemix3-aom3)
     - [AOM3](#aom3)
@@ -125,7 +126,40 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 
 4. complete
 
-## select and download
+
+## Batch Download (Advanced)
+
+Advanced: (if you only want to download selected directories, not the entire repository).
+
+1. Run the command `git clone --filter=tree:0 --no-checkout https://huggingface.co/WarriorMama777/OrangeMixs` to clone the huggingface repository. By adding the `--filter=tree:0` and `--no-checkout` options, you can download only the file names without their contents.
+```
+git clone --filter=tree:0 --no-checkout https://huggingface.co/WarriorMama777/OrangeMixs
+```
+
+1. Move to the cloned directory with the command `cd OrangeMixs`.
+```
+cd OrangeMixs
+```
+
+1. Enable sparse-checkout mode with the command `git sparse-checkout init --cone`. By adding the `--cone` option, you can achieve faster performance.
+```
+git sparse-checkout init --cone
+```
+
+1. Specify the directory you want to get with the command `git sparse-checkout add <directory name>`. For example, if you want to get only the `Models/AbyssOrangeMix3` directory, enter `git sparse-checkout add Models/AbyssOrangeMix3`.
+```
+git sparse-checkout add Models/AbyssOrangeMix3
+```
+
+1. Download the contents of the specified directory with the command `git checkout main`.
+```
+git checkout main
+```
+
+This completes how to clone only a specific directory. If you want to add other directories, run `git sparse-checkout add <directory name>` again.
+
+
+## Select and download
 
 1. Go to the Files and vaersions tab.
 2. select the model you want to download
@@ -185,7 +219,9 @@ Features: Oil paintings like style artistic illustrations and stylish background
 
 Features: Midpoint of artistic and kawaii. the model has been tuned to combine realistic textures, a artistic style that also feels like an oil colour style, and a cute anime-style face. Can be used to create a wide range of illustrations.
 
-In addition, these U-Net Blocks Weight Merge models take numerous steps but are carefully merged to ensure that mutual content is not overwritten.
+In addition, these U-Net Blocks Weight Merge models take numerous steps but are carefully merged to ensure that mutual content is not overwritten.  
+(Of course, all models can switch between SFW/NSFW with a single prompt "NSFW")
+
 
 &nbsp;
 
@@ -236,21 +272,21 @@ EB4099BA9CD5E69AB526FCA22A2E967F286F8512D9509B735C892FA6468767CF
 
 1. AOM2sfw  
 「038ba203d8ba3c8af24f14e01fbb870c85bbb8d4b6d9520804828f4193d12ce9」
-2. AnythingV3.0 huggingface pruned  
+1. AnythingV3.0 huggingface pruned  
 [2700c435]「543bcbc21294831c6245cd74c8a7707761e28812c690f946cb81fef930d54b5e」
-3. NovelAI animefull-final-pruned  
+1. NovelAI animefull-final-pruned  
 [925997e9]「89d59c3dde4c56c6d5c41da34cc55ce479d93b4007046980934b14db71bdb2a8」
-4. NovelAI sfw  
+1. NovelAI sfw  
 [1d4a34af]「22fa233c2dfd7748d534be603345cb9abf994a23244dfdfc1013f4f90322feca」
-5. Gape60  
+1. Gape60  
 [25396b85]「893cca5903ccd0519876f58f4bc188dd8fcc5beb8a69c1a3f1a5fe314bb573f5」
-6. BasilMix  
+1. BasilMix  
 「bbf07e3a1c3482c138d096f7dcdb4581a2aa573b74a68ba0906c7b657942f1c2」
-7. chilloutmix_fp16.safetensors  
+1. chilloutmix_fp16.safetensors  
 「4b3bf0860b7f372481d0b6ac306fed43b0635caf8aa788e28b32377675ce7630」
-8. Counterfeit-V2.5_fp16.safetensors  
+1. Counterfeit-V2.5_fp16.safetensors  
 「71e703a0fca0e284dd9868bca3ce63c64084db1f0d68835f0a31e1f4e5b7cca6」
-9. kenshi_01_fp16.safetensors  
+1. kenshi_01_fp16.safetensors  
 「3b3982f3aaeaa8af3639a19001067905e146179b6cddf2e3b34a474a0acae7fa」
 
 ----
