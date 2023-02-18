@@ -44,7 +44,6 @@ We support a [Gradio](https://github.com/gradio-app/gradio) Web UI to run Orange
   - [select and download](#select-and-download)
 - [Model Detail \& Merge Recipes](#model-detail--merge-recipes)
   - [AbyssOrangeMix3 (AOM3)](#abyssorangemix3-aom3)
-  - [Links](#links)
     - [AOM3](#aom3)
     - [AOM3A1](#aom3a1)
     - [AOM3A2](#aom3a2)
@@ -151,7 +150,7 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 
 The main model, "AOM3 (AbyssOrangeMix3)", is a purely upgraded model that improves on the problems of the previous version, "AOM2". "AOM3" can generate illustrations with very realistic textures and can generate a wide variety of content. There are also three variant models based on the AOM3 that have been adjusted to a unique illustration style. These models will help you to express your ideas more clearly.
 
-## Links
+▼Links
 
 - [⚠NSFW] Civitai: AbyssOrangeMix3 (AOM3) | Stable Diffusion Checkpoint | https://civitai.com/models/9942/abyssorangemix3-aom3
 
