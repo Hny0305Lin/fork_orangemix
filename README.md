@@ -136,22 +136,22 @@ Advanced: (if you only want to download selected directories, not the entire rep
 git clone --filter=tree:0 --no-checkout https://huggingface.co/WarriorMama777/OrangeMixs
 ```
 
-1. Move to the cloned directory with the command `cd OrangeMixs`.
+2. Move to the cloned directory with the command `cd OrangeMixs`.
 ```
 cd OrangeMixs
 ```
 
-1. Enable sparse-checkout mode with the command `git sparse-checkout init --cone`. By adding the `--cone` option, you can achieve faster performance.
+3. Enable sparse-checkout mode with the command `git sparse-checkout init --cone`. By adding the `--cone` option, you can achieve faster performance.
 ```
 git sparse-checkout init --cone
 ```
 
-1. Specify the directory you want to get with the command `git sparse-checkout add <directory name>`. For example, if you want to get only the `Models/AbyssOrangeMix3` directory, enter `git sparse-checkout add Models/AbyssOrangeMix3`.
+4. Specify the directory you want to get with the command `git sparse-checkout add <directory name>`. For example, if you want to get only the `Models/AbyssOrangeMix3` directory, enter `git sparse-checkout add Models/AbyssOrangeMix3`.
 ```
 git sparse-checkout add Models/AbyssOrangeMix3
 ```
 
-1. Download the contents of the specified directory with the command `git checkout main`.
+5. Download the contents of the specified directory with the command `git checkout main`.
 ```
 git checkout main
 ```
