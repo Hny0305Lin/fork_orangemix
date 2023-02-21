@@ -107,11 +107,10 @@ If you used it for merging, please state what steps you took to do so.
 # Disclaimer
 
 ```
-The user has complete control over whether or not to generate NSFW content, and the user's decision to enjoy either SFW or NSFW is entirely up to the user.
-The learning model does not contain any obscene visual content that can be viewed with a single click.
-The posting of the Learning Model is not intended to display obscene material in a public place.  
-In publishing examples of the generation of copyrighted characters, I consider the following cases to be exceptional cases in which unauthorised use is permitted. In these cases, use against the will of the copyright holder or use for unjustified gain should still be avoided, and if a complaint is lodged by the copyright holder, it is guaranteed that the publication will be stopped as soon as possible.
-The following cases are excluded: "when the use is for private use or research purposes; when the work is used as material for merchandising (however, this does not apply when the main use of the work is to be merchandised); when the work is used in criticism, commentary or news reporting; when the work is used as a parody or derivative work to demonstrate originality."
+The user has complete control over whether or not to generate NSFW content, and the user's decision to enjoy either SFW or NSFW is entirely up to the user.The learning model does not contain any obscene visual content that can be viewed with a single click.The posting of the Learning Model is not intended to display obscene material in a public place.  
+In publishing examples of the generation of copyrighted characters, I consider the following cases to be exceptional cases in which unauthorised use is permitted. 
+"when the use is for private use or research purposes; when the work is used as material for merchandising (however, this does not apply when the main use of the work is to be merchandised); when the work is used in criticism, commentary or news reporting; when the work is used as a parody or derivative work to demonstrate originality."
+In these cases, use against the will of the copyright holder or use for unjustified gain should still be avoided, and if a complaint is lodged by the copyright holder, it is guaranteed that the publication will be stopped as soon as possible.
 ```
 
 ----
