@@ -49,6 +49,7 @@ We support a [Gradio](https://github.com/gradio-app/gradio) Web UI to run Orange
     - [AOM3A1](#aom3a1)
     - [AOM3A2](#aom3a2)
     - [AOM3A3](#aom3a3)
+    - [MORE](#more)
   - [AbyssOrangeMix2 (AOM2)](#abyssorangemix2-aom2)
     - [AbyssOrangeMix2\_sfw (AOM2s)](#abyssorangemix2_sfw-aom2s)
     - [AbyssOrangeMix2\_nsfw (AOM2n)](#abyssorangemix2_nsfw-aom2n)
@@ -105,15 +106,21 @@ If you used it for merging, please state what steps you took to do so.
 
 # Disclaimer
 
+```
 The user has complete control over whether or not to generate NSFW content, and the user's decision to enjoy either SFW or NSFW is entirely up to the user.
 The learning model does not contain any obscene visual content that can be viewed with a single click.
-The posting of the Learning Model is not intended to display obscene material in a public place.
+The posting of the Learning Model is not intended to display obscene material in a public place.  
+In publishing examples of the generation of copyrighted characters, I consider the following cases to be exceptional cases in which unauthorised use is permitted. In these cases, use against the will of the copyright holder or use for unjustified gain should still be avoided, and if a complaint is lodged by the copyright holder, it is guaranteed that the publication will be stopped as soon as possible.
+The following cases are excluded: "when the use is for private use or research purposes; when the work is used as material for merchandising (however, this does not apply when the main use of the work is to be merchandised); when the work is used in criticism, commentary or news reporting; when the work is used as a parody or derivative work to demonstrate originality."
+```
 
 ----
 
 # How to download
 
 ## Batch Download
+
+⚠Deprecated: Orange has grown too huge. Doing this will kill your storage.
 
 1. install Git
 2. create a folder of your choice and right click → "Git bash here" and open a gitbash on the folder's directory.
@@ -129,7 +136,10 @@ git clone https://huggingface.co/WarriorMama777/OrangeMixs
 
 ## Batch Download (Advanced)
 
-Advanced: (if you only want to download selected directories, not the entire repository).
+Advanced: (When you want to download only selected directories, not the entire repository.)
+&nbsp;
+<details>
+<summary>Toggle: How to Batch Download (Advanced)</summary>
 
 1. Run the command `git clone --filter=tree:0 --no-checkout https://huggingface.co/WarriorMama777/OrangeMixs` to clone the huggingface repository. By adding the `--filter=tree:0` and `--no-checkout` options, you can download only the file names without their contents.
 ```
@@ -157,6 +167,10 @@ git checkout main
 ```
 
 This completes how to clone only a specific directory. If you want to add other directories, run `git sparse-checkout add <directory name>` again.
+
+
+</details>
+
 
 
 ## Select and download
@@ -219,8 +233,13 @@ Features: Oil paintings like style artistic illustrations and stylish background
 
 Features: Midpoint of artistic and kawaii. the model has been tuned to combine realistic textures, a artistic style that also feels like an oil colour style, and a cute anime-style face. Can be used to create a wide range of illustrations.
 
+
+### MORE
 In addition, these U-Net Blocks Weight Merge models take numerous steps but are carefully merged to ensure that mutual content is not overwritten.  
-(Of course, all models can switch between SFW/NSFW with a single prompt "NSFW")
+
+(Of course, all models allow full control over adult content.)
+- 🔐 When generating illustrations for the general public: write "nsfw" in the negative prompt field
+- 🔞 When generating adult illustrations: "nsfw" in the positive prompt field
 
 
 &nbsp;
