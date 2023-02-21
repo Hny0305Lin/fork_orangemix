@@ -253,9 +253,9 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
 
 ▼A1
 
-![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/img_sanmples_AOMA1_2.2_comp001.webp?raw=true "")
+![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/img_sanmples_AOM3A1_2.3_comp001.webp?raw=true "")
 
-![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/img_sanmples_AOMA1_1.2_comp002.webp?raw=true "")
+![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/img_sanmples_AOM3A1_1.3_comp002.webp?raw=true "")
 
 <details>
 <summary>©</summary>
