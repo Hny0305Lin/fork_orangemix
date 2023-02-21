@@ -253,7 +253,7 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
 ![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/img_sanmples_AOMA1_2.2_comp001.webp?raw=true "")
 
 ![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/img_sanmples_AOMA1_1.2_comp002.webp?raw=true "")
-```(1)©Yurucamp: Inuyama Aoi, (2)©The Quintessential Quintuplets: Nakano Yotsuba, (3)Sailarmoon: Mizuno Ami/SailarMercury```
+```(1)©Yurucamp: Inuyama Aoi, (2)©The Quintessential Quintuplets: Nakano Yotsuba, (3)Sailor Moon: Mizuno Ami/SailorMercury```
 
 ▼How to use
 
