@@ -50,6 +50,7 @@ We support a [Gradio](https://github.com/gradio-app/gradio) Web UI to run Orange
     - [AOM3A2](#aom3a2)
     - [AOM3A3](#aom3a3)
     - [MORE](#more)
+    - [Sample Gallery](#sample-gallery)
   - [AbyssOrangeMix2 (AOM2)](#abyssorangemix2-aom2)
     - [AbyssOrangeMix2\_sfw (AOM2s)](#abyssorangemix2_sfw-aom2s)
     - [AbyssOrangeMix2\_nsfw (AOM2n)](#abyssorangemix2_nsfw-aom2n)
@@ -246,7 +247,7 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
 ![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/AOM3_G_Art_comp003.webp?raw=true "")
 
 
-▼Sample Gallery
+### Sample Gallery
 
 ▼A1
 
