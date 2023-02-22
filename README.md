@@ -273,8 +273,8 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
     (realistic, lip, nose, tooth, rouge, lipstick, eyeshadow:1.0), (abs, muscular, rib:1.0),
     - How to avoid Bokeh  
     (depth of field, bokeh, blurry:1.4)
-    - 🔰Basic negative prompts sample for Anime girl  
-    (worst quality, low quality:1.4), (realistic, lip, nose, tooth, rouge, lipstick, eyeshadow:1.0), (dusty sunbeams:1.0),, (abs, muscular, rib:1.0), (depth of field, bokeh, blurry:1.4), (greyscale, monochrome:1.0), text, title, logo, signature
+    - 🔰Basic negative prompts sample for Anime girl ↓  
+    nsfw, (worst quality, low quality:1.4), (realistic, lip, nose, tooth, rouge, lipstick, eyeshadow:1.0), (dusty sunbeams:1.0),, (abs, muscular, rib:1.0), (depth of field, bokeh, blurry:1.4),(motion lines, motion blur:1.4), (greyscale, monochrome:1.0), text, title, logo, signature
 - Sampler: “DPM++ SDE Karras” is good
 - Steps: forTest: 12～ ,illustration: 20～
 - Clipskip: 1 or 2
@@ -1183,6 +1183,11 @@ If the generated images are blurred or only clearly low quality output is produc
 
 ## FAQ and Tips (🐈MEME ZONE🦐)
 
+
+Below this is Trash.
+
+----
+
 ▼Nooo^()&*%#NG0u!!!!!!!!縺ゅ♀繧?縺医?縺､繝ｼ縺ｨ縺医?縺吶ｊ繝ｼ縺ｯ驕主ｭｦ鄙偵?繧ｴ繝溘〒縺?
 
 ![Tension rising](https://github.com/WarriorMama777/imgup/blob/main/img/img_general/img_meme_tension_comp001.webp?raw=true "「A
@@ -1209,10 +1214,9 @@ STEP1: BUY HUGE PC
 <img src="https://files.catbox.moe/lta462.webp"  width="500" height="">  
 
 
-Simple Negative, Better Way  
-(Particularly useful for U-Net Blocks Weight Merge models)
-
 ▼Nooooo, This models have troy virus. don't download.  
 All models in this repository are secure. It is most likely that anti-virus software has detected them erroneously.  
 However, the models with the .ckpt extension have the potential danger of executing arbitrary code.  
 A safe model that is free from these dangers is the model with the .safetensors extension.  
+
+
