@@ -239,7 +239,7 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
 
 (Of course, all models allow full control over adult content.)
 - 🔐 When generating illustrations for the general public: write "nsfw" in the negative prompt field
-- 🔞 When generating adult illustrations: "nsfw" in the positive prompt field
+- 🔞 ~~When generating adult illustrations: "nsfw" in the positive prompt field~~ -> It can be generated without putting it in. If you include it, the atmosphere will be more NSFW.
 
 
 &nbsp;
@@ -283,6 +283,8 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
     Denoise strength: 0.5 (0.5~0.6)
     - Simple upscale: Swin IR, ESRGAN, Remacri etc…  
     Denoise strength: Can be set low. (0.35~0.6)
+
+
 
 ---
 
@@ -334,15 +336,15 @@ STEP: 1 | BWM : NAI - NAIsfw & gape - NAI
 
 CUT: IN05-IN08, OUT10-11
 
-| Model: A | Model: B | Model: C | Interpolation Method | Weight | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| AOM2sfw | NAI full | NAI sfw | Add Difference @ 1.0 | 0,0.5,0.5,0.5,0.5,0.5,0,0,0,0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0,0 | temp01 |
+| Model: A | Model: B | Model: C | Interpolation Method | Weight                                                                                    | Merge Name |
+| -------- | -------- | -------- | -------------------- | ----------------------------------------------------------------------------------------- | ---------- |
+| AOM2sfw  | NAI full | NAI sfw  | Add Difference @ 1.0 | 0,0.5,0.5,0.5,0.5,0.5,0,0,0,0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0,0 | temp01     |
 
 CUT: IN05-IN08, OUT10-11
 
-| Model: A | Model: B | Model: C | Interpolation Method | Weight | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| temp01 | gape60 | NAI full | Add Difference @ 1.0 | 0,0.5,0.5,0.5,0.5,0.5,0,0,0,0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0,0 | AOM3 |
+| Model: A | Model: B | Model: C | Interpolation Method | Weight                                                                                    | Merge Name |
+| -------- | -------- | -------- | -------------------- | ----------------------------------------------------------------------------------------- | ---------- |
+| temp01   | gape60   | NAI full | Add Difference @ 1.0 | 0,0.5,0.5,0.5,0.5,0.5,0,0,0,0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0,0 | AOM3       |
 
 ▼AOM3A1
 
@@ -354,17 +356,17 @@ Change the photorealistic model from BasilMix to Chilloutmix and proceed to gape
 
 STEP: 2 | 
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | SUM @ 0.5 | Counterfeit2.5 | Kenshi |  | Counterfeit+Kenshi |
+| Step | Interpolation Method | Primary Model  | Secondary Model | Tertiary Model | Merge Name         |
+| ---- | -------------------- | -------------- | --------------- | -------------- | ------------------ |
+| 1    | SUM @ 0.5            | Counterfeit2.5 | Kenshi          |                | Counterfeit+Kenshi |
 
 STEP: 3 | 
 
 CUT: BASE0, IN00-IN08：0, IN10：0.1, OUT03-04-05：0, OUT08：0.2
 
-| Model: A | Model: B | Model: C | Interpolation Method | Weight | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| AOM3 | Counterfeit+Kenshi |  | Add SUM @ 1.0 | 0,0,0,0,0,0,0,0,0,0.3,0.1,0.3,0.3,0.3,0.2,0.1,0,0,0,0.3,0.3,0.2,0.3,0.4,0.5 | AOM3A1 |
+| Model: A | Model: B           | Model: C | Interpolation Method | Weight                                                                      | Merge Name |
+| -------- | ------------------ | -------- | -------------------- | --------------------------------------------------------------------------- | ---------- |
+| AOM3     | Counterfeit+Kenshi |          | Add SUM @ 1.0        | 0,0,0,0,0,0,0,0,0,0.3,0.1,0.3,0.3,0.3,0.2,0.1,0,0,0,0.3,0.3,0.2,0.3,0.4,0.5 | AOM3A1     |
 
 ▼AOM3A2
 
@@ -374,9 +376,9 @@ CUT: BASE0, IN05:0.3、IN06-IN08：0, IN10：0.1, OUT03：0, OUT04：0.3, OUT05�
 
 ▼**Instructions:**
 
-| Model: A | Model: B | Model: C | Interpolation Method | Weight | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| AOM3 | Counterfeit2.5 |  | Add SUM @ 1.0 | 0,1,1,1,1,1,0.3,0,0,0,1,0.1,1,1,1,1,1,0,1,0,1,1,0.2,1,1,1 | AOM3A2 |
+| Model: A | Model: B       | Model: C | Interpolation Method | Weight                                                    | Merge Name |
+| -------- | -------------- | -------- | -------------------- | --------------------------------------------------------- | ---------- |
+| AOM3     | Counterfeit2.5 |          | Add SUM @ 1.0        | 0,1,1,1,1,1,0.3,0,0,0,1,0.1,1,1,1,1,1,0,1,0,1,1,0.2,1,1,1 | AOM3A2     |
 
 ▼AOM3A3
 
@@ -384,9 +386,9 @@ CUT: BASE0, IN05:0.3、IN06-IN08：0, IN10：0.1, OUT03：0, OUT04：0.3, OUT05�
 
 CUT : BASE0, IN05-IN08：0, IN10：0.1, OUT03：0.5, OUT04-05：0.1, OUT08：0.2
 
-| Model: A | Model: B | Model: C | Interpolation Method | Weight | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| AOM3 | Counterfeit2.5 |  | Add SUM @ 1.0 | 0,0.6,0.6,0.6,0.6,0.6,0,0,0,0,0.6,0.1,0.6,0.6,0.6,0.6,0.6,0.5,0.1,0.1,0.6,0.6,0.2,0.6,0.6,0.6 | AOM3A3 |
+| Model: A | Model: B       | Model: C | Interpolation Method | Weight                                                                                        | Merge Name |
+| -------- | -------------- | -------- | -------------------- | --------------------------------------------------------------------------------------------- | ---------- |
+| AOM3     | Counterfeit2.5 |          | Add SUM @ 1.0        | 0,0.6,0.6,0.6,0.6,0.6,0,0,0,0,0.6,0.1,0.6,0.6,0.6,0.6,0.6,0.5,0.1,0.1,0.6,0.6,0.2,0.6,0.6,0.6 | AOM3A3     |
 
 ----
 
@@ -532,9 +534,9 @@ _half and non suffix →_hard: Gape merged models were given the suffix _hard.ga
 
 STEP: 1｜Block Merge
 
-| Model: A | Model: B | Weight | Base alpha | Merge Name |
-| --- | --- | --- | --- | --- |
-| AnythingV3.0  | BasilMix | 1,0.9,0.7,0.5,0.3,0.1,1,1,1,1,1,1,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0 | AbyssOrangeMix2_sfw |
+| Model: A     | Model: B | Weight                                                                | Base alpha | Merge Name          |
+| ------------ | -------- | --------------------------------------------------------------------- | ---------- | ------------------- |
+| AnythingV3.0 | BasilMix | 1,0.9,0.7,0.5,0.3,0.1,1,1,1,1,1,1,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0          | AbyssOrangeMix2_sfw |
 
 ### AbyssOrangeMix2_nsfw (AOM2n)
 
@@ -544,9 +546,9 @@ JUST AbyssOrangeMix2_sfw+ (NAI-NAISFW) 0.3.
 
 ▼**Instructions:**
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.3 | AbyssOrangeMix_base | NovelAI animefull | NovelAI sfw  | AbyssOrangeMix2_nsfw |
+| Step | Interpolation Method | Primary Model       | Secondary Model   | Tertiary Model | Merge Name           |
+| ---- | -------------------- | ------------------- | ----------------- | -------------- | -------------------- |
+| 1    | Add Difference @ 0.3 | AbyssOrangeMix_base | NovelAI animefull | NovelAI sfw    | AbyssOrangeMix2_nsfw |
 
 ### AbyssOrangeMix2_hard (AOM2h)
 
@@ -555,9 +557,9 @@ JUST AbyssOrangeMix2_sfw+ (NAI-NAISFW) 0.3.
 
 ▼Instructions
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.3 | AbyssOrangeMix2_nsfw | Gape60 | NovelAI animefull | AbyssOrangeMix2_hard |
+| Step | Interpolation Method | Primary Model        | Secondary Model | Tertiary Model    | Merge Name           |
+| ---- | -------------------- | -------------------- | --------------- | ----------------- | -------------------- |
+| 1    | Add Difference @ 0.3 | AbyssOrangeMix2_nsfw | Gape60          | NovelAI animefull | AbyssOrangeMix2_hard |
 
 ----
 
@@ -660,17 +662,17 @@ Details are omitted since it is the same as AbyssOrangeMix.
 
 STEP: 1｜Creation of photorealistic model for Merge
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 1.0 | instagram-latest-plus-clip-v6e1_50000 | f222 | sd1.5_pruned | Insta_F222 |
+| Step | Interpolation Method | Primary Model                         | Secondary Model | Tertiary Model | Merge Name |
+| ---- | -------------------- | ------------------------------------- | --------------- | -------------- | ---------- |
+| 1    | Add Difference @ 1.0 | instagram-latest-plus-clip-v6e1_50000 | f222            | sd1.5_pruned   | Insta_F222 |
 
 STEP: 2｜Block Merge
 
 Merge InstaF222
 
-| Model: A | Model: B | Weight | Base alpha | Merge Name |
-| --- | --- | --- | --- | --- |
-| Elysium Anime V2 | Insta_F222 | 1,0.9,0.7,0.5,0.3,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0 | Temp1 |
+| Model: A         | Model: B   | Weight                                                                | Base alpha | Merge Name |
+| ---------------- | ---------- | --------------------------------------------------------------------- | ---------- | ---------- |
+| Elysium Anime V2 | Insta_F222 | 1,0.9,0.7,0.5,0.3,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0          | Temp1      |
 
 #### EerieOrangeMix_Night (EOM1n)
 
@@ -680,9 +682,9 @@ JUST EerieOrangeMix_base+ (NAI-NAISFW) 0.3.
 
 ▼Instructions
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.3 | EerieOrangeMix_base | NovelAI animefull | NovelAI sfw | EerieOrangeMix_Night |
+| Step | Interpolation Method | Primary Model       | Secondary Model   | Tertiary Model | Merge Name           |
+| ---- | -------------------- | ------------------- | ----------------- | -------------- | -------------------- |
+| 1    | Add Difference @ 0.3 | EerieOrangeMix_base | NovelAI animefull | NovelAI sfw    | EerieOrangeMix_Night |
 
 #### EerieOrangeMix_half (EOM1h)
 
@@ -691,17 +693,17 @@ JUST EerieOrangeMix_base+ (NAI-NAISFW) 0.3.
 
 ▼**Instructions:**
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.5 | EerieOrangeMix_Night | NovelAI animefull | NovelAI sfw | EerieOrangeMix_half |
+| Step | Interpolation Method | Primary Model        | Secondary Model   | Tertiary Model | Merge Name          |
+| ---- | -------------------- | -------------------- | ----------------- | -------------- | ------------------- |
+| 1    | Add Difference @ 0.5 | EerieOrangeMix_Night | NovelAI animefull | NovelAI sfw    | EerieOrangeMix_half |
 
 #### EerieOrangeMix (EOM1)
 
 ▼**Instructions:**
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 1.0 | EerieOrangeMix_Night | Gape60 | NovelAI animefull | EerieOrangeMix |
+| Step | Interpolation Method | Primary Model        | Secondary Model | Tertiary Model    | Merge Name     |
+| ---- | -------------------- | -------------------- | --------------- | ----------------- | -------------- |
+| 1    | Add Difference @ 1.0 | EerieOrangeMix_Night | Gape60          | NovelAI animefull | EerieOrangeMix |
 
 ----
 
@@ -765,9 +767,9 @@ Merge ElysiumV1
 
 The generated results do not change much with or without this process, but I wanted to incorporate Elysium's depiction, so I merged it.
 
-| Model: A | Model: B | Weight | Base alpha | Merge Name |
-| --- | --- | --- | --- | --- |
-| EerieOrangeMix_base | ElysiumV1 | 1,0.9,0.7,0.5,0.3,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0 | EerieOrangeMix2_base |
+| Model: A            | Model: B  | Weight                                                                | Base alpha | Merge Name           |
+| ------------------- | --------- | --------------------------------------------------------------------- | ---------- | -------------------- |
+| EerieOrangeMix_base | ElysiumV1 | 1,0.9,0.7,0.5,0.3,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0          | EerieOrangeMix2_base |
 
 #### EerieOrangeMix2_night (EOM2n)
 
@@ -777,9 +779,9 @@ JUST EerieOrangeMix2_base+ (NAI-NAISFW) 0.3.
 
 ▼Instructions
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.3 | EerieOrangeMix_base | NovelAI animefull | NovelAI sfw | EerieOrangeMix2_Night |
+| Step | Interpolation Method | Primary Model       | Secondary Model   | Tertiary Model | Merge Name            |
+| ---- | -------------------- | ------------------- | ----------------- | -------------- | --------------------- |
+| 1    | Add Difference @ 0.3 | EerieOrangeMix_base | NovelAI animefull | NovelAI sfw    | EerieOrangeMix2_Night |
 
 #### EerieOrangeMix2_half (EOM2h)
 
@@ -788,17 +790,17 @@ JUST EerieOrangeMix2_base+ (NAI-NAISFW) 0.3.
 
 ▼Instructions
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.5 | EerieOrangeMix_Night | NovelAI animefull | NovelAI sfw | EerieOrangeMix2_half |
+| Step | Interpolation Method | Primary Model        | Secondary Model   | Tertiary Model | Merge Name           |
+| ---- | -------------------- | -------------------- | ----------------- | -------------- | -------------------- |
+| 1    | Add Difference @ 0.5 | EerieOrangeMix_Night | NovelAI animefull | NovelAI sfw    | EerieOrangeMix2_half |
 
 #### EerieOrangeMix2 (EOM2)
 
 ▼**Instructions:**
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 1.0 | EerieOrangeMix_Night | Gape60 | NovelAI animefull | EerieOrangeMix2 |
+| Step | Interpolation Method | Primary Model        | Secondary Model | Tertiary Model    | Merge Name      |
+| ---- | -------------------- | -------------------- | --------------- | ----------------- | --------------- |
+| 1    | Add Difference @ 1.0 | EerieOrangeMix_Night | Gape60          | NovelAI animefull | EerieOrangeMix2 |
 
 ### Models Comparison
 
@@ -928,15 +930,15 @@ The basic trick for this merged model is to incorporate a model that has learned
 
 STEP: 1｜Creation of photorealistic model for Merge
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 1.0 | instagram-latest-plus-clip-v6e1_50000 | f222 | sd1.5_pruned | Insta_F222 |
+| Step | Interpolation Method | Primary Model                         | Secondary Model | Tertiary Model | Merge Name |
+| ---- | -------------------- | ------------------------------------- | --------------- | -------------- | ---------- |
+| 1    | Add Difference @ 1.0 | instagram-latest-plus-clip-v6e1_50000 | f222            | sd1.5_pruned   | Insta_F222 |
 
 STEP: 2｜Block Merge
 
-| Model: A | Model: B | Weight | Base alpha | Merge Name |
-| --- | --- | --- | --- | --- |
-| AnythingV3.0  | Insta_F222 | 1,0.9,0.7,0.5,0.3,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0 | AbyssOrangeMix_base |
+| Model: A     | Model: B   | Weight                                                                | Base alpha | Merge Name          |
+| ------------ | ---------- | --------------------------------------------------------------------- | ---------- | ------------------- |
+| AnythingV3.0 | Insta_F222 | 1,0.9,0.7,0.5,0.3,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0.3,0.5,0.7,0.9,1 | 0          | AbyssOrangeMix_base |
 
 ### AbyssOrangeMix_Night (AOMn)
 
@@ -946,9 +948,9 @@ JUST AbyssOrangeMix_base+ (NAI-NAISFW) 0.3.
 
 ▼**Instructions:**
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.3 | AbyssOrangeMix_base | NovelAI animefull | NovelAI sfw  | AbyssOrangeMix_Night |
+| Step | Interpolation Method | Primary Model       | Secondary Model   | Tertiary Model | Merge Name           |
+| ---- | -------------------- | ------------------- | ----------------- | -------------- | -------------------- |
+| 1    | Add Difference @ 0.3 | AbyssOrangeMix_base | NovelAI animefull | NovelAI sfw    | AbyssOrangeMix_Night |
 
 ### AbyssOrangeMix_half (AOMh)
 
@@ -957,17 +959,17 @@ JUST AbyssOrangeMix_base+ (NAI-NAISFW) 0.3.
 
 ▼**Instructions:**
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.5 | AbyssOrangeMix_Night | Gape60 | NovelAI animefull | AbyssOrangeMix_half |
+| Step | Interpolation Method | Primary Model        | Secondary Model | Tertiary Model    | Merge Name          |
+| ---- | -------------------- | -------------------- | --------------- | ----------------- | ------------------- |
+| 1    | Add Difference @ 0.5 | AbyssOrangeMix_Night | Gape60          | NovelAI animefull | AbyssOrangeMix_half |
 
 ### AbyssOrangeMix (AOM)
 
 ▼**Instructions:**
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 1.0 | AbyssOrangeMix_Night | Gape60 | NovelAI animefull | AbyssOrangeMix |
+| Step | Interpolation Method | Primary Model        | Secondary Model | Tertiary Model    | Merge Name     |
+| ---- | -------------------- | -------------------- | --------------- | ----------------- | -------------- |
+| 1    | Add Difference @ 1.0 | AbyssOrangeMix_Night | Gape60          | NovelAI animefull | AbyssOrangeMix |
 
 ----
 
@@ -1008,10 +1010,10 @@ It can produce SFW, NSFW, and any other type of artwork, while retaining the Ely
 
 ▼Instructions
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.3 | Elysium_Anime_V2 | NovelAI animefull | NovelAI sfw  | tempmix-part1 [] |
-| 2 | Add Difference @ 1.0 | tempmix-part1 | Gape60 | NovelAI animefull | ElyOrangeMix  [6b508e59] |
+| Step | Interpolation Method | Primary Model    | Secondary Model   | Tertiary Model    | Merge Name               |
+| ---- | -------------------- | ---------------- | ----------------- | ----------------- | ------------------------ |
+| 1    | Add Difference @ 0.3 | Elysium_Anime_V2 | NovelAI animefull | NovelAI sfw       | tempmix-part1 []         |
+| 2    | Add Difference @ 1.0 | tempmix-part1    | Gape60            | NovelAI animefull | ElyOrangeMix  [6b508e59] |
 
 ---
 
@@ -1030,10 +1032,10 @@ It can produce SFW, NSFW, and any other type of artwork, while retaining the Ely
 
 ▼Instructions
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.3 | Elysium_Anime_V2 | NovelAI animefull | NovelAI sfw  | tempmix-part1 [] |
-| 2 | Add Difference @ 0.5 | tempmix-part1 | Gape60 | NovelAI animefull | ElyOrangeMix_half  [6b508e59] |
+| Step | Interpolation Method | Primary Model    | Secondary Model   | Tertiary Model    | Merge Name                    |
+| ---- | -------------------- | ---------------- | ----------------- | ----------------- | ----------------------------- |
+| 1    | Add Difference @ 0.3 | Elysium_Anime_V2 | NovelAI animefull | NovelAI sfw       | tempmix-part1 []              |
+| 2    | Add Difference @ 0.5 | tempmix-part1    | Gape60            | NovelAI animefull | ElyOrangeMix_half  [6b508e59] |
 
 ----
 
@@ -1051,9 +1053,9 @@ It is a merged model that just did Elysium_Anime_V2+ (NAI-NAISFW) 0.3.
 
 ▼Instructions
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.3 | Elysium_Anime_V2 | NovelAI animefull | NovelAI sfw  | ElyNightOrangeMix |
+| Step | Interpolation Method | Primary Model    | Secondary Model   | Tertiary Model | Merge Name        |
+| ---- | -------------------- | ---------------- | ----------------- | -------------- | ----------------- |
+| 1    | Add Difference @ 0.3 | Elysium_Anime_V2 | NovelAI animefull | NovelAI sfw    | ElyNightOrangeMix |
 
 ----
 
@@ -1099,10 +1101,10 @@ Stable. Popular in the Japanese community.
 
 ▼Instructions
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.3 | AnythingV3.0 | NovelAI animefull | NovelAI sfw  | tempmix-part1 [] |
-| 2 | Add Difference @ 1.0 | tempmix-part1 | Gape60 | NovelAI animefull | BloodOrangeMix [ffa7b160] |
+| Step | Interpolation Method | Primary Model | Secondary Model   | Tertiary Model    | Merge Name                |
+| ---- | -------------------- | ------------- | ----------------- | ----------------- | ------------------------- |
+| 1    | Add Difference @ 0.3 | AnythingV3.0  | NovelAI animefull | NovelAI sfw       | tempmix-part1 []          |
+| 2    | Add Difference @ 1.0 | tempmix-part1 | Gape60            | NovelAI animefull | BloodOrangeMix [ffa7b160] |
 
 ----
 
@@ -1122,10 +1124,10 @@ NSFW expression will be softer and have less impact on the Anything style painti
 
 ▼Instructions
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.3 | AnythingV3.0 | NovelAI animefull | NovelAI sfw  | tempmix-part1 [] |
-| 2 | Add Difference @ 0.5 | tempmix-part1 | Gape60 | NovelAI animefull | BloodOrangeMix_half [ffa7b160] |
+| Step | Interpolation Method | Primary Model | Secondary Model   | Tertiary Model    | Merge Name                     |
+| ---- | -------------------- | ------------- | ----------------- | ----------------- | ------------------------------ |
+| 1    | Add Difference @ 0.3 | AnythingV3.0  | NovelAI animefull | NovelAI sfw       | tempmix-part1 []               |
+| 2    | Add Difference @ 0.5 | tempmix-part1 | Gape60            | NovelAI animefull | BloodOrangeMix_half [ffa7b160] |
 
 ----
 
@@ -1143,9 +1145,9 @@ It is a merged model that just did AnythingV3+ (NAI-NAISFW) 0.3.
 
 ▼Instructions
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.3 | AnythingV3.0 | NovelAI animefull | NovelAI sfw  | BloodNightOrangeMix |
+| Step | Interpolation Method | Primary Model | Secondary Model   | Tertiary Model | Merge Name          |
+| ---- | -------------------- | ------------- | ----------------- | -------------- | ------------------- |
+| 1    | Add Difference @ 0.3 | AnythingV3.0  | NovelAI animefull | NovelAI sfw    | BloodNightOrangeMix |
 
 ----
 
@@ -1169,10 +1171,10 @@ This is a merged model with improved NSFW representation of anything and everyth
 
 ▼Instructions:**
 
-| Step | Interpolation Method | Primary Model | Secondary Model | Tertiary Model | Merge Name |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Add Difference @ 0.5 | anything and everything mix ver.1.5 | Gape60 | NovelAI full | tempmix-part1 [] |
-| 2 | Add Difference @ 0.3 | tempmix-part1 | NovelAI full | NovelAI sfw | ElderOrangeMix  [3a46a1e0] |
+| Step | Interpolation Method | Primary Model                       | Secondary Model | Tertiary Model | Merge Name                 |
+| ---- | -------------------- | ----------------------------------- | --------------- | -------------- | -------------------------- |
+| 1    | Add Difference @ 0.5 | anything and everything mix ver.1.5 | Gape60          | NovelAI full   | tempmix-part1 []           |
+| 2    | Add Difference @ 0.3 | tempmix-part1                       | NovelAI full    | NovelAI sfw    | ElderOrangeMix  [3a46a1e0] |
 
 ----
 
