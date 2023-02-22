@@ -1186,14 +1186,13 @@ If the generated images are blurred or only clearly low quality output is produc
 ## FAQ and Tips (🐈MEME ZONE🦐)
 
 
-Below this is Trash.
+Below this, trash.
 
 ----
 
-▼Nooo^()&*%#NG0u!!!!!!!!縺ゅ♀繧?縺医?縺､繝ｼ縺ｨ縺医?縺吶ｊ繝ｼ縺ｯ驕主ｭｦ鄙偵?繧ｴ繝溘〒縺?
+▼Nooo^()&*%#NG0u!!!!!!!!縺ゅ♀繧?縺医?縺､繝ｼ縺ｨ縺医?縺吶ｊ繝ｼ縺ｯ驕主ｭｦ鄙偵?繧ｴ繝溘〒縺? (「AOM3A2 and A3 are overlearning and Trash. delete!」)
 
-![Tension rising](https://github.com/WarriorMama777/imgup/blob/main/img/img_general/img_meme_tension_comp001.webp?raw=true "「A
-OM3A2 and A3 are overlearning and Trash; delete!」")
+<img src="https://github.com/WarriorMama777/imgup/blob/main/img/img_general/img_meme_tension_comp001.webp?raw=true"  width="300" height="" alt=””>
 
 ▼No, AOM2 (only hentai models)  
 <a name="MEME_realface"></a>
