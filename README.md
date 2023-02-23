@@ -11,12 +11,14 @@ tags:
 
 # OrangeMixs
 
-"OrangeMixs" shares various Merge models that can be used with StableDiffusionWebui:Automatic1111 and others.
+"OrangeMixs" shares various Merge models that can be used with StableDiffusionWebui:Automatic1111 and others.Enjoy the drawing AI.
+
+![](https://github.com/WarriorMama777/imgup/blob/main/img/img_general/img_orangemixs_infograph_01_comp001.webp?raw=true "image_orangemixs_infographics_01")
 
 Maintain a repository for the following purposes.
 
 1. to provide easy access to models commonly used in the Japanese community.The Wisdom of the Anons💎
-3. As a place to upload my merge models when I feel like it.
+2. As a place to upload my merge models when I feel like it.
 
 <img src="https://i.imgur.com/VZg0LqQ.png"  width="1000" height="">
 
