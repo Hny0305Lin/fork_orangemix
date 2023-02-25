@@ -276,20 +276,20 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
     - How to avoid Bokeh  
     (depth of field, bokeh, blurry:1.4)
     - 🔰Basic negative prompts sample for Anime girl ↓  
-      - v1
+      - v1  
     `nsfw, (worst quality, low quality:1.4), (realistic, lip, nose, tooth, rouge, lipstick, eyeshadow:1.0), (dusty sunbeams:1.0),, (abs, muscular, rib:1.0), (depth of field, bokeh, blurry:1.4),(motion lines, motion blur:1.4), (greyscale, monochrome:1.0), text, title, logo, signature`
-      - v2
+      - v2  
     `nsfw, (worst quality, low quality:1.4), (lip, nose, tooth, rouge, lipstick, eyeshadow:1.4), ( jpeg artifacts:1.4), (depth of field, bokeh, blurry, film grain, chromatic aberration, lens flare:1.0), (1boy, abs, muscular, rib:1.0), greyscale, monochrome, dusty sunbeams,  trembling, motion lines, motion blur, emphasis lines, text, title, logo, signature, `
-- Sampler: ~~“DPM++ SDE Karras” is good~~ Take your pick
+- Sampler: ~~“DPM++ SDE Karras” is good~~ Take your pick  
 - Steps: 
-  - DPM++ SDE Karras: Test: 12～ ,illustration: 20～
-  - DPM++ 2M Karras: Test: 20～ ,illustration: 28～
-- Clipskip: 1 or 2
-- Upscaler :
+  - DPM++ SDE Karras: Test: 12～ ,illustration: 20～  
+  - DPM++ 2M Karras: Test: 20～ ,illustration: 28～  
+- Clipskip: 1 or 2  
+- Upscaler :  
     - Detailed illust → Latenet (nearest-exact)  
-    Denoise strength: 0.5 (0.5~0.6)
+    Denoise strength: 0.5 (0.5~0.6)  
     - Simple upscale: Swin IR, ESRGAN, Remacri etc…  
-    Denoise strength: Can be set low. (0.35~0.6)
+    Denoise strength: Can be set low. (0.35~0.6)  
 
 
 
