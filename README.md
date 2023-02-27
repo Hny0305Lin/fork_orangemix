@@ -47,10 +47,12 @@ We support a [Gradio](https://github.com/gradio-app/gradio) Web UI to run Orange
   - [Select and download](#select-and-download)
 - [Model Detail \& Merge Recipes](#model-detail--merge-recipes)
   - [AbyssOrangeMix3 (AOM3)](#abyssorangemix3-aom3)
+    - [Update note](#update-note)
     - [AOM3](#aom3)
     - [AOM3A1](#aom3a1)
     - [AOM3A2](#aom3a2)
     - [AOM3A3](#aom3a3)
+    - [AOM3A1B](#aom3a1b)
     - [MORE](#more)
     - [Sample Gallery](#sample-gallery)
     - [Description for enthusiast](#description-for-enthusiast)
@@ -205,6 +207,9 @@ The main model, "AOM3 (AbyssOrangeMix3)", is a purely upgraded model that improv
 
 - [⚠NSFW] Civitai: AbyssOrangeMix3 (AOM3) | Stable Diffusion Checkpoint | https://civitai.com/models/9942/abyssorangemix3-aom3
 
+### Update note
+
+2023-02-27: Add AOM3A1B
 
 ### AOM3
 
@@ -236,6 +241,10 @@ Features: Oil paintings like style artistic illustrations and stylish background
 
 Features: Midpoint of artistic and kawaii. the model has been tuned to combine realistic textures, a artistic style that also feels like an oil colour style, and a cute anime-style face. Can be used to create a wide range of illustrations.
 
+### AOM3A1B
+
+AOM3A1B added. This was a merge where I mistakenly 'Add Difference' in the AOM3A3 recipe and 'Add Sum'. It was an unintended merge, but we share it because the illustrations produced are consistently good results.  
+In my review, this is an illustration style somewhere between AOM3A1 and A3.
 
 ### MORE
 In addition, these U-Net Blocks Weight Merge models take numerous steps but are carefully merged to ensure that mutual content is not overwritten.  
