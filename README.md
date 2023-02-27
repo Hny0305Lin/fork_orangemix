@@ -277,27 +277,27 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
 
 ### Description for enthusiast
 
-AOM3 was created with a focus on improving the nsfw version of AOM2, as mentioned above.The AOM3 is a merge of the following two models into AOM2sfw using U-Net Blocks Weight Merge, while extracting only the NSFW content part.
-(1) NAI: trained in Danbooru
-(2)gape: Finetune model of NAI trained on Danbooru's very hardcore NSFW content.
-In other words, if you are looking for something like AOM3sfw, it is AOM2sfw.The AOM3 was merged with the NSFW model while removing only the layers that have a negative impact on the face and body. However, the faces and compositions are not an exact match to AOM2sfw.AOM2sfw is sometimes superior when generating SFW content. I recommend choosing according to the intended use of the illustration.See below for a comparison between AOM2sfw and AOM3.
+AOM3 was created with a focus on improving the nsfw version of AOM2, as mentioned above.The AOM3 is a merge of the following two models into AOM2sfw using U-Net Blocks Weight Merge, while extracting only the NSFW content part.  
+(1) NAI: trained in Danbooru  
+(2)gape: Finetune model of NAI trained on Danbooru's very hardcore NSFW content.  
+In other words, if you are looking for something like AOM3sfw, it is AOM2sfw.The AOM3 was merged with the NSFW model while removing only the layers that have a negative impact on the face and body.   However, the faces and compositions are not an exact match to AOM2sfw.AOM2sfw is sometimes superior when generating SFW content. I recommend choosing according to the intended use of the illustration.See below for a comparison between AOM2sfw and AOM3.
 
 
 ▼A summary of the AOM3 work is as follows
 
-1. investigated the impact of the NAI and gape layers as AOM2 _nsfw onwards is crap.
-2. cut face layer: OUT04 because I want realistic faces to stop → Failed. No change.
-3. gapeNAI layer investigation｜
-  a. (IN05-08 (especially IN07) | Change the illustration significantly. Noise is applied, natural colours are lost, shadows die, and we can see that the IN deep layer is a layer of light and shade.
-  b. OUT03-05(?) | likely to be sexual section/NSFW layer.Cutting here will kill the NSFW.
-  c. OUT03,OUT04｜NSFW effects are in(?). e.g.: spoken hearts, trembling, motion lines, etc...
-  d. OUT05｜This is really an NSFW switch. All the "NSFW atmosphere" is in here. Facial expressions, Heavy breaths, etc...
-  e. OUT10-11｜Paint layer. Does not affect detail, but does have an extensive impact.
-4. (mass production of rubbish from here...) 
-5. cut IN05-08 and merge NAIgape with flat parameters → avoided creepy muscles and real faces. Also, merging NSFW models stronger has less impact.
-6. so, cut IN05-08, OUT10-11 and merge NAI+gape with all others 0.5.
-7. → AOM3
-AOM3 roughly looks like this
+1. investigated the impact of the NAI and gape layers as AOM2 _nsfw onwards is crap.  
+2. cut face layer: OUT04 because I want realistic faces to stop → Failed. No change.  
+3. gapeNAI layer investigation｜  
+  a. (IN05-08 (especially IN07) | Change the illustration   significantly. Noise is applied, natural colours are lost, shadows die, and we can see that the IN deep layer is a layer of light and shade.  
+  b. OUT03-05(?) | likely to be sexual section/NSFW layer.Cutting here will kill the NSFW.  
+  c. OUT03,OUT04｜NSFW effects are in(?). e.g.: spoken hearts, trembling, motion lines, etc...  
+  d. OUT05｜This is really an NSFW switch. All the "NSFW atmosphere" is in here. Facial expressions, Heavy breaths, etc...  
+  e. OUT10-11｜Paint layer. Does not affect detail, but does have an extensive impact.  
+4. (mass production of rubbish from here...)   
+5. cut IN05-08 and merge NAIgape with flat parameters → avoided creepy muscles and real faces. Also, merging NSFW models stronger has less impact.  
+6. so, cut IN05-08, OUT10-11 and merge NAI+gape with all others 0.5.  
+7. → AOM3  
+AOM3 roughly looks like this  
 
 
 
