@@ -282,6 +282,8 @@ AOM3 was created with a focus on improving the nsfw version of AOM2, as mentione
 (2)gape: Finetune model of NAI trained on Danbooru's very hardcore NSFW content.  
 In other words, if you are looking for something like AOM3sfw, it is AOM2sfw.The AOM3 was merged with the NSFW model while removing only the layers that have a negative impact on the face and body.   However, the faces and compositions are not an exact match to AOM2sfw.AOM2sfw is sometimes superior when generating SFW content. I recommend choosing according to the intended use of the illustration.See below for a comparison between AOM2sfw and AOM3.
 
+![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/img_modelComparison_AOM_comp001.webp?raw=true "modelComparison_AOM")
+
 
 ▼A summary of the AOM3 work is as follows
 
