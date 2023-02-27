@@ -53,6 +53,7 @@ We support a [Gradio](https://github.com/gradio-app/gradio) Web UI to run Orange
     - [AOM3A3](#aom3a3)
     - [MORE](#more)
     - [Sample Gallery](#sample-gallery)
+    - [Description for enthusiast](#description-for-enthusiast)
   - [AbyssOrangeMix2 (AOM2)](#abyssorangemix2-aom2)
     - [AbyssOrangeMix2\_sfw (AOM2s)](#abyssorangemix2_sfw-aom2s)
     - [AbyssOrangeMix2\_nsfw (AOM2n)](#abyssorangemix2_nsfw-aom2n)
@@ -265,6 +266,34 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
 </details>
 
 
+### Description for enthusiast
+
+AOM3 was created with a focus on improving the nsfw version of AOM2, as mentioned above.The AOM3 is a merge of the following two models into AOM2sfw using U-Net Blocks Weight Merge, while extracting only the NSFW content part.
+(1) NAI: trained in Danbooru
+(2)gape: Finetune model of NAI trained on Danbooru's very hardcore NSFW content.
+In other words, if you are looking for something like AOM3sfw, it is AOM2sfw.The AOM3 was merged with the NSFW model while removing only the layers that have a negative impact on the face and body. However, the faces and compositions are not an exact match to AOM2sfw.AOM2sfw is sometimes superior when generating SFW content. I recommend choosing according to the intended use of the illustration.See below for a comparison between AOM2sfw and AOM3.
+
+
+▼A summary of the AOM3 work is as follows
+
+1. investigated the impact of the NAI and gape layers as AOM2 _nsfw onwards is crap.
+2. cut face layer: OUT04 because I want realistic faces to stop → Failed. No change.
+3. gapeNAI layer investigation｜
+  a. (IN05-08 (especially IN07) | Change the illustration significantly. Noise is applied, natural colours are lost, shadows die, and we can see that the IN deep layer is a layer of light and shade.
+  b. OUT03-05(?) | likely to be sexual section/NSFW layer.Cutting here will kill the NSFW.
+  c. OUT03,OUT04｜NSFW effects are in(?). e.g.: spoken hearts, trembling, motion lines, etc...
+  d. OUT05｜This is really an NSFW switch. All the "Hentai atmosphere" is in here. Facial expressions, Heavy breaths, etc...
+  e. OUT10-11｜Paint layer. Does not affect detail, but does have an extensive impact.
+4. (mass production of rubbish from here...) 
+5. cut IN05-08 and merge NAIgape with flat parameters → avoided creepy muscles and real faces. Also, merging NSFW models stronger has less impact.
+6. so, cut IN05-08, OUT10-11 and merge NAI+gape with all others 0.5.
+7. → AOM3
+AOM3 roughly looks like this
+
+
+
+----
+
 ▼How to use
 
 - Prompts
@@ -275,11 +304,12 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
     (realistic, lip, nose, tooth, rouge, lipstick, eyeshadow:1.0), (abs, muscular, rib:1.0),
     - How to avoid Bokeh  
     (depth of field, bokeh, blurry:1.4)
+    - How to remove mosaic: `(censored, mosaic censoring, bar censor, convenient censoring, pointless censoring:1.0),`
     - 🔰Basic negative prompts sample for Anime girl ↓  
       - v1  
     `nsfw, (worst quality, low quality:1.4), (realistic, lip, nose, tooth, rouge, lipstick, eyeshadow:1.0), (dusty sunbeams:1.0),, (abs, muscular, rib:1.0), (depth of field, bokeh, blurry:1.4),(motion lines, motion blur:1.4), (greyscale, monochrome:1.0), text, title, logo, signature`
       - v2  
-    `nsfw, (worst quality, low quality:1.4), (lip, nose, tooth, rouge, lipstick, eyeshadow:1.4), ( jpeg artifacts:1.4), (depth of field, bokeh, blurry, film grain, chromatic aberration, lens flare:1.0), (1boy, abs, muscular, rib:1.0), greyscale, monochrome, dusty sunbeams,  trembling, motion lines, motion blur, emphasis lines, text, title, logo, signature, `
+    `nsfw, (worst quality, low quality:1.4), (lip, nose, tooth, rouge, lipstick, eyeshadow:1.4), (blush:1.2), (jpeg artifacts:1.4), (depth of field, bokeh, blurry, film grain, chromatic aberration, lens flare:1.0), (1boy, abs, muscular, rib:1.0), greyscale, monochrome, dusty sunbeams,  trembling, motion lines, motion blur, emphasis lines, text, title, logo, signature, `
 - Sampler: ~~“DPM++ SDE Karras” is good~~ Take your pick  
 - Steps: 
   - DPM++ SDE Karras: Test: 12～ ,illustration: 20～  
@@ -1199,7 +1229,7 @@ Below this, trash.
 
 ▼Nooo^()&*%#NG0u!!!!!!!!縺ゅ♀繧?縺医?縺､繝ｼ縺ｨ縺医?縺吶ｊ繝ｼ縺ｯ驕主ｭｦ鄙偵?繧ｴ繝溘〒縺? (「AOM3A2 and A3 are overlearning and Trash. delete!」)
 
-<img src="https://github.com/WarriorMama777/imgup/blob/main/img/img_general/img_meme_tension_comp001.webp?raw=true"  width="300" height="" alt=””>
+<img src="https://github.com/WarriorMama777/imgup/blob/main/img/img_general/img_meme_tension_comp001.webp?raw=true"  width="300" height="" alt= ”getting_excited”>
 
 ▼No, AOM2 (only hentai models)  
 <a name="MEME_realface"></a>
