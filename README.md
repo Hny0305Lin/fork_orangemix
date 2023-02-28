@@ -195,7 +195,7 @@ This completes how to clone only a specific directory. If you want to add other 
 
 ## AbyssOrangeMix3 (AOM3)
 
-![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/AOM3_G_Top_comp001.webp?raw=true "")
+![](https://github.com/WarriorMama777/imgup/raw/main/img/AOM3/AOM3_G_Top_comp001.webp "")
 
 ――Everyone has different “ABYSS”!
 
@@ -225,7 +225,7 @@ In addition, thanks to excellent extensions such as [ModelToolkit](https://githu
 ), the model file size could be reduced (1.98 GB per model).
 
 
-![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/AOM3_G_Full_2_comp002.webp?raw=true "")
+![](https://github.com/WarriorMama777/imgup/raw/main/img/AOM3/AOM3_G_Full_2_comp002.webp "")
 
 ▼Variations
 
@@ -243,7 +243,7 @@ Features: Midpoint of artistic and kawaii. the model has been tuned to combine r
 
 ### AOM3A1B
 
-AOM3A1B added. This was a merge where I mistakenly 'Add Difference' in the AOM3A3 recipe and 'Add Sum'. It was an unintended merge, but we share it because the illustrations produced are consistently good results.  
+AOM3A1B added. The model was merged by mistakenly selecting 'Add sum' when 'Add differences' should have been selected in the AOM3A3 recipe. It was an unintended merge, but we share it because the illustrations produced are consistently good results.  
 In my review, this is an illustration style somewhere between AOM3A1 and A3.
 
 ### MORE
@@ -256,7 +256,7 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
 
 &nbsp;
 
-![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/AOM3_G_Art_comp003.webp?raw=true "")
+![](https://github.com/WarriorMama777/imgup/raw/main/img/AOM3/AOM3_G_Art_comp003.webp "")
 
 
 ### Sample Gallery
@@ -265,9 +265,9 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
 
 ▼A1
 
-![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/img_sanmples_AOM3A1_2.3_comp001.webp?raw=true "")
+![](https://github.com/WarriorMama777/imgup/raw/main/img/AOM3/img_sanmples_AOM3A1_2.3_comp001.webp "")
 
-![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/img_sanmples_AOM3A1_1.3_comp002.webp?raw=true "")
+![](https://github.com/WarriorMama777/imgup/raw/main/img/AOM3/img_sanmples_AOM3A1_1.3_comp002.webp "")
 
 <details>
 <summary>©</summary>
@@ -282,7 +282,7 @@ AOM3 was created with a focus on improving the nsfw version of AOM2, as mentione
 (2)gape: Finetune model of NAI trained on Danbooru's very hardcore NSFW content.  
 In other words, if you are looking for something like AOM3sfw, it is AOM2sfw.The AOM3 was merged with the NSFW model while removing only the layers that have a negative impact on the face and body.   However, the faces and compositions are not an exact match to AOM2sfw.AOM2sfw is sometimes superior when generating SFW content. I recommend choosing according to the intended use of the illustration.See below for a comparison between AOM2sfw and AOM3.
 
-![](https://github.com/WarriorMama777/imgup/blob/main/img/AOM3/img_modelComparison_AOM_comp001.webp?raw=true "modelComparison_AOM")
+![](https://github.com/WarriorMama777/imgup/raw/main/img/AOM3/img_modelComparison_AOM_comp001.webp "modelComparison_AOM")
 
 
 ▼A summary of the AOM3 work is as follows
@@ -295,10 +295,10 @@ In other words, if you are looking for something like AOM3sfw, it is AOM2sfw.The
   c. OUT03,OUT04｜NSFW effects are in(?). e.g.: spoken hearts, trembling, motion lines, etc...  
   d. OUT05｜This is really an NSFW switch. All the "NSFW atmosphere" is in here. Facial expressions, Heavy breaths, etc...  
   e. OUT10-11｜Paint layer. Does not affect detail, but does have an extensive impact.  
-4. (mass production of rubbish from here...)   
-5. cut IN05-08 and merge NAIgape with flat parameters → avoided creepy muscles and real faces. Also, merging NSFW models stronger has less impact.  
-6. so, cut IN05-08, OUT10-11 and merge NAI+gape with all others 0.5.  
-7. → AOM3  
+1. (mass production of rubbish from here...)   
+2. cut IN05-08 and merge NAIgape with flat parameters → avoided creepy muscles and real faces. Also, merging NSFW models stronger has less impact.  
+3. so, cut IN05-08, OUT10-11 and merge NAI+gape with all others 0.5.  
+4. → AOM3  
 AOM3 roughly looks like this  
 
 
@@ -1241,7 +1241,7 @@ Below this, trash.
 
 ▼Nooo^()&*%#NG0u!!!!!!!!縺ゅ♀繧?縺医?縺､繝ｼ縺ｨ縺医?縺吶ｊ繝ｼ縺ｯ驕主ｭｦ鄙偵?繧ｴ繝溘〒縺? (「AOM3A2 and A3 are overlearning and Trash. delete!」)
 
-<img src="https://github.com/WarriorMama777/imgup/blob/main/img/img_general/img_meme_tension_comp001.webp?raw=true"  width="300" height="" alt= ”getting_excited”>
+<img src="https://github.com/WarriorMama777/imgup/blob/main/img/img_general/img_meme_tension_comp001.webp?raw=true"  width="300" height="" alt=”getting_excited”>
 
 ▼No, AOM2 (only hentai models)  
 <a name="MEME_realface"></a>
