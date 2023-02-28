@@ -13,7 +13,7 @@ tags:
 
 "OrangeMixs" shares various Merge models that can be used with StableDiffusionWebui:Automatic1111 and others.Enjoy the drawing AI.
 
-![](https://github.com/WarriorMama777/imgup/blob/main/img/img_general/img_orangemixs_infograph_01_comp001.webp?raw=true "image_orangemixs_infographics_01")
+![](https://github.com/WarriorMama777/imgup/raw/main/img/img_general/img_orangemixs_infograph_01_comp001.webp "image_orangemixs_infographics_01")
 
 Maintain a repository for the following purposes.
 
@@ -447,7 +447,7 @@ CUT : BASE0, IN05-IN08：0, IN10：0.1, OUT03：0.5, OUT04-05：0.1, OUT08：0.2
 
 ――Creating the next generation of illustration with “Abyss”!
 
-<img src="https://github.com/WarriorMama777/imgup/blob/main/img/AbyssOrangeMix2/HeroImage_AbyssOrangeMix2_Designed_01_comp001.webp?raw=true"  width="" height="" alt=”HeroImage_AbyssOrangeMix2_Designed_01_comp001”>
+<img src="https://github.com/WarriorMama777/imgup/raw/main/img/AbyssOrangeMix2/HeroImage_AbyssOrangeMix2_Designed_01_comp001.webp"  width="" height="" alt=”HeroImage_AbyssOrangeMix2_Designed_01_comp001”>
 
 Prompt: [https://majinai.art/ja/i/nxpKRpw](https://majinai.art/ja/i/nxpKRpw)
 
@@ -458,7 +458,7 @@ It can generate elaborate and detailed illustrations that cannot be drawn by han
 Furthermore, it provides an unparalleled new means of expression.
 It can generate illustrations in a variety of genres to meet a wide range of needs. I encourage you to use "Abyss" to make your designs and artwork richer and of higher quality.
 
-<img src="https://raw.githubusercontent.com/WarriorMama777/imgup/main/img/AbyssOrangeMix2/UBM_ON_OFF_4_comp001.webp"  width="" height="" alt=”UBM_ON_OFF_4_comp001.webp”>
+<img src="https://github.com/WarriorMama777/imgup/raw/main/img/AbyssOrangeMix2/UBM_ON_OFF_4_comp001.webp"  width="" height="" alt=”UBM_ON_OFF_4_comp001.webp”>
 ※nvidia joke.
 
 ▼Description for engineers/enthusiasts
@@ -479,7 +479,7 @@ Also, the unnatural bokeh that sometimes occurred in the previous version may ha
 It is said that the IN deep layer (IN06-11) is the layer that determines composition, etc., but perhaps light, reflections, skin texture, etc., may also be involved.
 It is like "Global Illumination", "Ray tracing" and "Ambient Occlusion" in 3DCG.
 
-<img src="https://github.com/WarriorMama777/imgup/blob/main/img/AbyssOrangeMix2/AbyssOrangeMix2_comparison_comp001.webp?raw=true"  width="" height="" alt=”AbyssOrangeMix2_comparison_comp001”>
+<img src="https://github.com/WarriorMama777/imgup/raw/main/img/AbyssOrangeMix2/AbyssOrangeMix2_comparison_comp001.webp"  width="" height="" alt=”AbyssOrangeMix2_comparison_comp001”>
 
 ※This does not fundamentally improve the fingers. Therefore, More research needs to be done to improve the fingers (e.g. '[bad_prompt](https://huggingface.co/datasets/Nerfgun3/bad_prompt)').
 About 30-50% chance of generating correct fingers(?). Abyss is deep.
@@ -496,12 +496,12 @@ https://seesaawiki.jp/nai_ch/d/AI%a4%f2%b3%e8%cd%d1%a4%b7%a4%bf%a5%d7%a5%ed%a5%f
 
 The images thus generated, strangely enough, look like MidJourney or Nijijourney illustrations. Perhaps they are passing user prompts through GPT or something else before passing them on to the image AI🤔
 
-<img src="https://github.com/WarriorMama777/imgup/blob/main/img/AbyssOrangeMix2/SampleGallerBoardDesign_AbyssOrangeMix2_ReadMore_comp001.webp?raw=true"  width="" height="" alt=”SampleGallerBoardDesign_AbyssOrangeMix2_03_comp001”>
+<img src="https://github.com/WarriorMama777/imgup/raw/main/img/AbyssOrangeMix2/SampleGallerBoardDesign_AbyssOrangeMix2_ReadMore_comp001.webp"  width="" height="" alt=”SampleGallerBoardDesign_AbyssOrangeMix2_03_comp001”>
 
 <details>
 <summary>▼READ MORE🖼</summary>
 
-<img src="https://github.com/WarriorMama777/imgup/blob/main/img/AbyssOrangeMix2/SampleGallerBoardDesign_AbyssOrangeMix2_03_comp001.webp?raw=true"  width="" height="" alt=”SampleGallerBoardDesign_AbyssOrangeMix2_03_comp001”>
+<img src="https://github.com/WarriorMama777/imgup/raw/main/img/AbyssOrangeMix2/SampleGallerBoardDesign_AbyssOrangeMix2_03_comp001.webp"  width="" height="" alt=”SampleGallerBoardDesign_AbyssOrangeMix2_03_comp001”>
 
 ▼All prompts to generate sample images
 
@@ -1241,12 +1241,12 @@ Below this, trash.
 
 ▼Nooo^()&*%#NG0u!!!!!!!!縺ゅ♀繧?縺医?縺､繝ｼ縺ｨ縺医?縺吶ｊ繝ｼ縺ｯ驕主ｭｦ鄙偵?繧ｴ繝溘〒縺? (「AOM3A2 and A3 are overlearning and Trash. delete!」)
 
-<img src="https://github.com/WarriorMama777/imgup/blob/main/img/img_general/img_meme_tension_comp001.webp?raw=true"  width="300" height="" alt=”getting_excited”>
+<img src="https://github.com/WarriorMama777/imgup/raw/main/img/img_general/img_meme_tension_comp001.webp"  width="300" height="" alt=”getting_excited”>
 
 ▼No, AOM2 (only hentai models)  
 <a name="MEME_realface"></a>
 
-![](https://github.com/WarriorMama777/imgup/blob/main/img/img_general/img_Neko.webp?raw=true "")
+![](https://github.com/WarriorMama777/imgup/raw/main/img/img_general/img_Neko.webp "")
 
 ▼Noo, Too many models. Tell me which one to choose.  
 
