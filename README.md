@@ -112,13 +112,14 @@ If you used it for merging, please state what steps you took to do so.
 
 # Disclaimer
 
-```
+<details><summary>READ MORE: Disclaimer</summary>
 The user has complete control over whether or not to generate NSFW content, and the user's decision to enjoy either SFW or NSFW is entirely up to the user.The learning model does not contain any obscene visual content that can be viewed with a single click.The posting of the Learning Model is not intended to display obscene material in a public place.  
 In publishing examples of the generation of copyrighted characters, I consider the following cases to be exceptional cases in which unauthorised use is permitted. 
 "when the use is for private use or research purposes; when the work is used as material for merchandising (however, this does not apply when the main use of the work is to be merchandised); when the work is used in criticism, commentary or news reporting; when the work is used as a parody or derivative work to demonstrate originality."
 In these cases, use against the will of the copyright holder or use for unjustified gain should still be avoided, and if a complaint is lodged by the copyright holder, it is guaranteed that the publication will be stopped as soon as possible.  
 I would also like to note that I am aware of the fact that many of the merged models use NAI, which is learned from Danbooru and other sites that could be interpreted as illegal, and whose model data itself is also a leak, and that this should be watched carefully. I believe that the best we can do is to expand the possibilities of GenerativeAI while protecting the works of illustrators and artists.  
-```
+</details>
+
 
 ----
 
@@ -264,6 +265,11 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
 
 🚧Editing🚧
 
+▼A1B
+![](https://github.com/WarriorMama777/imgup/raw/c66097319405d5373fab1cebec03c5c71427879c/img/AOM3/img_AOM3A1B_01_comp001.webp "orangemix_img_AOM3A1B_01_comp001.webp") ![](https://github.com/WarriorMama777/imgup/raw/c66097319405d5373fab1cebec03c5c71427879c/img/AOM3/img_AOM3A1B_realLoRA_01_comp001.webp "orangemix_img_AOM3A1B_realLoRA_01_comp001.webp")
+
+
+
 ▼A1
 
 ![](https://github.com/WarriorMama777/imgup/raw/main/img/AOM3/img_sanmples_AOM3A1_2.3_comp001.webp "")
@@ -328,6 +334,7 @@ AOM3 roughly looks like this
   - DPM++ SDE Karras: Test: 12～ ,illustration: 20～  
   - DPM++ 2M Karras: Test: 20～ ,illustration: 28～  
 - Clipskip: 1 or 2  
+- CFG: 8 (6～12)
 - Upscaler :  
     - Detailed illust → Latenet (nearest-exact)  
     Denoise strength: 0.5 (0.5~0.6)  
@@ -870,6 +877,7 @@ By Anon, 115th thread
 
 <img src="https://files.catbox.moe/wst1bp.webp"  width="1000" height="">
 
+
 ▼?
 
 The merged model was formulated using an extension such as sdweb-merge-block-weighted-gui, which merges models at separate rates for each of the 25 U-Net blocks (input, intermediate, and output).
@@ -957,17 +965,17 @@ bbd2621f3ec4fad707f75fc032a2c2602c296180a53ed3d9897d8ca7a01dd6ed
 
 1. AnythingV3.0 huggingface pruned
 [2700c435]「543bcbc21294831c6245cd74c8a7707761e28812c690f946cb81fef930d54b5e」
-2. NovelAI animefull-final-pruned
+1. NovelAI animefull-final-pruned
 [925997e9]「89d59c3dde4c56c6d5c41da34cc55ce479d93b4007046980934b14db71bdb2a8」
-3. NovelAI sfw
+1. NovelAI sfw
 [1d4a34af]「22fa233c2dfd7748d534be603345cb9abf994a23244dfdfc1013f4f90322feca」
-4. Gape60
+1. Gape60
 [25396b85]「893cca5903ccd0519876f58f4bc188dd8fcc5beb8a69c1a3f1a5fe314bb573f5」
-5. instagram-latest-plus-clip-v6e1_50000.safetensors
+1. instagram-latest-plus-clip-v6e1_50000.safetensors
 [] 「8f1d325b194570754c6bd06cf1e90aa9219a7e732eb3d488fb52157e9451a2a5」
-6. f222
+1. f222
 [] 「9e2c6ceff3f6d6f65c6fb0e10d8e69d772871813be647fd2ea5d06e00db33c1f」
-7. sd1.5_pruned
+1. sd1.5_pruned
 [] 「e1441589a6f3c5a53f5f54d0975a18a7feb7cdf0b0dee276dfc3331ae376a053」
 
 ### AbyssOrangeMix_base (AOMb)
@@ -1235,19 +1243,21 @@ If the generated images are blurred or only clearly low quality output is produc
 
 ## FAQ and Tips (🐈MEME ZONE🦐)
 
-
-Below this, trash.
+<a name="MEME_realface"></a>
+Trash zone.
 
 ----
+
+▼No, AOM2 (only hentai models)  
+
+
+![](https://github.com/WarriorMama777/imgup/raw/main/img/img_general/img_Neko.webp "")
+
 
 ▼Nooo^()&*%#NG0u!!!!!!!!縺ゅ♀繧?縺医?縺､繝ｼ縺ｨ縺医?縺吶ｊ繝ｼ縺ｯ驕主ｭｦ鄙偵?繧ｴ繝溘〒縺? (「AOM3A2 and A3 are overlearning and Trash. delete!」)
 
 <img src="https://github.com/WarriorMama777/imgup/raw/main/img/img_general/img_meme_tension_comp001.webp"  width="300" height="" alt=”getting_excited”>
 
-▼No, AOM2 (only hentai models)  
-<a name="MEME_realface"></a>
-
-![](https://github.com/WarriorMama777/imgup/raw/main/img/img_general/img_Neko.webp "")
 
 ▼Noo, Too many models. Tell me which one to choose.  
 
