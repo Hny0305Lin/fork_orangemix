@@ -267,8 +267,10 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
 🚧Editing🚧
 
 ▼A1B
+
 ![](https://github.com/WarriorMama777/imgup/raw/c66097319405d5373fab1cebec03c5c71427879c/img/AOM3/img_AOM3A1B_01_comp001.webp "orangemix_img_AOM3A1B_01_comp001.webp")  
 ![](https://github.com/WarriorMama777/imgup/raw/c66097319405d5373fab1cebec03c5c71427879c/img/AOM3/img_AOM3A1B_realLoRA_01_comp001.webp "orangemix_img_AOM3A1B_realLoRA_01_comp001.webp")  
+
 ※LoRA enabled: [JR East E235 series / train interior](https://civitai.com/models/9517/jr-east-e235-series-train-interior) 
 
 
