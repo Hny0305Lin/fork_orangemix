@@ -1,8 +1,9 @@
 ---
 license: creativeml-openrail-m
 tags:
-  - stable-diffusion
-  - text-to-image
+- stable-diffusion
+- text-to-image
+datasets: Nerfgun3/bad_prompt
 ---
 
 
