@@ -280,6 +280,11 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
 - Meisho Doto (umamusume): https://civitai.com/models/11980/meisho-doto-umamusume
 - Train and Girl: [JR East E235 series / train interior](https://civitai.com/models/9517/jr-east-e235-series-train-interior) 
 
+<details>
+<summary>©</summary>
+©umamusume: Meisho Doto, ©Girls und Panzer: Nishizumi Miho,©IDOLM@STER: Sagisawa Fumika
+</details>
+
 
 ▼A1
 
