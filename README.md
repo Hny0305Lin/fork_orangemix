@@ -270,7 +270,7 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
 ▼AOM3
 ![](https://github.com/WarriorMama777/imgup/raw/2c840982550fab41f45ba4b5aedbd3d84ddf2390/img/AOM3/img_sanmples_AOM3_01_comp001.webp "OrangeMixs_img_sanmples_AOM3_01_comp001")
 
-<span style="font-size: 80%;">(Actually, this gallery doesn't make much sense since AOM3 is mainly an improvement of the NSFW part 😂)</span>
+<span style="font-size: 80%;">(Actually, this gallery doesn't make much sense since AOM3 is mainly an improvement of the NSFW part 😂  ...But we can confirm that the picture is not much different from AOM2sfw.)</span>
 
 
 ▼A1B
