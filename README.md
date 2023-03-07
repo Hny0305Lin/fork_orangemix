@@ -246,7 +246,8 @@ Features: Midpoint of artistic and kawaii. the model has been tuned to combine r
 
 ### AOM3A1B
 
-AOM3A1B added. The model was merged by mistakenly selecting 'Add sum' when 'Add differences' should have been selected in the AOM3A3 recipe. It was an unintended merge, but we share it because the illustrations produced are consistently good results.  
+AOM3A1B added. This model is my latest favorite. I recommend it for its moderate realism, moderate brush touch, and moderate LoRA conformity.  
+The model was merged by mistakenly selecting 'Add sum' when 'Add differences' should have been selected in the AOM3A3 recipe. It was an unintended merge, but we share it because the illustrations produced are consistently good results.  
 In my review, this is an illustration style somewhere between AOM3A1 and A3.
 
 ### MORE
@@ -275,9 +276,9 @@ In addition, these U-Net Blocks Weight Merge models take numerous steps but are 
 ▼A1B
 
 ![](https://github.com/WarriorMama777/imgup/raw/c66097319405d5373fab1cebec03c5c71427879c/img/AOM3/img_AOM3A1B_01_comp001.webp "orangemix_img_AOM3A1B_01_comp001.webp")  
-![](https://github.com/WarriorMama777/imgup/raw/c66097319405d5373fab1cebec03c5c71427879c/img/AOM3/img_AOM3A1B_realLoRA_01_comp001.webp "orangemix_img_AOM3A1B_realLoRA_01_comp001.webp")  
-
-※LoRA enabled: [JR East E235 series / train interior](https://civitai.com/models/9517/jr-east-e235-series-train-interior) 
+![](https://github.com/WarriorMama777/imgup/raw/3e060893c0fb2c80c6f3aedf63bf8d576c9a37fc/img/AOM3/img_samples_AOM3A1B_01_comp001.webp "orangemix_img_samples_AOM3A1B_01_comp001.webp")  
+- Meisho Doto (umamusume): https://civitai.com/models/11980/meisho-doto-umamusume
+- Train and Girl: [JR East E235 series / train interior](https://civitai.com/models/9517/jr-east-e235-series-train-interior) 
 
 
 ▼A1
