@@ -212,10 +212,10 @@ The main model, "AOM3 (AbyssOrangeMix3)", is a purely upgraded model that improv
 
 ### Update note
 
-2023-03-10: Model name fix  
+- 2023-03-10: Model name fix  
 I found that I abbreviated the model name too much, so that when users see illustrations using OrangeMixs models on the web, they cannot reach them in their searches.  
-To make the specification more search engine friendly, I renamed it to "ModelName+(orangemixs)".
-2023-02-27: Add AOM3A1B  
+To make the specification more search engine friendly, I renamed it to "ModelName+(orangemixs)".  
+- 2023-02-27: Add AOM3A1B  
 
 ### AOM3
 
