@@ -48,7 +48,7 @@ We support a [Gradio](https://github.com/gradio-app/gradio) Web UI to run Orange
   - [Select and download](#select-and-download)
 - [Model Detail \& Merge Recipes](#model-detail--merge-recipes)
   - [AbyssOrangeMix3 (AOM3)](#abyssorangemix3-aom3)
-    - [Update note](#update-note)
+    - [UPDATE NOTE](#update-note)
     - [AOM3](#aom3)
     - [AOM3A1](#aom3a1)
     - [AOM3A2](#aom3a2)
@@ -210,7 +210,7 @@ The main model, "AOM3 (AbyssOrangeMix3)", is a purely upgraded model that improv
 
 - [⚠NSFW] Civitai: AbyssOrangeMix3 (AOM3) | Stable Diffusion Checkpoint | https://civitai.com/models/9942/abyssorangemix3-aom3
 
-### Update note
+### UPDATE NOTE
 
 - 2023-03-10: Model name fix  
 I found that I abbreviated the model name too much, so that when users see illustrations using OrangeMixs models on the web, they cannot reach them in their searches.  
