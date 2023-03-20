@@ -345,6 +345,7 @@ AOM3 roughly looks like this
     (depth of field, bokeh, blurry:1.4)
     - How to remove mosaic: `(censored, mosaic censoring, bar censor, convenient censoring, pointless censoring:1.0),`
     - How to remove blush: `(blush, embarrassed, nose blush, light blush, full-face blush:1.4), `
+    - How to remove NSFW effects: `(trembling, motion lines, motion blur, emphasis lines:1.2),`
     - 🔰Basic negative prompts sample for Anime girl ↓  
       - v1  
     `nsfw, (worst quality, low quality:1.4), (realistic, lip, nose, tooth, rouge, lipstick, eyeshadow:1.0), (dusty sunbeams:1.0),, (abs, muscular, rib:1.0), (depth of field, bokeh, blurry:1.4),(motion lines, motion blur:1.4), (greyscale, monochrome:1.0), text, title, logo, signature`
